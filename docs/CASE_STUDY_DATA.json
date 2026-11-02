@@ -1,0 +1,894 @@
+{
+  "source_sha256": "ca62ea3d0605b05b57b2a9b6c824da67d6ab47e3e714069bfd69f0963380c9d6",
+  "analysis_version": "review-2026-10-28",
+  "items": [
+    {
+      "id": "rhythm",
+      "title": "通信集中在上午；影响关系须检查指令与回应",
+      "level": "author_analysis",
+      "claim": "整体通信集中在上午，但主体变化方向不同：Nadia 两周参与消息由 6 条增至 20 条，Boss 由 25 条降至 5 条。对具体影响关系，161/162 展示 Mrs. Money 的情报要求和 The Intern 一分钟后的回应。",
+      "competing_explanation": "记录覆盖、无线电工作安排也可能造成上午集中。回复指令不等于对方在全部事务上受到控制。",
+      "limitation": "通信发送时间与原文约定的行动时间不同；短观察窗不能估计因果影响。",
+      "statistics": {
+        "morning_messages": 468,
+        "total_messages": 584,
+        "first_week_median": "10:23",
+        "second_week_median": "10:27",
+        "entity_changes": [
+          {
+            "entity": "Boss",
+            "first_count": 25,
+            "second_count": 5,
+            "first_median": "09:49",
+            "second_median": "09:07",
+            "message_ids": [
+              "Event_Communication_6",
+              "Event_Communication_7",
+              "Event_Communication_8",
+              "Event_Communication_9",
+              "Event_Communication_10",
+              "Event_Communication_11",
+              "Event_Communication_12",
+              "Event_Communication_21",
+              "Event_Communication_120",
+              "Event_Communication_199",
+              "Event_Communication_248",
+              "Event_Communication_249",
+              "Event_Communication_275",
+              "Event_Communication_277",
+              "Event_Communication_279",
+              "Event_Communication_280",
+              "Event_Communication_312",
+              "Event_Communication_313",
+              "Event_Communication_316",
+              "Event_Communication_328",
+              "Event_Communication_365",
+              "Event_Communication_366",
+              "Event_Communication_373",
+              "Event_Communication_382",
+              "Event_Communication_389",
+              "Event_Communication_726",
+              "Event_Communication_739",
+              "Event_Communication_764",
+              "Event_Communication_866",
+              "Event_Communication_963"
+            ]
+          },
+          {
+            "entity": "Nadia Conti",
+            "first_count": 6,
+            "second_count": 20,
+            "first_median": "09:48",
+            "second_median": "09:07",
+            "message_ids": [
+              "Event_Communication_330",
+              "Event_Communication_331",
+              "Event_Communication_333",
+              "Event_Communication_334",
+              "Event_Communication_520",
+              "Event_Communication_521",
+              "Event_Communication_528",
+              "Event_Communication_529",
+              "Event_Communication_535",
+              "Event_Communication_536",
+              "Event_Communication_537",
+              "Event_Communication_538",
+              "Event_Communication_582",
+              "Event_Communication_584",
+              "Event_Communication_585",
+              "Event_Communication_601",
+              "Event_Communication_677",
+              "Event_Communication_708",
+              "Event_Communication_753",
+              "Event_Communication_795",
+              "Event_Communication_805",
+              "Event_Communication_845",
+              "Event_Communication_846",
+              "Event_Communication_847",
+              "Event_Communication_869",
+              "Event_Communication_943"
+            ]
+          },
+          {
+            "entity": "The Intern",
+            "first_count": 19,
+            "second_count": 22,
+            "first_median": "08:09",
+            "second_median": "08:12",
+            "message_ids": [
+              "Event_Communication_1",
+              "Event_Communication_2",
+              "Event_Communication_5",
+              "Event_Communication_89",
+              "Event_Communication_90",
+              "Event_Communication_91",
+              "Event_Communication_92",
+              "Event_Communication_159",
+              "Event_Communication_160",
+              "Event_Communication_161",
+              "Event_Communication_162",
+              "Event_Communication_246",
+              "Event_Communication_317",
+              "Event_Communication_318",
+              "Event_Communication_369",
+              "Event_Communication_371",
+              "Event_Communication_372",
+              "Event_Communication_442",
+              "Event_Communication_446",
+              "Event_Communication_523",
+              "Event_Communication_525",
+              "Event_Communication_594",
+              "Event_Communication_596",
+              "Event_Communication_599",
+              "Event_Communication_649",
+              "Event_Communication_651",
+              "Event_Communication_702",
+              "Event_Communication_705",
+              "Event_Communication_714",
+              "Event_Communication_715",
+              "Event_Communication_717",
+              "Event_Communication_720",
+              "Event_Communication_730",
+              "Event_Communication_860",
+              "Event_Communication_864",
+              "Event_Communication_921",
+              "Event_Communication_923",
+              "Event_Communication_925",
+              "Event_Communication_935",
+              "Event_Communication_936",
+              "Event_Communication_937"
+            ]
+          },
+          {
+            "entity": "The Lookout",
+            "first_count": 14,
+            "second_count": 27,
+            "first_median": "08:09",
+            "second_median": "08:13",
+            "message_ids": [
+              "Event_Communication_1",
+              "Event_Communication_2",
+              "Event_Communication_87",
+              "Event_Communication_92",
+              "Event_Communication_94",
+              "Event_Communication_159",
+              "Event_Communication_171",
+              "Event_Communication_189",
+              "Event_Communication_244",
+              "Event_Communication_297",
+              "Event_Communication_317",
+              "Event_Communication_371",
+              "Event_Communication_441",
+              "Event_Communication_442",
+              "Event_Communication_523",
+              "Event_Communication_590",
+              "Event_Communication_593",
+              "Event_Communication_594",
+              "Event_Communication_619",
+              "Event_Communication_649",
+              "Event_Communication_651",
+              "Event_Communication_652",
+              "Event_Communication_683",
+              "Event_Communication_712",
+              "Event_Communication_714",
+              "Event_Communication_715",
+              "Event_Communication_717",
+              "Event_Communication_792",
+              "Event_Communication_794",
+              "Event_Communication_799",
+              "Event_Communication_859",
+              "Event_Communication_860",
+              "Event_Communication_862",
+              "Event_Communication_912",
+              "Event_Communication_921",
+              "Event_Communication_923",
+              "Event_Communication_926",
+              "Event_Communication_935",
+              "Event_Communication_936",
+              "Event_Communication_937",
+              "Event_Communication_991"
+            ]
+          },
+          {
+            "entity": "Mako",
+            "first_count": 52,
+            "second_count": 41,
+            "first_median": "10:15",
+            "second_median": "10:19",
+            "message_ids": [
+              "Event_Communication_13",
+              "Event_Communication_15",
+              "Event_Communication_17",
+              "Event_Communication_59",
+              "Event_Communication_97",
+              "Event_Communication_99",
+              "Event_Communication_115",
+              "Event_Communication_117",
+              "Event_Communication_121",
+              "Event_Communication_123",
+              "Event_Communication_136",
+              "Event_Communication_139",
+              "Event_Communication_141",
+              "Event_Communication_143",
+              "Event_Communication_145",
+              "Event_Communication_158",
+              "Event_Communication_227",
+              "Event_Communication_252",
+              "Event_Communication_254",
+              "Event_Communication_258",
+              "Event_Communication_262",
+              "Event_Communication_267",
+              "Event_Communication_268",
+              "Event_Communication_272",
+              "Event_Communication_293",
+              "Event_Communication_304",
+              "Event_Communication_305",
+              "Event_Communication_309",
+              "Event_Communication_316",
+              "Event_Communication_341",
+              "Event_Communication_347",
+              "Event_Communication_349",
+              "Event_Communication_365",
+              "Event_Communication_378",
+              "Event_Communication_380",
+              "Event_Communication_381",
+              "Event_Communication_382",
+              "Event_Communication_387",
+              "Event_Communication_396",
+              "Event_Communication_403",
+              "Event_Communication_405",
+              "Event_Communication_417",
+              "Event_Communication_449",
+              "Event_Communication_451",
+              "Event_Communication_460",
+              "Event_Communication_462",
+              "Event_Communication_464",
+              "Event_Communication_467",
+              "Event_Communication_493",
+              "Event_Communication_496",
+              "Event_Communication_504",
+              "Event_Communication_506",
+              "Event_Communication_543",
+              "Event_Communication_544",
+              "Event_Communication_545",
+              "Event_Communication_546",
+              "Event_Communication_551",
+              "Event_Communication_553",
+              "Event_Communication_555",
+              "Event_Communication_556",
+              "Event_Communication_574",
+              "Event_Communication_575",
+              "Event_Communication_638",
+              "Event_Communication_654",
+              "Event_Communication_655",
+              "Event_Communication_656",
+              "Event_Communication_657",
+              "Event_Communication_664",
+              "Event_Communication_665",
+              "Event_Communication_684",
+              "Event_Communication_687",
+              "Event_Communication_754",
+              "Event_Communication_755",
+              "Event_Communication_756",
+              "Event_Communication_757",
+              "Event_Communication_802",
+              "Event_Communication_808",
+              "Event_Communication_809",
+              "Event_Communication_812",
+              "Event_Communication_815",
+              "Event_Communication_817",
+              "Event_Communication_819",
+              "Event_Communication_850",
+              "Event_Communication_871",
+              "Event_Communication_897",
+              "Event_Communication_898",
+              "Event_Communication_914",
+              "Event_Communication_919",
+              "Event_Communication_920",
+              "Event_Communication_964",
+              "Event_Communication_987",
+              "Event_Communication_989",
+              "Event_Communication_999"
+            ]
+          },
+          {
+            "entity": "Mrs. Money",
+            "first_count": 32,
+            "second_count": 11,
+            "first_median": "08:22",
+            "second_median": "08:34",
+            "message_ids": [
+              "Event_Communication_5",
+              "Event_Communication_6",
+              "Event_Communication_7",
+              "Event_Communication_8",
+              "Event_Communication_21",
+              "Event_Communication_22",
+              "Event_Communication_39",
+              "Event_Communication_40",
+              "Event_Communication_89",
+              "Event_Communication_90",
+              "Event_Communication_91",
+              "Event_Communication_120",
+              "Event_Communication_160",
+              "Event_Communication_161",
+              "Event_Communication_162",
+              "Event_Communication_163",
+              "Event_Communication_246",
+              "Event_Communication_248",
+              "Event_Communication_249",
+              "Event_Communication_250",
+              "Event_Communication_278",
+              "Event_Communication_280",
+              "Event_Communication_318",
+              "Event_Communication_366",
+              "Event_Communication_367",
+              "Event_Communication_368",
+              "Event_Communication_369",
+              "Event_Communication_372",
+              "Event_Communication_373",
+              "Event_Communication_446",
+              "Event_Communication_458",
+              "Event_Communication_464",
+              "Event_Communication_525",
+              "Event_Communication_541",
+              "Event_Communication_562",
+              "Event_Communication_596",
+              "Event_Communication_597",
+              "Event_Communication_599",
+              "Event_Communication_705",
+              "Event_Communication_720",
+              "Event_Communication_730",
+              "Event_Communication_864",
+              "Event_Communication_925"
+            ]
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "id": "Event_Communication_161",
+          "timestamp": "2040-10-03 08:09:00",
+          "date": "2040-10-03",
+          "hour": 8,
+          "sender": "Mrs. Money",
+          "receiver": "The Intern",
+          "content": "Intern, Mrs. Money here. Yes, the increased conservation activity is concerning. Please gather intel on patrol schedules and enforcement jurisdiction limits. We need to understand their operational patterns before our meeting. This may affect our timing.",
+          "evidence_ids": []
+        },
+        {
+          "id": "Event_Communication_162",
+          "timestamp": "2040-10-03 08:10:00",
+          "date": "2040-10-03",
+          "hour": 8,
+          "sender": "The Intern",
+          "receiver": "Mrs. Money",
+          "content": "Mrs. Money, The Intern reporting. I've started gathering intel on patrol schedules and jurisdiction limits as requested. Conservation vessels seem to be following a tighter pattern around Nemo Reef's eastern boundary. Will have full report for tomorrow's meeting.",
+          "evidence_ids": []
+        }
+      ],
+      "stages": [],
+      "state": {
+        "workspace": "patterns",
+        "filters": {
+          "start": "2040-10-01",
+          "end": "2040-10-14",
+          "hour": null,
+          "q": "",
+          "entity": ""
+        },
+        "message_ids": [
+          "Event_Communication_161",
+          "Event_Communication_162"
+        ],
+        "alias": null
+      },
+      "reasoning_steps": [
+        {
+          "observation": "全期 468/584 条通信在 08:00–11:59；两周中位时间为 10:23 / 10:27。",
+          "interpretation": "全体稳定的节奏掩盖主体参与量的变化；需要按主体观察。",
+          "message_ids": []
+        },
+        {
+          "observation": "Nadia 由 6 条增至 20 条，Boss 由 25 条降至 5 条。",
+          "interpretation": "调查重心可转向 Nadia 后一周的联系人与活动，再检查双方记录覆盖。",
+          "message_ids": [
+            "Event_Communication_529",
+            "Event_Communication_535",
+            "Event_Communication_847",
+            "Event_Communication_943"
+          ]
+        },
+        {
+          "observation": "161 的情报要求在 162 得到“as requested”的回应，相隔一分钟。",
+          "interpretation": "这组内容支持本次任务中的指令—回应联系；继续以其他往来检查关系是否持续。",
+          "message_ids": [
+            "Event_Communication_161",
+            "Event_Communication_162"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "groups",
+      "title": "紧密通信群体不等于固定组织或一致立场",
+      "level": "author_analysis",
+      "claim": "全期分为 4 个通信社区：内部消息 464 条，跨群消息 120 条。应结合主题占比和双方角色解释群体差异。",
+      "competing_explanation": "环境质疑方与行政方可能因频繁往来处于同群；主题相似也可能来自转述。",
+      "limitation": "社区随筛选改变；主题对样本扰动敏感。跨群消息进入双方主题行，不能跨行求和。",
+      "statistics": {
+        "communities": 4,
+        "internal": 464,
+        "cross_group": 120
+      },
+      "evidence": [
+        {
+          "id": "Event_Communication_460",
+          "timestamp": "2040-10-07 09:34:00",
+          "date": "2040-10-07",
+          "hour": 9,
+          "sender": "Neptune",
+          "receiver": "Mako",
+          "content": "Neptune to Mako. Specialized equipment ready for transport at 0600 tomorrow. Elise will meet you to establish payment protocols. We're using eastern reef route to avoid permit zones and better accommodate fragile items. Confirm receipt.",
+          "evidence_ids": [
+            "Event_VesselMovement_503"
+          ]
+        },
+        {
+          "id": "Event_Communication_733",
+          "timestamp": "2040-10-11 09:00:00",
+          "date": "2040-10-11",
+          "hour": 9,
+          "sender": "EcoVigil",
+          "receiver": "Oceanus City Council",
+          "content": "Oceanus City Council, this is EcoVigil. Requesting urgent clarification on Nemo Reef closure. Our monitoring shows extraction activities contradicting environmental protection claims. Seeking permission to continue scientific documentation during closure period.",
+          "evidence_ids": [
+            "Relationship_Jurisdiction_446",
+            "Relationship_AccessPermission_444",
+            "Event_Monitoring_995"
+          ]
+        },
+        {
+          "id": "Event_Communication_161",
+          "timestamp": "2040-10-03 08:09:00",
+          "date": "2040-10-03",
+          "hour": 8,
+          "sender": "Mrs. Money",
+          "receiver": "The Intern",
+          "content": "Intern, Mrs. Money here. Yes, the increased conservation activity is concerning. Please gather intel on patrol schedules and enforcement jurisdiction limits. We need to understand their operational patterns before our meeting. This may affect our timing.",
+          "evidence_ids": []
+        },
+        {
+          "id": "Event_Communication_126",
+          "timestamp": "2040-10-02 12:13:00",
+          "date": "2040-10-02",
+          "hour": 12,
+          "sender": "Miranda Jordan",
+          "receiver": "Clepper Jensen",
+          "content": "Mr. Jensen, this is Miranda. I've been observing unusual activity at Nemo Reef. Multiple vessels circling the protected area and someone was filing permits at city hall. Should I continue surveillance or return with my findings?",
+          "evidence_ids": [
+            "Event_Monitoring_129"
+          ]
+        }
+      ],
+      "stages": [],
+      "state": {
+        "workspace": "groups",
+        "filters": {
+          "start": "2040-10-01",
+          "end": "2040-10-14",
+          "hour": null,
+          "q": "",
+          "entity": ""
+        },
+        "message_ids": [
+          "Event_Communication_460",
+          "Event_Communication_733",
+          "Event_Communication_161",
+          "Event_Communication_126"
+        ],
+        "alias": null
+      },
+      "reasoning_steps": [
+        {
+          "observation": "四个通信社区内部 464 条，跨群 120 条。",
+          "interpretation": "同时检查群内联系和跨群沟通，保留桥梁主体。",
+          "message_ids": [
+            "Event_Communication_460",
+            "Event_Communication_733"
+          ]
+        },
+        {
+          "observation": "六主题模型中，社区 2 的主题 5 为 92/255，社区 4 为 23/38。",
+          "interpretation": "前者数量更多，后者占比更高（36.1% / 60.5%）；群体规模与内容集中度分别比较。",
+          "message_ids": [
+            "Event_Communication_751"
+          ]
+        },
+        {
+          "observation": "751 同时涉及部署、设备调整与 ROV 许可延迟。",
+          "interpretation": "原文呈现混合任务；将主题作为阅读入口，并结合角色解释群体。",
+          "message_ids": [
+            "Event_Communication_751"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "identity",
+      "title": "Boss 的首名候选依赖文本特征",
+      "level": "author_analysis",
+      "claim": "默认首名为 Nadia Conti，移除文本特征后为 Elise。这种变化说明排名依赖建模选择，不能把首名当作身份答案。",
+      "competing_explanation": "共同联系人、接收相似消息和任务合作，都可能产生相似画像；一个称呼也可能由多人使用。",
+      "limitation": "候选得分不代表身份概率。缺少身份锚点时，只记录待核查假设与竞争解释。",
+      "statistics": {
+        "default_top": "Nadia Conti",
+        "without_text_top": "Elise",
+        "default_candidates": [
+          {
+            "candidate": "Nadia Conti",
+            "score": 0.351567
+          },
+          {
+            "candidate": "Elise",
+            "score": 0.346349
+          },
+          {
+            "candidate": "Liam Thorne",
+            "score": 0.288375
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "id": "Event_Communication_529",
+          "timestamp": "2040-10-08 08:18:00",
+          "date": "2040-10-08",
+          "hour": 8,
+          "sender": "Nadia Conti",
+          "receiver": "Liam Thorne",
+          "content": "Liam, Nadia here. Need your services urgently. Investigation brewing around Nemo Reef permits. Double your usual fee if you can ensure Harbor Master remains cooperative through next week. Meet at the usual place tomorrow, 10PM.",
+          "evidence_ids": [
+            "Relationship_AccessPermission_313"
+          ]
+        },
+        {
+          "id": "Event_Communication_535",
+          "timestamp": "2040-10-08 08:24:00",
+          "date": "2040-10-08",
+          "hour": 8,
+          "sender": "Liam Thorne",
+          "receiver": "Nadia Conti",
+          "content": "Nadia, Liam here. Meeting confirmed for tomorrow at 10PM. I've redirected Harbor Master's attention and implemented new patrol schedules that work in our favor. Council suspects nothing about Nemo Reef. Bring payment as discussed.",
+          "evidence_ids": [
+            "Event_Monitoring_534",
+            "Relationship_Suspicious_317",
+            "Relationship_Colleagues_494"
+          ]
+        },
+        {
+          "id": "Event_Communication_21",
+          "timestamp": "2040-10-01 09:49:00",
+          "date": "2040-10-01",
+          "hour": 9,
+          "sender": "Boss",
+          "receiver": "Mrs. Money",
+          "content": "Mrs. Money, this is Boss. After speaking with The Middleman, I'm confident about our Nemo Reef opportunity. He mentioned a potential loophole in protection zones. Let's discuss this during our 3PM meeting along with funding allocations.",
+          "evidence_ids": [
+            "Relationship_Colleagues_11",
+            "Relationship_Colleagues_158",
+            "Relationship_Colleagues_2"
+          ]
+        },
+        {
+          "id": "Event_Communication_22",
+          "timestamp": "2040-10-01 09:52:00",
+          "date": "2040-10-01",
+          "hour": 9,
+          "sender": "Mrs. Money",
+          "receiver": "The Middleman",
+          "content": "Middleman, it's Mrs. Money. I've prepared those financial projections we discussed. Particularly interested in your thoughts on that Nemo Reef loophole before my meeting with Boss tomorrow. Available to talk this evening?",
+          "evidence_ids": []
+        }
+      ],
+      "stages": [],
+      "state": {
+        "workspace": "investigation",
+        "filters": {
+          "start": "2040-10-01",
+          "end": "2040-10-14",
+          "hour": null,
+          "q": "",
+          "entity": ""
+        },
+        "message_ids": [
+          "Event_Communication_529",
+          "Event_Communication_535",
+          "Event_Communication_21",
+          "Event_Communication_22"
+        ],
+        "alias": "Boss"
+      },
+      "reasoning_steps": [
+        {
+          "observation": "Boss 默认首名为 Nadia，移除文本特征后首名为 Elise。",
+          "interpretation": "先保留两个身份假设，再检查两种解释对活动网络的影响。",
+          "message_ids": [
+            "Event_Communication_21",
+            "Event_Communication_22",
+            "Event_Communication_529",
+            "Event_Communication_535"
+          ]
+        },
+        {
+          "observation": "21/22 涉及 Boss、Mrs. Money、The Middleman 的机会与资金讨论；529/535 涉及 Nadia 与 Liam 的报酬及巡逻安排。",
+          "interpretation": "若 Boss 与 Nadia 为同一人，这两组活动可能经同一操作者衔接；若为不同人，则需要继续寻找联络桥梁。此处展示假设的解释后果。",
+          "message_ids": [
+            "Event_Communication_21",
+            "Event_Communication_22",
+            "Event_Communication_529",
+            "Event_Communication_535"
+          ]
+        },
+        {
+          "observation": "866 是发给 Boss 的消息，724 是发给 Elise 的消息。",
+          "interpretation": "收到相近语境也会产生文本相似；回查发送角色后，降低仅凭措辞识别身份的权重。",
+          "message_ids": [
+            "Event_Communication_866",
+            "Event_Communication_724"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nadia",
+      "title": "隐瞒与协调值得调查；具体违法仍未证实",
+      "level": "author_analysis",
+      "claim": "Nadia 的通信包含销毁文件指令、有偿协调和调整作业安排。它们支持继续调查隐瞒与协调行为，但不证明这些行动已实施或持续非法捕鱼。",
+      "competing_explanation": "334 给出时间冲突解释，536 表示工程超出原约定，575 提供许可与合法运输的自述；均需核查，不能视作免责证明。",
+      "limitation": "缺少独立的付款、施工、文件销毁和许可核验记录。派生事件与其来源通信不能算两份独立证据。",
+      "statistics": {
+        "direct_messages": 26
+      },
+      "evidence": [
+        {
+          "id": "Event_Communication_331",
+          "timestamp": "2040-10-05 09:45:00",
+          "date": "2040-10-05",
+          "hour": 9,
+          "sender": "Nadia Conti",
+          "receiver": "Haacklee Harbor",
+          "content": "Haacklee Harbor, this is Nadia Conti. I need to cancel the special access corridor arrangements for Nemo Reef immediately. Plans have changed due to unforeseen circumstances. Destroy all related documentation. I'll contact you when we're ready to proceed with alternative locations.",
+          "evidence_ids": [
+            "Relationship_AccessPermission_181"
+          ]
+        },
+        {
+          "id": "Event_Communication_334",
+          "timestamp": "2040-10-05 09:49:00",
+          "date": "2040-10-05",
+          "hour": 9,
+          "sender": "Nadia Conti",
+          "receiver": "Oceanus City Council",
+          "content": "This is Nadia Conti. My cancellation was due to scheduling conflicts with our tourism development initiatives. I wasn't aware of any permit approvals. I'll submit revised documentation for alternative sustainable tourism proposals next week.",
+          "evidence_ids": []
+        },
+        {
+          "id": "Event_Communication_529",
+          "timestamp": "2040-10-08 08:18:00",
+          "date": "2040-10-08",
+          "hour": 8,
+          "sender": "Nadia Conti",
+          "receiver": "Liam Thorne",
+          "content": "Liam, Nadia here. Need your services urgently. Investigation brewing around Nemo Reef permits. Double your usual fee if you can ensure Harbor Master remains cooperative through next week. Meet at the usual place tomorrow, 10PM.",
+          "evidence_ids": [
+            "Relationship_AccessPermission_313"
+          ]
+        },
+        {
+          "id": "Event_Communication_535",
+          "timestamp": "2040-10-08 08:24:00",
+          "date": "2040-10-08",
+          "hour": 8,
+          "sender": "Liam Thorne",
+          "receiver": "Nadia Conti",
+          "content": "Nadia, Liam here. Meeting confirmed for tomorrow at 10PM. I've redirected Harbor Master's attention and implemented new patrol schedules that work in our favor. Council suspects nothing about Nemo Reef. Bring payment as discussed.",
+          "evidence_ids": [
+            "Event_Monitoring_534",
+            "Relationship_Suspicious_317",
+            "Relationship_Colleagues_494"
+          ]
+        },
+        {
+          "id": "Event_Communication_536",
+          "timestamp": "2040-10-08 08:25:00",
+          "date": "2040-10-08",
+          "hour": 8,
+          "sender": "Nadia Conti",
+          "receiver": "Neptune",
+          "content": "Neptune, this is Nadia. Need clarity on 'underwater foundation work' at Nemo Reef. This extends beyond our agreed scope. Meet me at the marina tomorrow at 6AM to discuss implications and additional resource requirements.",
+          "evidence_ids": []
+        },
+        {
+          "id": "Event_Communication_575",
+          "timestamp": "2040-10-08 11:14:00",
+          "date": "2040-10-08",
+          "hour": 11,
+          "sender": "Mako",
+          "receiver": "Sentinel",
+          "content": "Sentinel, Mako here. Your allegations are unfounded. We're operating under permit #CR-7844, not NR-1045. Our transponder issues were genuine technical problems, now resolved. We're conducting authorized marine research equipment transport, nothing more.",
+          "evidence_ids": []
+        },
+        {
+          "id": "Event_Communication_847",
+          "timestamp": "2040-10-12 11:19:00",
+          "date": "2040-10-12",
+          "hour": 11,
+          "sender": "Nadia Conti",
+          "receiver": "V. Miesel Shipping",
+          "content": "This is Nadia. Documentation for permit #CR-7844 is complete. Meeting The Middleman at 2100 to handle final details. Recommend accelerating timeline due to EcoVigil's ROV approval. Shifting operations from southwest immediately. Will update after meeting.",
+          "evidence_ids": []
+        },
+        {
+          "id": "Event_Communication_943",
+          "timestamp": "2040-10-14 08:34:00",
+          "date": "2040-10-14",
+          "hour": 8,
+          "sender": "Remora",
+          "receiver": "Nadia Conti",
+          "content": "Nadia, Remora vessel reporting. All preparations for Sailor Shifts complete at south dock. Delta-3 protocols active, tourism facade maintained. Conservation vessels being monitored. Need final approval for underwater lighting placement at Nemo Reef.",
+          "evidence_ids": [
+            "Event_Monitoring_941",
+            "Event_Monitoring_942",
+            "Relationship_Operates_593",
+            "Relationship_AccessPermission_594"
+          ]
+        }
+      ],
+      "stages": [
+        {
+          "date": "2040-10-05",
+          "claim": "取消通道并要求销毁文件",
+          "support_ids": [
+            "Event_Communication_331"
+          ],
+          "counter_ids": [
+            "Event_Communication_334"
+          ],
+          "gap": "有指令，无独立的执行记录。"
+        },
+        {
+          "date": "2040-10-08",
+          "claim": "提出加倍报酬；对方自述调整巡逻",
+          "support_ids": [
+            "Event_Communication_529",
+            "Event_Communication_535"
+          ],
+          "counter_ids": [
+            "Event_Communication_536",
+            "Event_Communication_575"
+          ],
+          "gap": "付款未核实；对原工程范围和许可存在竞争解释。"
+        },
+        {
+          "date": "2040-10-12",
+          "claim": "自述文件完成并建议加速、转移作业",
+          "support_ids": [
+            "Event_Communication_847"
+          ],
+          "counter_ids": [],
+          "gap": "此消息没有 evidence_for，原文仍须保留；完成自述没有独立核验。"
+        },
+        {
+          "date": "2040-10-14",
+          "claim": "收到水下照明的最终批准请求",
+          "support_ids": [
+            "Event_Communication_943"
+          ],
+          "counter_ids": [],
+          "gap": "收到请求不等于已经批准或完成安装。"
+        }
+      ],
+      "state": {
+        "workspace": "investigation",
+        "filters": {
+          "start": "2040-10-01",
+          "end": "2040-10-14",
+          "hour": null,
+          "q": "",
+          "entity": "Nadia Conti"
+        },
+        "message_ids": [
+          "Event_Communication_331",
+          "Event_Communication_334",
+          "Event_Communication_529",
+          "Event_Communication_535",
+          "Event_Communication_536",
+          "Event_Communication_575",
+          "Event_Communication_847",
+          "Event_Communication_943"
+        ],
+        "alias": null
+      },
+      "source_notes": [
+        {
+          "id": "Event_Communication_331",
+          "label": "销毁文件指令",
+          "excerpt": "Destroy all related documentation.",
+          "reading": "取消特殊通道与销毁文件出现在同一指令中，为隐瞒行为提供调查线索。"
+        },
+        {
+          "id": "Event_Communication_334",
+          "label": "时间冲突解释",
+          "excerpt": "My cancellation was due to scheduling conflicts",
+          "reading": "四分钟后，对 Council 的解释转为旅游项目时间冲突，同时自述此前不知道许可获批。"
+        },
+        {
+          "id": "Event_Communication_529",
+          "label": "提出加倍报酬",
+          "excerpt": "Double your usual fee",
+          "reading": "要求维持 Harbor Master 的配合，并约定次日晚间见面。通信记录的是请求与安排。"
+        },
+        {
+          "id": "Event_Communication_535",
+          "label": "巡逻调整自述",
+          "excerpt": "implemented new patrol schedules that work in our favor",
+          "reading": "Liam 回复确认会面，自述已转移注意力并调整巡逻；付款与实际调整仍待独立核查。"
+        },
+        {
+          "id": "Event_Communication_536",
+          "label": "工程范围异议",
+          "excerpt": "This extends beyond our agreed scope.",
+          "reading": "Nadia 询问水下基础工程，表示超出约定范围。这使其知情范围成为需要进一步检查的问题。"
+        },
+        {
+          "id": "Event_Communication_575",
+          "label": "合法运输自述",
+          "excerpt": "We're operating under permit #CR-7844, not NR-1045.",
+          "reading": "Mako 向 Sentinel 解释许可与运输合法性。这是关联主体的说法，供交叉核对。"
+        },
+        {
+          "id": "Event_Communication_847",
+          "label": "加速与转移安排",
+          "excerpt": "Recommend accelerating timeline due to EcoVigil",
+          "reading": "自述许可文件完成，并把加速、转移安排与 EcoVigil 的 ROV 审批联系起来。"
+        },
+        {
+          "id": "Event_Communication_943",
+          "label": "最终批准请求",
+          "excerpt": "Need final approval for underwater lighting placement",
+          "reading": "Remora 请求水下照明的最终批准，表明相关协调继续推进；后续批准和安装记录待补。"
+        }
+      ],
+      "reasoning_steps": [
+        {
+          "observation": "331 要求销毁文件，334 给出时间冲突解释。",
+          "interpretation": "同日不同对象的说法构成首先需要核对的张力。",
+          "message_ids": [
+            "Event_Communication_331",
+            "Event_Communication_334"
+          ]
+        },
+        {
+          "observation": "529/535 串联报酬、会面与巡逻调整自述；536/575 补充工程范围和许可说法。",
+          "interpretation": "判断由单条文件指令扩展为持续协调的调查假设，同时保留知情范围与合法作业解释。",
+          "message_ids": [
+            "Event_Communication_529",
+            "Event_Communication_535",
+            "Event_Communication_536",
+            "Event_Communication_575"
+          ]
+        },
+        {
+          "observation": "847 涉及加速和转移，943 仍向 Nadia 请求最终批准。",
+          "interpretation": "记录支持继续追查 Nadia 的协调角色；下一步核对付款、巡逻、许可及实际执行。",
+          "message_ids": [
+            "Event_Communication_847",
+            "Event_Communication_943"
+          ]
+        }
+      ]
+    }
+  ],
+  "scope": "Full official 14-day corpus and default model parameters; interpretations do not automatically change with UI filters."
+}

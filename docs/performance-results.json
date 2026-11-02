@@ -1,0 +1,54 @@
+{
+  "scope": "Local loopback; 1 initial + 5 repeated requests; warm server may already cache results.",
+  "measurements": [
+    {
+      "path": "/api/overview",
+      "first_ms": 153.796,
+      "subsequent_median_ms": 149.435,
+      "max_ms": 196.775,
+      "response_bytes": 4758
+    },
+    {
+      "path": "/api/temporal/heatmap",
+      "first_ms": 160.255,
+      "subsequent_median_ms": 150.864,
+      "max_ms": 189.232,
+      "response_bytes": 19504
+    },
+    {
+      "path": "/api/graph",
+      "first_ms": 268.515,
+      "subsequent_median_ms": 150.668,
+      "max_ms": 268.515,
+      "response_bytes": 62024
+    },
+    {
+      "path": "/api/graph?mode=original",
+      "first_ms": 244.057,
+      "subsequent_median_ms": 187.788,
+      "max_ms": 244.057,
+      "response_bytes": 91399
+    },
+    {
+      "path": "/api/aliases?alias=Boss",
+      "first_ms": 2174.83,
+      "subsequent_median_ms": 1592.087,
+      "max_ms": 2335.969,
+      "response_bytes": 74973
+    },
+    {
+      "path": "/api/events/timeline?entity_id=Nadia%20Conti",
+      "first_ms": 17.977,
+      "subsequent_median_ms": 21.758,
+      "max_ms": 22.993,
+      "response_bytes": 8775
+    },
+    {
+      "path": "/api/messages?page_size=20",
+      "first_ms": 28.962,
+      "subsequent_median_ms": 18.05,
+      "max_ms": 28.962,
+      "response_bytes": 8599
+    }
+  ]
+}

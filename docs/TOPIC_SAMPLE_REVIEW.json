@@ -1,0 +1,670 @@
+{
+  "source_sha256": "ca62ea3d0605b05b57b2a9b6c824da67d6ab47e3e714069bfd69f0963380c9d6",
+  "model": {
+    "version": "70c347c9467acfdb",
+    "source_sha256": "ca62ea3d0605b05b57b2a9b6c824da67d6ab47e3e714069bfd69f0963380c9d6",
+    "topic_count": 6,
+    "seed": 42,
+    "fit_scope": "all 584 official communications; full entity names, multi-part person-name tokens and English contraction fragments removed",
+    "reconstruction_error": 23.417725
+  },
+  "seed": 42,
+  "method": "Two smallest top-factor gaps and two fixed-seed hash samples per maximum-weight topic; same ordering as UI. No independent semantic labels or accuracy claim.",
+  "samples": [
+    {
+      "topic_id": 0,
+      "mode": "boundary",
+      "message": {
+        "id": "Event_Communication_362",
+        "timestamp": "2040-10-05 10:35:00",
+        "date": "2040-10-05",
+        "hour": 10,
+        "sender": "Clepper Jensen",
+        "receiver": "Miranda Jordan",
+        "content": "Miranda, Clepper here. Set up surveillance equipment for overnight monitoring of that vessel. I want continuous documentation of all personnel and activity. Rest in shifts if needed. This expedition to Nemo Reef could be the final piece of our investigation.",
+        "evidence_ids": []
+      },
+      "top_two": [
+        {
+          "topic_id": 0,
+          "weight": 0.25669
+        },
+        {
+          "topic_id": 3,
+          "weight": 0.250943
+        }
+      ],
+      "gap": 0.005746999999999947
+    },
+    {
+      "topic_id": 0,
+      "mode": "boundary",
+      "message": {
+        "id": "Event_Communication_428",
+        "timestamp": "2040-10-06 13:01:00",
+        "date": "2040-10-06",
+        "hour": 13,
+        "sender": "Reef Guardian",
+        "receiver": "Horizon",
+        "content": "Horizon, Reef Guardian here. Multiple vessels approaching Nemo Reef with commissioner-signed permits showing last-minute approval. Position yourself at the eastern observation point to monitor and document all equipment and personnel. I'll cover the western approach.",
+        "evidence_ids": [
+          "Relationship_Coordinates_555",
+          "Event_Monitoring_978",
+          "Relationship_AccessPermission_232"
+        ]
+      },
+      "top_two": [
+        {
+          "topic_id": 0,
+          "weight": 0.344189
+        },
+        {
+          "topic_id": 1,
+          "weight": 0.318947
+        }
+      ],
+      "gap": 0.025242000000000042
+    },
+    {
+      "topic_id": 0,
+      "mode": "fixed_seed",
+      "message": {
+        "id": "Event_Communication_152",
+        "timestamp": "2040-10-02 13:02:00",
+        "date": "2040-10-02",
+        "hour": 13,
+        "sender": "Paackland Harbor",
+        "receiver": "Sentinel",
+        "content": "Sentinel, Paackland Harbor here. Please conduct additional monitoring sweeps around Nemo Reef's boundary markers. We've received reports of tourism vessels approaching restricted zones. Document any boundary violations and report back with findings.",
+        "evidence_ids": [
+          "Event_Monitoring_266"
+        ]
+      },
+      "top_two": [
+        {
+          "topic_id": 0,
+          "weight": 1.0
+        },
+        {
+          "topic_id": 1,
+          "weight": 0.0
+        }
+      ],
+      "gap": 1.0
+    },
+    {
+      "topic_id": 0,
+      "mode": "fixed_seed",
+      "message": {
+        "id": "Event_Communication_191",
+        "timestamp": "2040-10-03 09:11:00",
+        "date": "2040-10-03",
+        "hour": 9,
+        "sender": "Himark Harbor",
+        "receiver": "Seawatch",
+        "content": "Himark Harbor to Seawatch. We've noticed several tourism vessels returning earlier than scheduled today. The Sailors team appeared notably frustrated during check-in. Any observations from your patrols regarding their activities?",
+        "evidence_ids": [
+          "Event_VesselMovement_190",
+          "Relationship_Operates_97"
+        ]
+      },
+      "top_two": [
+        {
+          "topic_id": 0,
+          "weight": 0.558925
+        },
+        {
+          "topic_id": 3,
+          "weight": 0.20168
+        }
+      ],
+      "gap": 0.35724500000000003
+    },
+    {
+      "topic_id": 1,
+      "mode": "boundary",
+      "message": {
+        "id": "Event_Communication_642",
+        "timestamp": "2040-10-09 12:29:00",
+        "date": "2040-10-09",
+        "hour": 12,
+        "sender": "Himark Harbor",
+        "receiver": "Neptune",
+        "content": "Himark Harbor to Neptune. We've noticed you haven't responded to our previous inquiry about personnel transport needs for Nemo Reef operations. Harbor traffic is increasing significantly. Please confirm your requirements ASAP for proper resource allocation.",
+        "evidence_ids": []
+      },
+      "top_two": [
+        {
+          "topic_id": 1,
+          "weight": 0.35639
+        },
+        {
+          "topic_id": 5,
+          "weight": 0.348779
+        }
+      ],
+      "gap": 0.007610999999999979
+    },
+    {
+      "topic_id": 1,
+      "mode": "boundary",
+      "message": {
+        "id": "Event_Communication_431",
+        "timestamp": "2040-10-06 13:04:00",
+        "date": "2040-10-06",
+        "hour": 13,
+        "sender": "Green Guardians",
+        "receiver": "Green Guardians",
+        "content": "Green Guardians, Horizon here. Positioned at eastern observation point monitoring Nemo Reef. Multiple vessels with commissioner-signed permits have arrived. Documenting all activities. Have confirmed Mako's position - they appear to be operating 5 miles southeast of reef. Awaiting further instructions.",
+        "evidence_ids": [
+          "Relationship_Operates_36",
+          "Event_TransponderPing_308",
+          "Event_Monitoring_978"
+        ]
+      },
+      "top_two": [
+        {
+          "topic_id": 1,
+          "weight": 0.317447
+        },
+        {
+          "topic_id": 4,
+          "weight": 0.309206
+        }
+      ],
+      "gap": 0.008240999999999998
+    },
+    {
+      "topic_id": 1,
+      "mode": "fixed_seed",
+      "message": {
+        "id": "Event_Communication_124",
+        "timestamp": "2040-10-02 12:10:00",
+        "date": "2040-10-02",
+        "hour": 12,
+        "sender": "Marlin",
+        "receiver": "Remora",
+        "content": "Remora, this is Marlin. These new commercial licensing fees are crippling us small operators. I hear Mako's doing tourist charters to stay afloat. Have you found any workarounds for the mandatory equipment upgrades? My sonar replacement alone is three months' profit.",
+        "evidence_ids": []
+      },
+      "top_two": [
+        {
+          "topic_id": 1,
+          "weight": 0.640733
+        },
+        {
+          "topic_id": 4,
+          "weight": 0.174526
+        }
+      ],
+      "gap": 0.46620700000000004
+    },
+    {
+      "topic_id": 1,
+      "mode": "fixed_seed",
+      "message": {
+        "id": "Event_Communication_121",
+        "timestamp": "2040-10-02 12:07:00",
+        "date": "2040-10-02",
+        "hour": 12,
+        "sender": "Marlin",
+        "receiver": "Mako",
+        "content": "Mako, this is Marlin. Have you seen these new commercial licensing costs? Between that and mandatory equipment upgrades, I'm barely staying afloat. My family's fished these waters for generations. How are you managing?",
+        "evidence_ids": []
+      },
+      "top_two": [
+        {
+          "topic_id": 1,
+          "weight": 0.693582
+        },
+        {
+          "topic_id": 0,
+          "weight": 0.2113
+        }
+      ],
+      "gap": 0.48228200000000004
+    },
+    {
+      "topic_id": 2,
+      "mode": "boundary",
+      "message": {
+        "id": "Event_Communication_159",
+        "timestamp": "2040-10-03 08:04:00",
+        "date": "2040-10-03",
+        "hour": 8,
+        "sender": "The Lookout",
+        "receiver": "The Intern",
+        "content": "Hey The Intern, it's The Lookout! Just spotted a pair of ospreys building a nest near the lighthouse. Perfect timing for our birdwatching tomorrow! Also, those conservation boats seem extra active around Nemo Reef today. Wonder what's going on?",
+        "evidence_ids": []
+      },
+      "top_two": [
+        {
+          "topic_id": 2,
+          "weight": 0.482667
+        },
+        {
+          "topic_id": 0,
+          "weight": 0.482198
+        }
+      ],
+      "gap": 0.0004689999999999972
+    },
+    {
+      "topic_id": 2,
+      "mode": "boundary",
+      "message": {
+        "id": "Event_Communication_283",
+        "timestamp": "2040-10-04 10:57:00",
+        "date": "2040-10-04",
+        "hour": 10,
+        "sender": "Sailor Shifts Team",
+        "receiver": "Remora",
+        "content": "Sailor Shifts, Remora here. Just confirming we're remaining docked today as instructed. Davis took the VIP client out on Mako this morning - mentioned they needed complete privacy for negotiations. Need any dock maintenance while we're idle?",
+        "evidence_ids": [
+          "Relationship_Operates_58"
+        ]
+      },
+      "top_two": [
+        {
+          "topic_id": 2,
+          "weight": 0.283978
+        },
+        {
+          "topic_id": 3,
+          "weight": 0.282888
+        }
+      ],
+      "gap": 0.0010900000000000354
+    },
+    {
+      "topic_id": 2,
+      "mode": "fixed_seed",
+      "message": {
+        "id": "Event_Communication_21",
+        "timestamp": "2040-10-01 09:49:00",
+        "date": "2040-10-01",
+        "hour": 9,
+        "sender": "Boss",
+        "receiver": "Mrs. Money",
+        "content": "Mrs. Money, this is Boss. After speaking with The Middleman, I'm confident about our Nemo Reef opportunity. He mentioned a potential loophole in protection zones. Let's discuss this during our 3PM meeting along with funding allocations.",
+        "evidence_ids": [
+          "Relationship_Colleagues_11",
+          "Relationship_Colleagues_158",
+          "Relationship_Colleagues_2"
+        ]
+      },
+      "top_two": [
+        {
+          "topic_id": 2,
+          "weight": 1.0
+        },
+        {
+          "topic_id": 0,
+          "weight": 0.0
+        }
+      ],
+      "gap": 1.0
+    },
+    {
+      "topic_id": 2,
+      "mode": "fixed_seed",
+      "message": {
+        "id": "Event_Communication_22",
+        "timestamp": "2040-10-01 09:52:00",
+        "date": "2040-10-01",
+        "hour": 9,
+        "sender": "Mrs. Money",
+        "receiver": "The Middleman",
+        "content": "Middleman, it's Mrs. Money. I've prepared those financial projections we discussed. Particularly interested in your thoughts on that Nemo Reef loophole before my meeting with Boss tomorrow. Available to talk this evening?",
+        "evidence_ids": []
+      },
+      "top_two": [
+        {
+          "topic_id": 2,
+          "weight": 1.0
+        },
+        {
+          "topic_id": 0,
+          "weight": 0.0
+        }
+      ],
+      "gap": 1.0
+    },
+    {
+      "topic_id": 3,
+      "mode": "boundary",
+      "message": {
+        "id": "Event_Communication_262",
+        "timestamp": "2040-10-04 08:47:00",
+        "date": "2040-10-04",
+        "hour": 8,
+        "sender": "Green Guardians",
+        "receiver": "Mako",
+        "content": "Mako, Green Guardians HQ again. We need immediate verification of your position and activities. Your transponder signal is missing and you've maintained radio silence. This is a serious violation near Nemo Reef. Respond immediately or we'll escalate to authorities.",
+        "evidence_ids": [
+          "Event_Enforcement_261",
+          "Relationship_Jurisdiction_131",
+          "Relationship_AccessPermission_243"
+        ]
+      },
+      "top_two": [
+        {
+          "topic_id": 3,
+          "weight": 0.438674
+        },
+        {
+          "topic_id": 0,
+          "weight": 0.431661
+        }
+      ],
+      "gap": 0.0070129999999999915
+    },
+    {
+      "topic_id": 3,
+      "mode": "boundary",
+      "message": {
+        "id": "Event_Communication_869",
+        "timestamp": "2040-10-13 08:21:00",
+        "date": "2040-10-13",
+        "hour": 8,
+        "sender": "Davis",
+        "receiver": "Nadia Conti",
+        "content": "Davis, Nadia here. Need you to verify final equipment transport tonight at Nemo Reef. The Middleman reports increased surveillance. Ensure all operations follow encrypted protocols. Meet me at V. Miesel HQ tomorrow at 0900 to discuss contingency plans.",
+        "evidence_ids": [
+          "Event_Collaborate_868",
+          "Relationship_Colleagues_551"
+        ]
+      },
+      "top_two": [
+        {
+          "topic_id": 3,
+          "weight": 0.391705
+        },
+        {
+          "topic_id": 2,
+          "weight": 0.381294
+        }
+      ],
+      "gap": 0.010411000000000004
+    },
+    {
+      "topic_id": 3,
+      "mode": "fixed_seed",
+      "message": {
+        "id": "Event_Communication_145",
+        "timestamp": "2040-10-02 12:56:00",
+        "date": "2040-10-02",
+        "hour": 12,
+        "sender": "Mako",
+        "receiver": "Himark Harbor",
+        "content": "Himark Harbor, this is Mako. Confirming extended docking at slip #14 today. Davis and Sailors team departed at 0600 for city paperwork filing. Expect maintenance crew arrival soon. Any harbor notices we should be aware of while stationary?",
+        "evidence_ids": [
+          "Event_VesselMovement_122"
+        ]
+      },
+      "top_two": [
+        {
+          "topic_id": 3,
+          "weight": 0.538768
+        },
+        {
+          "topic_id": 5,
+          "weight": 0.440247
+        }
+      ],
+      "gap": 0.09852100000000003
+    },
+    {
+      "topic_id": 3,
+      "mode": "fixed_seed",
+      "message": {
+        "id": "Event_Communication_605",
+        "timestamp": "2040-10-09 09:27:00",
+        "date": "2040-10-09",
+        "hour": 9,
+        "sender": "Remora",
+        "receiver": "Neptune",
+        "content": "Neptune, Remora here. Received your calibration specs. All mounting brackets confirmed from delivery. Stabilization equipment is operational but needs final testing. Can you expedite additional power coupling units? Current ones may not handle full load under pressure.",
+        "evidence_ids": [
+          "Relationship_Coordinates_334"
+        ]
+      },
+      "top_two": [
+        {
+          "topic_id": 3,
+          "weight": 0.720699
+        },
+        {
+          "topic_id": 1,
+          "weight": 0.258617
+        }
+      ],
+      "gap": 0.462082
+    },
+    {
+      "topic_id": 4,
+      "mode": "boundary",
+      "message": {
+        "id": "Event_Communication_751",
+        "timestamp": "2040-10-11 09:18:00",
+        "date": "2040-10-11",
+        "hour": 9,
+        "sender": "EcoVigil",
+        "receiver": "Liam Thorne",
+        "content": "Liam, EcoVigil here. Understood about the northern quadrant directive, though our primary evidence suggests southwest activity. We've recalibrated equipment for northern deployment. Can you explain the technical protocol issues delaying our ROV clearance?",
+        "evidence_ids": [
+          "Relationship_AccessPermission_455",
+          "Event_Monitoring_752"
+        ]
+      },
+      "top_two": [
+        {
+          "topic_id": 4,
+          "weight": 0.247063
+        },
+        {
+          "topic_id": 2,
+          "weight": 0.246131
+        }
+      ],
+      "gap": 0.0009320000000000161
+    },
+    {
+      "topic_id": 4,
+      "mode": "boundary",
+      "message": {
+        "id": "Event_Communication_912",
+        "timestamp": "2040-10-13 12:36:00",
+        "date": "2040-10-13",
+        "hour": 12,
+        "sender": "The Lookout",
+        "receiver": "Sentinel",
+        "content": "Sentinel, The Lookout here. Using long-range equipment to document west reef activity. Spotted what appears to be a music video shoot with lighting rigs and camera equipment. Can't confirm details at this distance. Can you get closer for verification?",
+        "evidence_ids": [
+          "Event_Monitoring_911"
+        ]
+      },
+      "top_two": [
+        {
+          "topic_id": 4,
+          "weight": 0.450273
+        },
+        {
+          "topic_id": 1,
+          "weight": 0.44868
+        }
+      ],
+      "gap": 0.0015929999999999556
+    },
+    {
+      "topic_id": 4,
+      "mode": "fixed_seed",
+      "message": {
+        "id": "Event_Communication_59",
+        "timestamp": "2040-10-01 11:10:00",
+        "date": "2040-10-01",
+        "hour": 11,
+        "sender": "Mako",
+        "receiver": "Remora",
+        "content": "Mako to Remora. How's visibility in your sector? We've documented good conditions at Azure Cove and challenging currents at Dolphin Bay. Planning to rendezvous at Himark's south dock at 16:00 as scheduled. Over.",
+        "evidence_ids": [
+          "Event_Assessment_56",
+          "Event_Assessment_14",
+          "Event_VesselMovement_1000",
+          "Event_VesselMovement_892"
+        ]
+      },
+      "top_two": [
+        {
+          "topic_id": 4,
+          "weight": 0.530718
+        },
+        {
+          "topic_id": 3,
+          "weight": 0.136235
+        }
+      ],
+      "gap": 0.39448300000000003
+    },
+    {
+      "topic_id": 4,
+      "mode": "fixed_seed",
+      "message": {
+        "id": "Event_Communication_128",
+        "timestamp": "2040-10-02 12:14:00",
+        "date": "2040-10-02",
+        "hour": 12,
+        "sender": "Clepper Jensen",
+        "receiver": "Miranda Jordan",
+        "content": "Miranda, this is Clepper. Stay on surveillance at Nemo Reef. Document all vessel activities and get photos if possible. Also, find out who's filing those permits and what they're requesting specifically. This could be our next big story.",
+        "evidence_ids": [
+          "Relationship_Colleagues_290",
+          "Event_Monitoring_129"
+        ]
+      },
+      "top_two": [
+        {
+          "topic_id": 4,
+          "weight": 0.569633
+        },
+        {
+          "topic_id": 0,
+          "weight": 0.294413
+        }
+      ],
+      "gap": 0.27521999999999996
+    },
+    {
+      "topic_id": 5,
+      "mode": "boundary",
+      "message": {
+        "id": "Event_Communication_118",
+        "timestamp": "2040-10-02 11:45:00",
+        "date": "2040-10-02",
+        "hour": 11,
+        "sender": "Himark Harbor",
+        "receiver": "Oceanus City Council",
+        "content": "Himark Harbor to Oceanus City Council. Update: Sailors Team members have gone to City Hall for event permits. Minimal harbor activity today with Mako and Remora remaining docked. Serenity has requested premium berthing for tonight. Anything you need from us?",
+        "evidence_ids": [
+          "Relationship_AccessPermission_238"
+        ]
+      },
+      "top_two": [
+        {
+          "topic_id": 5,
+          "weight": 0.353523
+        },
+        {
+          "topic_id": 3,
+          "weight": 0.352084
+        }
+      ],
+      "gap": 0.001438999999999968
+    },
+    {
+      "topic_id": 5,
+      "mode": "boundary",
+      "message": {
+        "id": "Event_Communication_24",
+        "timestamp": "2040-10-01 09:55:00",
+        "date": "2040-10-01",
+        "hour": 9,
+        "sender": "Reef Guardian",
+        "receiver": "Serenity",
+        "content": "Serenity, Reef Guardian here. I understand your disappointment, but Nemo Reef is strictly protected without special access permits. However, we can recommend several equally beautiful non-protected areas nearby. We're observing increased tourism pressure lately, which is why enforcement remains strict.",
+        "evidence_ids": [
+          "Relationship_AccessPermission_7",
+          "Event_Enforcement_177"
+        ]
+      },
+      "top_two": [
+        {
+          "topic_id": 5,
+          "weight": 0.479725
+        },
+        {
+          "topic_id": 0,
+          "weight": 0.477313
+        }
+      ],
+      "gap": 0.0024120000000000252
+    },
+    {
+      "topic_id": 5,
+      "mode": "fixed_seed",
+      "message": {
+        "id": "Event_Communication_199",
+        "timestamp": "2040-10-03 09:28:00",
+        "date": "2040-10-03",
+        "hour": 9,
+        "sender": "Rodriguez",
+        "receiver": "Boss",
+        "content": "Rodriguez, Remora here. I've been scouting the southern coastline for alternative filming sites. When you're done with Mako, we should discuss talking to the Boss about Nemo Reef. Heard they have 'special arrangements' for certain clients.",
+        "evidence_ids": [
+          "Event_Assessment_198",
+          "Relationship_AccessPermission_101",
+          "Relationship_Colleagues_102"
+        ]
+      },
+      "top_two": [
+        {
+          "topic_id": 5,
+          "weight": 0.503835
+        },
+        {
+          "topic_id": 2,
+          "weight": 0.496165
+        }
+      ],
+      "gap": 0.00767000000000001
+    },
+    {
+      "topic_id": 5,
+      "mode": "fixed_seed",
+      "message": {
+        "id": "Event_Communication_142",
+        "timestamp": "2040-10-02 12:50:00",
+        "date": "2040-10-02",
+        "hour": 12,
+        "sender": "Rodriguez",
+        "receiver": "Rodriguez",
+        "content": "Rodriguez, Mako here. Currently docked at Himark Harbor slip #14. Davis mentioned you'd help with logistics for alternative locations. Vessel's undergoing maintenance while the Sailors team is at city offices filing paperwork. When can you come by?",
+        "evidence_ids": [
+          "Relationship_Operates_75",
+          "Relationship_AccessPermission_190"
+        ]
+      },
+      "top_two": [
+        {
+          "topic_id": 5,
+          "weight": 0.489622
+        },
+        {
+          "topic_id": 2,
+          "weight": 0.277254
+        }
+      ],
+      "gap": 0.212368
+    }
+  ]
+}

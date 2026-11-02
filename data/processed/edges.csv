@@ -1,0 +1,3227 @@
+﻿source,target,type,is_inferred,id
+Sam,Relationship_Suspicious_217,,True,2
+Sam,Event_Communication_370,sent,False,3
+Sam,Event_Assessment_600,,True,5
+Sam,Relationship_Colleagues_430,,True,3013
+Sam,Relationship_Friends_272,,True,
+Sam,Relationship_Colleagues_215,,True,
+Sam,Relationship_Colleagues_431,,True,
+Kelly,Event_Communication_3,sent,False,8
+Kelly,Event_Communication_443,sent,False,10
+Kelly,Relationship_Friends_272,,True,
+Kelly,Relationship_Colleagues_215,,True,
+Nadia Conti,Relationship_AccessPermission_181,,True,14
+Nadia Conti,Event_Communication_331,sent,False,13
+Nadia Conti,Event_Communication_334,sent,False,15
+Nadia Conti,Event_Communication_529,sent,False,16
+Nadia Conti,Event_Communication_536,sent,False,17
+Nadia Conti,Relationship_Colleagues_321,,True,3485
+Nadia Conti,Event_Communication_538,sent,False,20
+Nadia Conti,Event_Communication_584,sent,False,21
+Nadia Conti,Relationship_Coordinates_493,,True,22
+Nadia Conti,Relationship_Colleagues_494,,True,3604
+Nadia Conti,Event_Communication_795,sent,False,24
+Nadia Conti,Event_Communication_847,sent,False,25
+Nadia Conti,Event_Collaborate_868,,True,26
+Nadia Conti,Relationship_Colleagues_431,,True,
+Nadia Conti,Relationship_Colleagues_551,,True,
+Nadia Conti,Relationship_Colleagues_322,,True,
+Nadia Conti,Relationship_Colleagues_319,,True,
+Elise,Event_Communication_528,sent,False,29
+Elise,Relationship_Suspicious_360,,True,30
+Elise,Event_Communication_601,sent,False,31
+Elise,Event_Communication_647,sent,False,32
+Elise,Relationship_Coordinates_428,,True,33
+Elise,Event_Communication_708,sent,False,35
+Elise,Event_Communication_727,sent,False,36
+Elise,Relationship_Colleagues_430,,True,3486
+Elise,Relationship_Colleagues_321,,True,3046
+Elise,Relationship_Colleagues_320,,True,
+Liam Thorne,Event_Assessment_41,,True,46
+Liam Thorne,Event_Enforcement_42,,True,38
+Liam Thorne,Relationship_Coordinates_24,,True,42
+Liam Thorne,Event_Communication_43,sent,False,41
+Liam Thorne,Relationship_Coordinates_172,,True,44
+Liam Thorne,Event_Communication_338,sent,False,48
+Liam Thorne,Relationship_AccessPermission_313,,True,49
+Liam Thorne,Event_Communication_531,sent,False,51
+Liam Thorne,Event_Monitoring_534,,True,53
+Liam Thorne,Relationship_Suspicious_317,,True,54
+Liam Thorne,Event_Communication_535,sent,False,56
+Liam Thorne,Event_Collaborate_697,,True,57
+Liam Thorne,Relationship_Coordinates_423,,True,59
+Liam Thorne,Event_Collaborate_723,,True,58
+Liam Thorne,Relationship_Suspicious_436,,True,61
+Liam Thorne,Event_Communication_724,sent,False,62
+Liam Thorne,Relationship_Coordinates_445,,True,63
+Liam Thorne,Event_Communication_739,sent,False,64
+Liam Thorne,Event_Communication_749,sent,False,65
+Liam Thorne,Event_Communication_753,sent,False,67
+Liam Thorne,Event_Communication_881,sent,False,69
+Liam Thorne,Relationship_Reports_587,,True,52
+Liam Thorne,Event_Communication_933,sent,False,72
+Liam Thorne,Event_Communication_953,sent,False,73
+Liam Thorne,Relationship_Colleagues_494,,True,3734
+Liam Thorne,Relationship_Colleagues_121,,True,
+Samantha Blake,Relationship_Coordinates_30,,True,74
+Samantha Blake,Event_Communication_64,sent,False,75
+Samantha Blake,Event_Communication_67,sent,False,77
+Samantha Blake,Event_Communication_103,sent,False,79
+Samantha Blake,Event_Communication_113,sent,False,80
+Samantha Blake,Relationship_Coordinates_226,,True,81
+Samantha Blake,Event_Communication_381,sent,False,83
+Samantha Blake,Relationship_Unfriendly_229,,True,84
+Samantha Blake,Event_Communication_544,sent,False,86
+Samantha Blake,Event_Communication_640,sent,False,88
+Samantha Blake,Event_Communication_685,sent,False,89
+Samantha Blake,Relationship_AccessPermission_415,,True,87
+Samantha Blake,Event_Communication_687,sent,False,91
+Samantha Blake,Relationship_Operates_459,,True,92
+Samantha Blake,Relationship_Operates_463,,True,93
+Davis,Event_Communication_20,sent,False,94
+Davis,Event_Communication_115,sent,False,97
+Davis,Relationship_Operates_58,,True,120
+Davis,Relationship_Operates_65,,True,99
+Davis,Event_Communication_260,sent,False,102
+Davis,Relationship_AccessPermission_161,,True,104
+Davis,Event_Communication_281,sent,False,105
+Davis,Event_Communication_282,sent,False,107
+Davis,Event_Communication_291,sent,False,110
+Davis,Event_Communication_295,sent,False,112
+Davis,Event_Communication_343,sent,False,114
+Davis,Event_Communication_521,sent,False,116
+Davis,Event_Communication_548,sent,False,118
+Davis,Event_Collaborate_550,,True,119
+Davis,Event_Communication_551,sent,False,121
+Davis,Event_Communication_581,sent,False,122
+Davis,Event_Communication_582,sent,False,124
+Davis,Event_Assessment_583,,True,125
+Davis,Relationship_Operates_351,,True,126
+Davis,Event_Communication_585,sent,False,127
+Davis,Relationship_Operates_352,,True,128
+Davis,Event_Communication_639,sent,False,130
+Davis,Event_Communication_802,sent,False,132
+Davis,Event_Collaborate_818,,True,133
+Davis,Relationship_AccessPermission_511,,True,135
+Davis,Event_Communication_819,sent,False,136
+Davis,Event_Communication_844,sent,False,139
+Davis,Event_Communication_845,sent,False,140
+Davis,Relationship_Operates_543,,True,142
+Davis,Relationship_Operates_546,,True,103
+Davis,Event_Communication_853,sent,False,145
+Davis,Event_Collaborate_868,,True,146
+Davis,Event_Communication_869,sent,False,148
+Davis,Relationship_AccessPermission_564,,True,150
+Davis,Relationship_Suspicious_577,,True,152
+Davis,Event_Communication_916,sent,False,153
+Davis,Event_Communication_963,sent,False,155
+Davis,Event_Communication_964,sent,False,157
+Davis,Relationship_Colleagues_619,,True,3760
+Davis,Event_Communication_986,sent,False,160
+Davis,Relationship_Colleagues_551,,True,
+Davis,Relationship_Colleagues_45,,True,
+Davis,Relationship_Colleagues_536,,True,
+Davis,Relationship_Colleagues_617,,True,
+Davis,Relationship_Colleagues_66,,True,
+Davis,Relationship_Colleagues_628,,True,
+Rodriguez,Relationship_Operates_75,,True,162
+Rodriguez,Event_Communication_142,sent,False,163
+Rodriguez,Event_Assessment_198,,True,165
+Rodriguez,Event_Communication_199,sent,False,167
+Rodriguez,Event_Collaborate_200,,True,169
+Rodriguez,Relationship_Suspicious_113,,True,170
+Rodriguez,Event_Communication_240,sent,False,171
+Rodriguez,Event_Communication_328,sent,False,172
+Rodriguez,Event_Communication_401,sent,False,174
+Rodriguez,Event_Communication_511,sent,False,176
+Rodriguez,Event_Communication_562,sent,False,177
+Rodriguez,Relationship_Operates_352,,True,178
+Rodriguez,Event_Communication_588,sent,False,180
+Rodriguez,Relationship_Operates_476,,True,175
+Rodriguez,Event_Communication_764,sent,False,182
+Rodriguez,Event_Communication_804,sent,False,184
+Rodriguez,Event_Communication_805,sent,False,185
+Rodriguez,Relationship_Operates_505,,True,187
+Rodriguez,Event_Communication_810,sent,False,188
+Rodriguez,Event_Communication_893,sent,False,189
+Rodriguez,Event_Communication_982,sent,False,190
+Rodriguez,Relationship_Colleagues_619,,True,4255
+Rodriguez,Relationship_Colleagues_102,,True,
+Rodriguez,Relationship_Colleagues_16,,True,
+Rodriguez,Relationship_Colleagues_83,,True,
+Sailor Shift,Relationship_Colleagues_45,,True,
+Clepper Jensen,Event_Communication_128,sent,False,192
+Clepper Jensen,Relationship_Suspicious_71,,True,194
+Clepper Jensen,Event_Communication_131,sent,False,195
+Clepper Jensen,Event_Communication_132,sent,False,197
+Clepper Jensen,Event_Communication_135,sent,False,198
+Clepper Jensen,Relationship_Suspicious_106,,True,208
+Clepper Jensen,Relationship_Suspicious_107,,True,193
+Clepper Jensen,Relationship_Suspicious_108,,True,202
+Clepper Jensen,Event_Communication_203,sent,False,203
+Clepper Jensen,Event_Communication_205,sent,False,205
+Clepper Jensen,Event_Communication_207,sent,False,207
+Clepper Jensen,Event_Communication_357,sent,False,210
+Clepper Jensen,Event_Communication_360,sent,False,212
+Clepper Jensen,Event_Communication_362,sent,False,213
+Clepper Jensen,Relationship_Reports_218,,True,214
+Clepper Jensen,Event_Communication_377,sent,False,216
+Clepper Jensen,Event_Communication_468,sent,False,218
+Clepper Jensen,Event_Communication_470,sent,False,220
+Clepper Jensen,Event_Communication_474,sent,False,221
+Clepper Jensen,Event_Communication_476,sent,False,223
+Clepper Jensen,Event_Communication_479,sent,False,225
+Clepper Jensen,Event_Communication_768,sent,False,227
+Clepper Jensen,Event_Communication_771,sent,False,229
+Clepper Jensen,Event_Communication_773,sent,False,231
+Clepper Jensen,Relationship_Suspicious_485,,True,233
+Clepper Jensen,Event_Communication_775,sent,False,234
+Clepper Jensen,Relationship_Colleagues_290,,True,
+Miranda Jordan,Event_Communication_126,sent,False,236
+Miranda Jordan,Event_Monitoring_129,,True,237
+Miranda Jordan,Relationship_Reports_69,,True,239
+Miranda Jordan,Event_Communication_130,sent,False,240
+Miranda Jordan,Event_Monitoring_133,,True,241
+Miranda Jordan,Relationship_Reports_73,,True,242
+Miranda Jordan,Relationship_Suspicious_74,,True,243
+Miranda Jordan,Event_Communication_134,sent,False,244
+Miranda Jordan,Event_Communication_201,sent,False,246
+Miranda Jordan,Relationship_Suspicious_110,,True,245
+Miranda Jordan,Event_Communication_204,sent,False,248
+Miranda Jordan,Event_Communication_206,sent,False,249
+Miranda Jordan,Event_Monitoring_358,,True,250
+Miranda Jordan,Relationship_Reports_205,,True,251
+Miranda Jordan,Event_Communication_359,sent,False,252
+Miranda Jordan,Event_Communication_361,sent,False,253
+Miranda Jordan,Event_Communication_376,sent,False,254
+Miranda Jordan,Event_Communication_469,sent,False,255
+Miranda Jordan,Event_Communication_473,sent,False,256
+Miranda Jordan,Event_Communication_475,sent,False,257
+Miranda Jordan,Relationship_Reports_288,,True,258
+Miranda Jordan,Event_Communication_478,sent,False,259
+Miranda Jordan,Event_Communication_767,sent,False,260
+Miranda Jordan,Event_Communication_770,sent,False,261
+Miranda Jordan,Event_Communication_772,sent,False,262
+Miranda Jordan,Relationship_Suspicious_483,,True,263
+Miranda Jordan,Event_Communication_774,sent,False,264
+Miranda Jordan,Relationship_Suspicious_485,,True,265
+Miranda Jordan,Event_Communication_776,sent,False,266
+Miranda Jordan,Relationship_Colleagues_290,,True,
+The Intern,Event_Communication_2,sent,False,268
+The Intern,Event_Communication_5,sent,False,271
+The Intern,Event_Communication_89,sent,False,273
+The Intern,Relationship_Reports_41,,True,285
+The Intern,Event_Communication_92,sent,False,276
+The Intern,Relationship_Colleagues_84,,True,1956
+The Intern,Event_Communication_160,sent,False,279
+The Intern,Event_Communication_162,sent,False,280
+The Intern,Event_Communication_246,sent,False,281
+The Intern,Event_Communication_318,sent,False,284
+The Intern,Event_Communication_372,sent,False,286
+The Intern,Event_Communication_442,sent,False,287
+The Intern,Relationship_Coordinates_274,,True,288
+The Intern,Event_Communication_446,sent,False,289
+The Intern,Event_Communication_525,sent,False,290
+The Intern,Event_Communication_596,sent,False,292
+The Intern,Event_Communication_599,sent,False,294
+The Intern,Event_Assessment_650,,True,295
+The Intern,Event_Communication_651,sent,False,297
+The Intern,Relationship_AccessPermission_425,,True,298
+The Intern,Relationship_Suspicious_426,,True,299
+The Intern,Event_Communication_702,sent,False,300
+The Intern,Event_Assessment_703,,True,301
+The Intern,Event_Monitoring_704,,True,302
+The Intern,Event_Communication_705,sent,False,304
+The Intern,Event_Communication_715,sent,False,306
+The Intern,Event_Collaborate_719,,True,269
+The Intern,Event_Communication_720,sent,False,310
+The Intern,Event_Assessment_729,,True,311
+The Intern,Relationship_Operates_439,,True,312
+The Intern,Event_Communication_860,sent,False,313
+The Intern,Event_Communication_864,sent,False,315
+The Intern,Event_Communication_921,sent,False,317
+The Intern,Event_Communication_925,sent,False,320
+The Intern,Relationship_Colleagues_589,,True,4089
+The Intern,Event_Communication_936,sent,False,322
+The Intern,Relationship_Friends_0,,True,
+The Lookout,Event_Monitoring_0,,True,323
+The Lookout,Event_Communication_1,sent,False,324
+The Lookout,Event_Communication_87,sent,False,326
+The Lookout,Event_Communication_94,sent,False,329
+The Lookout,Event_Communication_159,sent,False,330
+The Lookout,Event_Communication_171,sent,False,332
+The Lookout,Event_Communication_189,sent,False,334
+The Lookout,Event_Communication_244,sent,False,335
+The Lookout,Event_Communication_297,sent,False,336
+The Lookout,Event_Communication_317,sent,False,337
+The Lookout,Relationship_Suspicious_219,,True,338
+The Lookout,Event_Communication_371,sent,False,339
+The Lookout,Event_Communication_441,sent,False,340
+The Lookout,Event_Monitoring_444,,True,341
+The Lookout,Event_Assessment_445,,True,342
+The Lookout,Event_Communication_523,sent,False,343
+The Lookout,Event_Communication_590,sent,False,345
+The Lookout,Relationship_Reports_355,,True,351
+The Lookout,Event_Communication_593,sent,False,347
+The Lookout,Event_Communication_594,sent,False,349
+The Lookout,Event_Monitoring_595,,True,377
+The Lookout,Event_Communication_619,sent,False,352
+The Lookout,Event_Communication_649,sent,False,354
+The Lookout,Event_Communication_652,sent,False,355
+The Lookout,Event_Communication_683,sent,False,356
+The Lookout,Event_Communication_712,sent,False,357
+The Lookout,Event_Communication_714,sent,False,358
+The Lookout,Event_Communication_717,sent,False,359
+The Lookout,Event_Assessment_791,,True,361
+The Lookout,Event_Communication_792,sent,False,363
+The Lookout,Event_Communication_794,sent,False,364
+The Lookout,Event_Monitoring_797,,True,365
+The Lookout,Event_VesselMovement_798,,True,366
+The Lookout,Event_Communication_799,sent,False,367
+The Lookout,Event_Communication_859,sent,False,368
+The Lookout,Event_Communication_862,sent,False,369
+The Lookout,Event_Communication_912,sent,False,370
+The Lookout,Event_Communication_923,sent,False,372
+The Lookout,Event_Communication_926,sent,False,374
+The Lookout,Event_Communication_935,sent,False,375
+The Lookout,Event_Communication_937,sent,False,376
+The Lookout,Event_Communication_991,sent,False,378
+The Lookout,Relationship_Friends_0,,True,
+The Lookout,Relationship_Colleagues_589,,True,4126
+The Accountant,Event_Communication_726,sent,False,380
+The Accountant,Relationship_Coordinates_550,,True,381
+The Accountant,Event_Communication_866,sent,False,382
+The Accountant,Relationship_Suspicious_600,,True,379
+The Accountant,Relationship_Colleagues_601,,True,4163
+The Accountant,Event_Communication_951,sent,False,386
+The Accountant,Relationship_Colleagues_322,,True,
+The Accountant,Relationship_Colleagues_599,,True,
+Mrs. Money,Relationship_Colleagues_2,,True,1707
+Mrs. Money,Event_Communication_6,sent,False,388
+Mrs. Money,Event_Communication_8,sent,False,390
+Mrs. Money,Event_Communication_22,sent,False,391
+Mrs. Money,Event_Communication_90,sent,False,392
+Mrs. Money,Event_Communication_91,sent,False,393
+Mrs. Money,Event_Communication_120,sent,False,396
+Mrs. Money,Event_Communication_161,sent,False,397
+Mrs. Money,Event_Communication_163,sent,False,398
+Mrs. Money,Event_Communication_248,sent,False,399
+Mrs. Money,Event_Communication_250,sent,False,401
+Mrs. Money,Relationship_Operates_154,,True,402
+Mrs. Money,Relationship_AccessPermission_156,,True,403
+Mrs. Money,Relationship_Colleagues_158,,True,2351
+Mrs. Money,Event_Communication_280,sent,False,406
+Mrs. Money,Relationship_Operates_211,,True,407
+Mrs. Money,Event_Communication_367,sent,False,408
+Mrs. Money,Event_Communication_369,sent,False,409
+Mrs. Money,Event_Communication_373,sent,False,410
+Mrs. Money,Event_Communication_458,sent,False,411
+Mrs. Money,Event_Assessment_463,,True,412
+Mrs. Money,Relationship_Operates_283,,True,400
+Mrs. Money,Event_Communication_464,sent,False,414
+Mrs. Money,Event_Communication_541,sent,False,415
+Mrs. Money,Event_Communication_597,sent,False,416
+Mrs. Money,Relationship_AccessPermission_425,,True,417
+Mrs. Money,Relationship_Suspicious_426,,True,418
+Mrs. Money,Event_Assessment_729,,True,419
+Mrs. Money,Relationship_Operates_439,,True,420
+Mrs. Money,Event_Communication_730,sent,False,421
+Mrs. Money,Relationship_Colleagues_84,,True,2055
+The Middleman,Event_Communication_10,sent,False,422
+The Middleman,Event_Communication_12,sent,False,423
+The Middleman,Relationship_Colleagues_11,,True,1677
+The Middleman,Event_Communication_39,sent,False,427
+The Middleman,Event_Communication_40,sent,False,428
+The Middleman,Event_Communication_150,sent,False,429
+The Middleman,Event_Communication_275,sent,False,430
+The Middleman,Event_Collaborate_276,,True,431
+The Middleman,Event_Communication_278,sent,False,434
+The Middleman,Event_Communication_279,sent,False,435
+The Middleman,Event_Communication_519,sent,False,436
+The Middleman,Event_Communication_721,sent,False,437
+The Middleman,Relationship_Coordinates_437,,True,438
+The Middleman,Relationship_Reports_496,,True,440
+The Middleman,Event_Communication_796,sent,False,441
+The Middleman,Event_Communication_867,sent,False,442
+The Middleman,Event_Communication_950,sent,False,445
+The Middleman,Relationship_Colleagues_601,,True,4171
+The Middleman,Relationship_Colleagues_158,,True,2364
+Boss,Event_Communication_7,sent,False,448
+Boss,Event_Communication_9,sent,False,449
+Boss,Event_Communication_11,sent,False,450
+Boss,Event_Communication_21,sent,False,452
+Boss,Relationship_AccessPermission_101,,True,461
+Boss,Event_Communication_249,sent,False,456
+Boss,Event_Collaborate_276,,True,457
+Boss,Event_Communication_277,sent,False,459
+Boss,Relationship_Operates_153,,True,460
+Boss,Event_Communication_312,sent,False,463
+Boss,Event_Communication_316,sent,False,464
+Boss,Relationship_Suspicious_209,,True,466
+Boss,Relationship_Operates_210,,True,467
+Boss,Event_Communication_366,sent,False,468
+Boss,Relationship_Operates_602,,True,469
+Boss,Relationship_Colleagues_536,,True,
+Boss,Relationship_Colleagues_102,,True,
+Boss,Relationship_Colleagues_599,,True,
+Boss,Relationship_Colleagues_2,,True,1672
+Boss,Relationship_Colleagues_11,,True,1708
+Boss,Relationship_Colleagues_535,,True,
+Small Fry,Event_Communication_143,sent,False,470
+Small Fry,Event_VesselMovement_154,,True,471
+Small Fry,Event_Communication_156,sent,False,473
+Small Fry,Event_Collaborate_512,,True,474
+Small Fry,Relationship_AccessPermission_303,,True,475
+Small Fry,Relationship_AccessPermission_304,,True,476
+Small Fry,Event_Communication_513,sent,False,477
+Small Fry,Relationship_Operates_506,,True,478
+Small Fry,Event_Communication_811,sent,False,479
+Small Fry,Relationship_Reports_537,,True,482
+Small Fry,Event_Communication_842,sent,False,483
+Small Fry,Event_Communication_955,sent,False,484
+Small Fry,Relationship_Coordinates_618,,True,486
+Small Fry,Event_Communication_984,sent,False,487
+Small Fry,Relationship_Colleagues_617,,True,
+Small Fry,Relationship_Colleagues_535,,True,
+Small Fry,Relationship_Colleagues_80,,True,
+Glitters Team,Event_Assessment_65,,True,492
+Glitters Team,Event_Communication_66,sent,False,490
+Glitters Team,Relationship_Coordinates_77,,True,491
+Glitters Team,Relationship_AccessPermission_81,,True,489
+Glitters Team,Event_Communication_231,sent,False,494
+Glitters Team,Relationship_Coordinates_236,,True,495
+Glitters Team,Event_Communication_389,sent,False,496
+Glitters Team,Relationship_Operates_592,,True,497
+Glitters Team,Event_Communication_940,sent,False,498
+Oceanus City Council,Relationship_Coordinates_20,,True,499
+Oceanus City Council,Relationship_Jurisdiction_21,,True,500
+Oceanus City Council,Event_Communication_37,sent,False,502
+Oceanus City Council,Event_Monitoring_38,,True,559
+Oceanus City Council,Event_Enforcement_44,,True,504
+Oceanus City Council,Event_Communication_45,sent,False,505
+Oceanus City Council,Relationship_Coordinates_27,,True,585
+Oceanus City Council,Event_Communication_54,sent,False,507
+Oceanus City Council,Event_Assessment_101,,True,535
+Oceanus City Council,Event_Communication_102,sent,False,510
+Oceanus City Council,Event_Communication_119,sent,False,512
+Oceanus City Council,Event_Communication_176,sent,False,516
+Oceanus City Council,Event_Collaborate_184,,True,518
+Oceanus City Council,Event_Communication_186,sent,False,521
+Oceanus City Council,Event_Communication_218,sent,False,523
+Oceanus City Council,Relationship_Coordinates_120,,True,526
+Oceanus City Council,Event_Communication_221,sent,False,527
+Oceanus City Council,Event_Communication_229,sent,False,528
+Oceanus City Council,Event_Enforcement_292,,True,530
+Oceanus City Council,Event_Communication_293,sent,False,532
+Oceanus City Council,Event_Communication_302,sent,False,533
+Oceanus City Council,Event_Communication_311,sent,False,534
+Oceanus City Council,Event_Communication_323,sent,False,537
+Oceanus City Council,Event_Communication_333,sent,False,538
+Oceanus City Council,Relationship_Coordinates_185,,True,539
+Oceanus City Council,Event_Communication_336,sent,False,540
+Oceanus City Council,Event_Communication_339,sent,False,542
+Oceanus City Council,Event_Communication_347,sent,False,543
+Oceanus City Council,Relationship_AccessPermission_196,,True,511
+Oceanus City Council,Event_Communication_351,sent,False,547
+Oceanus City Council,Relationship_Operates_202,,True,548
+Oceanus City Council,Event_Collaborate_364,,True,549
+Oceanus City Council,Event_Communication_375,sent,False,551
+Oceanus City Council,Event_Communication_399,sent,False,555
+Oceanus City Council,Event_Communication_533,sent,False,561
+Oceanus City Council,Relationship_Operates_327,,True,562
+Oceanus City Council,Event_Communication_604,sent,False,564
+Oceanus City Council,Event_Communication_613,sent,False,566
+Oceanus City Council,Event_Communication_617,sent,False,568
+Oceanus City Council,Relationship_Jurisdiction_390,,True,513
+Oceanus City Council,Event_Communication_641,sent,False,570
+Oceanus City Council,Event_Communication_675,sent,False,571
+Oceanus City Council,Event_Communication_686,sent,False,574
+Oceanus City Council,Event_Communication_700,sent,False,578
+Oceanus City Council,Relationship_Jurisdiction_446,,True,515
+Oceanus City Council,Event_Communication_735,sent,False,582
+Oceanus City Council,Relationship_Coordinates_448,,True,583
+Oceanus City Council,Event_Enforcement_745,,True,525
+Oceanus City Council,Event_Communication_746,sent,False,586
+Oceanus City Council,Relationship_Jurisdiction_454,,True,587
+Oceanus City Council,Event_Communication_783,sent,False,592
+Oceanus City Council,Relationship_Operates_521,,True,593
+Oceanus City Council,Event_Communication_882,sent,False,596
+Oceanus City Council,Event_Communication_903,sent,False,598
+Oceanus City Council,Event_HarborReport_927,,True,600
+Oceanus City Council,Relationship_Jurisdiction_583,,True,599
+Oceanus City Council,Event_Communication_928,sent,False,602
+Oceanus City Council,Relationship_Jurisdiction_586,,True,588
+Oceanus City Council,Event_Communication_930,sent,False,604
+Oceanus City Council,Relationship_Unfriendly_625,,True,595
+Oceanus City Council,Event_Communication_994,sent,False,606
+Oceanus City Council,Relationship_Colleagues_121,,True,
+Green Guardians,Relationship_Jurisdiction_29,,True,608
+Green Guardians,Event_Communication_62,sent,False,609
+Green Guardians,Event_Communication_72,sent,False,610
+Green Guardians,Relationship_Coordinates_35,,True,635
+Green Guardians,Event_Collaborate_82,,True,613
+Green Guardians,Relationship_Operates_36,,True,735
+Green Guardians,Relationship_Coordinates_37,,True,615
+Green Guardians,Event_Communication_85,sent,False,616
+Green Guardians,Event_Communication_106,sent,False,618
+Green Guardians,Event_Collaborate_108,,True,619
+Green Guardians,Relationship_Coordinates_53,,True,709
+Green Guardians,Event_Assessment_172,,True,621
+Green Guardians,Event_Monitoring_173,,True,622
+Green Guardians,Event_Assessment_174,,True,722
+Green Guardians,Event_Communication_175,sent,False,626
+Green Guardians,Event_Communication_179,sent,False,628
+Green Guardians,Event_Communication_182,sent,False,630
+Green Guardians,Event_Communication_183,sent,False,631
+Green Guardians,Event_Monitoring_192,,True,644
+Green Guardians,Event_Communication_196,sent,False,636
+Green Guardians,Relationship_Coordinates_116,,True,624
+Green Guardians,Event_Monitoring_232,,True,638
+Green Guardians,Event_Enforcement_233,,True,639
+Green Guardians,Event_Enforcement_235,,True,656
+Green Guardians,Event_Collaborate_236,,True,657
+Green Guardians,Relationship_Jurisdiction_131,,True,654
+Green Guardians,Event_Communication_237,sent,False,643
+Green Guardians,Event_Communication_239,sent,False,647
+Green Guardians,Event_Monitoring_255,,True,648
+Green Guardians,Event_Communication_258,sent,False,652
+Green Guardians,Event_Enforcement_261,,True,650
+Green Guardians,Event_Communication_262,sent,False,655
+Green Guardians,Relationship_Operates_176,,True,743
+Green Guardians,Event_Communication_321,sent,False,662
+Green Guardians,Event_Communication_354,sent,False,667
+Green Guardians,Event_Communication_355,sent,False,668
+Green Guardians,Relationship_Coordinates_201,,True,669
+Green Guardians,Event_Communication_356,sent,False,670
+Green Guardians,Event_Monitoring_383,,True,671
+Green Guardians,Event_Communication_384,sent,False,672
+Green Guardians,Event_Monitoring_410,,True,673
+Green Guardians,Event_Communication_411,sent,False,675
+Green Guardians,Event_Communication_413,sent,False,677
+Green Guardians,Event_Communication_431,sent,False,679
+Green Guardians,Relationship_AccessPermission_266,,True,663
+Green Guardians,Event_Communication_433,sent,False,681
+Green Guardians,Event_Communication_437,sent,False,683
+Green Guardians,Event_Communication_438,sent,False,684
+Green Guardians,Relationship_Operates_271,,True,685
+Green Guardians,Event_Communication_439,sent,False,686
+Green Guardians,Event_Collaborate_477,,True,687
+Green Guardians,Relationship_Coordinates_289,,True,688
+Green Guardians,Event_Assessment_567,,True,689
+Green Guardians,Relationship_Suspicious_341,,True,691
+Green Guardians,Event_Communication_568,sent,False,692
+Green Guardians,Event_Communication_571,sent,False,694
+Green Guardians,Event_Monitoring_608,,True,697
+Green Guardians,Event_Assessment_609,,True,698
+Green Guardians,Relationship_Operates_367,,True,700
+Green Guardians,Event_Communication_610,sent,False,701
+Green Guardians,Relationship_Suspicious_368,,True,730
+Green Guardians,Event_Communication_612,sent,False,704
+Green Guardians,Event_Communication_621,sent,False,707
+Green Guardians,Event_Communication_672,sent,False,710
+Green Guardians,Event_Monitoring_690,,True,711
+Green Guardians,Event_Assessment_691,,True,712
+Green Guardians,Event_Communication_692,sent,False,715
+Green Guardians,Relationship_AccessPermission_479,,True,717
+Green Guardians,Event_Monitoring_777,,True,718
+Green Guardians,Event_Communication_778,sent,False,720
+Green Guardians,Event_Communication_781,sent,False,723
+Green Guardians,Relationship_Coordinates_492,,True,724
+Green Guardians,Event_Monitoring_829,,True,725
+Green Guardians,Event_Communication_831,sent,False,728
+Green Guardians,Event_Communication_833,sent,False,731
+Green Guardians,Event_Communication_834,sent,False,733
+Green Guardians,Event_Monitoring_835,,True,734
+Green Guardians,Relationship_Reports_529,,True,706
+Green Guardians,Event_Communication_836,sent,False,737
+Green Guardians,Event_Monitoring_900,,True,738
+Green Guardians,Relationship_Operates_566,,True,713
+Green Guardians,Event_Communication_901,sent,False,740
+Green Guardians,Relationship_Unfriendly_567,,True,741
+Green Guardians,Event_Communication_902,sent,False,742
+Green Guardians,Event_Communication_908,sent,False,744
+Green Guardians,Event_Communication_910,sent,False,745
+Green Guardians,Event_Assessment_966,,True,746
+Green Guardians,Relationship_Coordinates_609,,True,693
+Green Guardians,Event_Communication_968,sent,False,748
+Green Guardians,Event_Communication_997,sent,False,749
+V. Miesel Shipping,Relationship_Operates_103,,True,750
+V. Miesel Shipping,Relationship_Suspicious_112,,True,751
+V. Miesel Shipping,Relationship_AccessPermission_125,,True,753
+V. Miesel Shipping,Event_Communication_224,sent,False,754
+V. Miesel Shipping,Event_Communication_313,sent,False,756
+V. Miesel Shipping,Event_Communication_368,sent,False,758
+V. Miesel Shipping,Relationship_AccessPermission_214,,True,800
+V. Miesel Shipping,Relationship_Operates_255,,True,755
+V. Miesel Shipping,Relationship_Operates_256,,True,764
+V. Miesel Shipping,Event_Communication_421,sent,False,765
+V. Miesel Shipping,Relationship_AccessPermission_262,,True,767
+V. Miesel Shipping,Relationship_AccessPermission_306,,True,769
+V. Miesel Shipping,Relationship_Unfriendly_312,,True,771
+V. Miesel Shipping,Event_Monitoring_530,,True,779
+V. Miesel Shipping,Event_Communication_637,sent,False,775
+V. Miesel Shipping,Event_Communication_638,sent,False,777
+V. Miesel Shipping,Event_Assessment_701,,True,780
+V. Miesel Shipping,Event_Communication_728,sent,False,781
+V. Miesel Shipping,Event_Communication_758,sent,False,784
+V. Miesel Shipping,Relationship_Coordinates_471,,True,761
+V. Miesel Shipping,Relationship_Coordinates_473,,True,783
+V. Miesel Shipping,Relationship_Operates_474,,True,778
+V. Miesel Shipping,Event_Communication_763,sent,False,792
+V. Miesel Shipping,Relationship_Coordinates_499,,True,794
+V. Miesel Shipping,Relationship_Operates_514,,True,773
+V. Miesel Shipping,Event_Communication_821,sent,False,796
+V. Miesel Shipping,Event_Communication_825,sent,False,798
+V. Miesel Shipping,Event_Enforcement_839,,True,799
+V. Miesel Shipping,Event_Communication_840,sent,False,801
+V. Miesel Shipping,Event_Communication_841,sent,False,803
+V. Miesel Shipping,Event_Communication_846,sent,False,805
+V. Miesel Shipping,Event_Communication_851,sent,False,806
+Sailor Shifts Team,Relationship_Operates_59,,True,807
+Sailor Shifts Team,Relationship_AccessPermission_68,,True,808
+Sailor Shifts Team,Relationship_Operates_97,,True,809
+Sailor Shifts Team,Event_Communication_283,sent,False,810
+Sailor Shifts Team,Relationship_Coordinates_302,,True,811
+Sailor Shifts Team,Event_Communication_520,sent,False,812
+Sailor Shifts Team,Relationship_Operates_593,,True,814
+Sailor Shifts Team,Relationship_AccessPermission_594,,True,813
+Sailor Shifts Team,Relationship_Colleagues_16,,True,
+Neptune,Event_VesselMovement_393,,True,884
+Neptune,Event_VesselMovement_402,,True,905
+Neptune,Relationship_AccessPermission_244,,True,906
+Neptune,Event_Communication_403,sent,False,820
+Neptune,Relationship_Coordinates_247,,True,821
+Neptune,Event_Communication_406,sent,False,822
+Neptune,Event_Communication_409,sent,False,823
+Neptune,Event_VesselMovement_418,,True,824
+Neptune,Event_Communication_419,sent,False,825
+Neptune,Event_Communication_420,sent,False,826
+Neptune,Event_Collaborate_422,,True,827
+Neptune,Relationship_AccessPermission_259,,True,829
+Neptune,Event_Communication_423,sent,False,830
+Neptune,Event_Collaborate_424,,True,831
+Neptune,Event_Communication_426,sent,False,833
+Neptune,Event_Collaborate_455,,True,838
+Neptune,Event_Communication_456,sent,False,839
+Neptune,Relationship_AccessPermission_281,,True,855
+Neptune,Event_Communication_460,sent,False,843
+Neptune,Event_Assessment_488,,True,849
+Neptune,Event_Communication_489,sent,False,850
+Neptune,Event_VesselMovement_503,,True,837
+Neptune,Relationship_Coordinates_298,,True,873
+Neptune,Event_Communication_504,sent,False,853
+Neptune,Event_Communication_506,sent,False,856
+Neptune,Event_Communication_508,sent,False,859
+Neptune,Relationship_Coordinates_305,,True,903
+Neptune,Event_Communication_518,sent,False,861
+Neptune,Event_Assessment_522,,True,846
+Neptune,Event_Communication_537,sent,False,868
+Neptune,Event_Communication_539,sent,False,869
+Neptune,Relationship_AccessPermission_328,,True,870
+Neptune,Event_Communication_546,sent,False,871
+Neptune,Event_Communication_559,sent,False,875
+Neptune,Event_Communication_598,sent,False,876
+Neptune,Event_Communication_606,sent,False,878
+Neptune,Event_Communication_607,sent,False,880
+Neptune,Event_Monitoring_631,,True,863
+Neptune,Event_Communication_633,sent,False,883
+Neptune,Event_Communication_644,sent,False,885
+Neptune,Event_Communication_663,sent,False,887
+Neptune,Relationship_AccessPermission_405,,True,872
+Neptune,Event_Communication_754,sent,False,890
+Neptune,Event_Communication_756,sent,False,892
+Neptune,Event_Communication_759,sent,False,894
+Neptune,Event_Communication_762,sent,False,895
+Neptune,Relationship_Reports_513,,True,882
+Neptune,Event_Communication_820,sent,False,897
+Neptune,Event_Communication_822,sent,False,899
+Neptune,Relationship_Coordinates_518,,True,900
+Neptune,Event_Communication_824,sent,False,901
+Neptune,Event_Communication_852,sent,False,904
+Neptune,Event_Communication_891,sent,False,907
+Neptune,Event_VesselMovement_980,,True,908
+Neptune,Event_Communication_981,sent,False,909
+Neptune,Relationship_Colleagues_319,,True,
+Neptune,Relationship_Colleagues_320,,True,
+Marlin,Event_Fishing_49,,True,910
+Marlin,Event_Communication_50,sent,False,911
+Marlin,Event_Criticize_52,,True,912
+Marlin,Event_Communication_53,sent,False,913
+Marlin,Relationship_Reports_46,,True,914
+Marlin,Event_Communication_121,sent,False,915
+Marlin,Event_Communication_124,sent,False,916
+Marlin,Event_Communication_285,sent,False,917
+Marlin,Event_Monitoring_286,,True,918
+Marlin,Event_Communication_289,sent,False,919
+Marlin,Event_VesselMovement_577,,True,926
+Marlin,Event_Communication_578,sent,False,921
+Marlin,Event_VesselMovement_580,,True,922
+Marlin,Relationship_AccessPermission_349,,True,923
+Marlin,Event_VesselMovement_629,,True,925
+Serenity,Event_Communication_13,sent,False,928
+Serenity,Relationship_AccessPermission_7,,True,944
+Serenity,Event_Communication_16,sent,False,930
+Serenity,Event_VesselMovement_25,,True,949
+Serenity,Event_Communication_26,sent,False,933
+Serenity,Relationship_AccessPermission_127,,True,941
+Serenity,Relationship_AccessPermission_128,,True,942
+Serenity,Event_Communication_227,sent,False,943
+Serenity,Relationship_AccessPermission_238,,True,939
+Serenity,Event_Communication_392,sent,False,947
+Serenity,Relationship_Coordinates_247,,True,948
+Serenity,Event_Communication_408,sent,False,950
+Serenity,Event_Communication_502,sent,False,951
+Serenity,Event_Communication_826,sent,False,952
+Serenity,Event_VesselMovement_944,,True,953
+Mako,Event_Assessment_14,,True,959
+Mako,Event_Communication_15,sent,False,955
+Mako,Event_Assessment_56,,True,960
+Mako,Event_Communication_59,sent,False,962
+Mako,Event_Communication_99,sent,False,964
+Mako,Event_Communication_117,sent,False,966
+Mako,Event_VesselMovement_122,,True,1104
+Mako,Event_Communication_123,sent,False,968
+Mako,Event_TourActivity_137,,True,969
+Mako,Event_Communication_139,sent,False,971
+Mako,Event_Communication_145,sent,False,974
+Mako,Event_TransponderPing_251,,True,978
+Mako,Event_Monitoring_253,,True,981
+Mako,Event_Communication_254,sent,False,980
+Mako,Event_Communication_268,sent,False,987
+Mako,Event_TransponderPing_271,,True,989
+Mako,Relationship_AccessPermission_148,,True,957
+Mako,Event_VesselMovement_284,,True,991
+Mako,Event_VesselMovement_288,,True,992
+Mako,Event_VesselMovement_300,,True,996
+Mako,Relationship_Reports_170,,True,997
+Mako,Event_TransponderPing_308,,True,1051
+Mako,Event_Communication_309,sent,False,1002
+Mako,Event_Assessment_337,,True,999
+Mako,Relationship_AccessPermission_190,,True,1043
+Mako,Event_VesselMovement_344,,True,1009
+Mako,Relationship_AccessPermission_192,,True,1010
+Mako,Event_Communication_349,sent,False,1015
+Mako,Event_Communication_365,sent,False,1017
+Mako,Event_Communication_380,sent,False,1022
+Mako,Event_Communication_382,sent,False,1023
+Mako,Relationship_AccessPermission_233,,True,1024
+Mako,Event_Communication_396,sent,False,1027
+Mako,Relationship_AccessPermission_243,,True,1016
+Mako,Event_Communication_405,sent,False,1034
+Mako,Relationship_Coordinates_248,,True,1038
+Mako,Event_VesselMovement_418,,True,1037
+Mako,Relationship_AccessPermission_259,,True,1039
+Mako,Event_Communication_451,sent,False,1047
+Mako,Event_Collaborate_455,,True,1048
+Mako,Event_Communication_462,sent,False,1050
+Mako,Event_Communication_467,sent,False,1054
+Mako,Event_VesselMovement_495,,True,1069
+Mako,Event_Communication_496,sent,False,1057
+Mako,Event_TourActivity_498,,True,1058
+Mako,Event_VesselMovement_516,,True,1059
+Mako,Event_VesselMovement_540,,True,1061
+Mako,Event_Collaborate_542,,True,1062
+Mako,Event_Communication_543,sent,False,1064
+Mako,Event_Communication_545,sent,False,1066
+Mako,Event_VesselMovement_549,,True,977
+Mako,Relationship_AccessPermission_332,,True,1070
+Mako,Event_Communication_553,sent,False,1071
+Mako,Relationship_Coordinates_336,,True,1045
+Mako,Event_Communication_575,sent,False,1074
+Mako,Relationship_Coordinates_387,,True,1063
+Mako,Event_Communication_655,sent,False,1079
+Mako,Event_Communication_657,sent,False,1082
+Mako,Event_Communication_665,sent,False,1084
+Mako,Event_Communication_684,sent,False,1085
+Mako,Event_Communication_755,sent,False,1088
+Mako,Event_Communication_757,sent,False,1089
+Mako,Event_Monitoring_803,,True,1036
+Mako,Event_Communication_809,sent,False,1092
+Mako,Event_TourActivity_814,,True,1094
+Mako,Event_Communication_815,sent,False,1095
+Mako,Relationship_AccessPermission_512,,True,1096
+Mako,Relationship_Coordinates_565,,True,1097
+Mako,Event_Communication_898,sent,False,1098
+Mako,Event_Monitoring_917,,True,1100
+Mako,Event_Communication_920,sent,False,1101
+Mako,Event_TourActivity_962,,True,1029
+Mako,Relationship_Reports_622,,True,1105
+Mako,Event_Communication_989,sent,False,1106
+Mako,Event_Enforcement_998,,True,1107
+Mako,Event_VesselMovement_1000,,True,961
+Mako,Relationship_Coordinates_629,,True,1109
+Mako,Relationship_Colleagues_66,,True,
+Reef Guardian,Event_Communication_24,sent,False,1111
+Reef Guardian,Event_Communication_167,sent,False,1115
+Reef Guardian,Event_Enforcement_177,,True,1110
+Reef Guardian,Event_Communication_225,sent,False,1122
+Reef Guardian,Event_Communication_226,sent,False,1123
+Reef Guardian,Event_VesselMovement_242,,True,1124
+Reef Guardian,Event_Monitoring_243,,True,1125
+Reef Guardian,Event_Communication_252,sent,False,1126
+Reef Guardian,Event_Communication_287,sent,False,1128
+Reef Guardian,Event_Monitoring_383,,True,1132
+Reef Guardian,Event_Communication_386,sent,False,1134
+Reef Guardian,Event_Communication_428,sent,False,1136
+Reef Guardian,Event_Communication_482,sent,False,1138
+Reef Guardian,Relationship_Coordinates_292,,True,1137
+Reef Guardian,Event_Communication_487,sent,False,1140
+Reef Guardian,Event_Monitoring_490,,True,1141
+Reef Guardian,Relationship_Suspicious_294,,True,1142
+Reef Guardian,Event_Communication_491,sent,False,1143
+Reef Guardian,Event_VesselMovement_569,,True,1119
+Reef Guardian,Relationship_Reports_344,,True,1218
+Reef Guardian,Event_Communication_572,sent,False,1147
+Reef Guardian,Event_Communication_576,sent,False,1149
+Reef Guardian,Event_Communication_603,sent,False,1151
+Reef Guardian,Relationship_AccessPermission_370,,True,1153
+Reef Guardian,Event_Communication_614,sent,False,1155
+Reef Guardian,Event_Communication_616,sent,False,1158
+Reef Guardian,Relationship_Coordinates_378,,True,1185
+Reef Guardian,Event_Communication_623,sent,False,1163
+Reef Guardian,Event_VesselMovement_624,,True,1164
+Reef Guardian,Event_Assessment_625,,True,1165
+Reef Guardian,Event_Collaborate_626,,True,1166
+Reef Guardian,Event_Assessment_628,,True,1159
+Reef Guardian,Relationship_Coordinates_380,,True,1170
+Reef Guardian,Event_Communication_630,sent,False,1169
+Reef Guardian,Event_Communication_660,sent,False,1171
+Reef Guardian,Event_Monitoring_661,,True,1172
+Reef Guardian,Event_Communication_662,sent,False,1173
+Reef Guardian,Event_Monitoring_678,,True,1175
+Reef Guardian,Event_Communication_681,sent,False,1178
+Reef Guardian,Event_Monitoring_690,,True,1179
+Reef Guardian,Event_Assessment_691,,True,1180
+Reef Guardian,Event_Monitoring_709,,True,1181
+Reef Guardian,Event_Communication_710,sent,False,1183
+Reef Guardian,Event_Monitoring_716,,True,1184
+Reef Guardian,Event_Communication_741,sent,False,1186
+Reef Guardian,Event_Communication_744,sent,False,1188
+Reef Guardian,Relationship_AccessPermission_497,,True,1154
+Reef Guardian,Event_Communication_801,sent,False,1191
+Reef Guardian,Event_Communication_828,sent,False,1194
+Reef Guardian,Relationship_Reports_526,,True,1118
+Reef Guardian,Event_Monitoring_856,,True,1201
+Reef Guardian,Relationship_Coordinates_548,,True,1182
+Reef Guardian,Event_Communication_857,sent,False,1200
+Reef Guardian,Relationship_Coordinates_555,,True,1135
+Reef Guardian,Event_Communication_877,sent,False,1203
+Reef Guardian,Event_Communication_895,sent,False,1204
+Reef Guardian,Event_Communication_899,sent,False,1205
+Reef Guardian,Event_Monitoring_900,,True,1206
+Reef Guardian,Relationship_Coordinates_578,,True,1208
+Reef Guardian,Event_Communication_919,sent,False,1209
+Reef Guardian,Event_Monitoring_922,,True,1210
+Reef Guardian,Event_Monitoring_934,,True,1211
+Reef Guardian,Event_Communication_945,sent,False,1212
+Reef Guardian,Event_Monitoring_946,,True,1189
+Reef Guardian,Event_Communication_949,sent,False,1216
+Reef Guardian,Event_Monitoring_967,,True,1217
+Reef Guardian,Relationship_Jurisdiction_613,,True,1221
+Reef Guardian,Event_Communication_970,sent,False,1222
+Reef Guardian,Event_Monitoring_971,,True,1223
+Reef Guardian,Event_Collaborate_972,,True,1224
+Reef Guardian,Relationship_Coordinates_614,,True,1225
+Reef Guardian,Relationship_AccessPermission_615,,True,1226
+Horizon,Event_Monitoring_71,,True,1228
+Horizon,Relationship_Coordinates_33,,True,1229
+Horizon,Event_Monitoring_73,,True,1230
+Horizon,Event_Communication_76,sent,False,1231
+Horizon,Event_Collaborate_82,,True,1232
+Horizon,Relationship_Coordinates_37,,True,1233
+Horizon,Relationship_Reports_38,,True,1234
+Horizon,Relationship_Coordinates_54,,True,1256
+Horizon,Event_Communication_110,sent,False,1236
+Horizon,Event_Communication_112,sent,False,1238
+Horizon,Event_VesselMovement_210,,True,1239
+Horizon,Event_Communication_211,sent,False,1240
+Horizon,Event_Communication_325,sent,False,1241
+Horizon,Event_Communication_417,sent,False,1242
+Horizon,Event_Communication_436,sent,False,1245
+Horizon,Event_Monitoring_490,,True,1246
+Horizon,Event_Communication_566,sent,False,1247
+Horizon,Event_Communication_591,sent,False,1248
+Horizon,Event_Monitoring_608,,True,1249
+Horizon,Event_Assessment_609,,True,1250
+Horizon,Relationship_Coordinates_413,,True,1252
+Horizon,Event_Monitoring_829,,True,1254
+Horizon,Event_Assessment_837,,True,1255
+Horizon,Event_Communication_838,sent,False,1257
+Horizon,Event_Communication_875,sent,False,1259
+Horizon,Event_Monitoring_878,,True,1253
+Horizon,Relationship_Coordinates_556,,True,1261
+Horizon,Event_Communication_879,sent,False,1262
+Horizon,Event_Monitoring_909,,True,1263
+Horizon,Event_Communication_961,sent,False,1265
+Horizon,Event_Monitoring_978,,True,1244
+Horizon,Event_Communication_979,sent,False,1267
+Seawatch,Event_Monitoring_83,,True,1268
+Seawatch,Event_VesselMovement_242,,True,1269
+Seawatch,Event_Monitoring_243,,True,1270
+Seawatch,Event_Monitoring_678,,True,1271
+Seawatch,Relationship_Coordinates_411,,True,1272
+Seawatch,Event_Communication_679,sent,False,1273
+Seawatch,Relationship_AccessPermission_489,,True,1280
+Seawatch,Event_Assessment_786,,True,1275
+Seawatch,Event_Communication_787,sent,False,1276
+Seawatch,Event_Communication_793,sent,False,1277
+Seawatch,Event_Monitoring_909,,True,1278
+Seawatch,Event_Monitoring_934,,True,1279
+EcoVigil,Event_Monitoring_105,,True,1281
+EcoVigil,Relationship_Reports_51,,True,1356
+EcoVigil,Event_Collaborate_108,,True,1284
+EcoVigil,Event_Communication_109,sent,False,1286
+EcoVigil,Event_Communication_111,sent,False,1288
+EcoVigil,Event_Monitoring_208,,True,1289
+EcoVigil,Event_Communication_209,sent,False,1291
+EcoVigil,Event_VesselMovement_242,,True,1292
+EcoVigil,Event_Monitoring_243,,True,1293
+EcoVigil,Event_Monitoring_414,,True,1294
+EcoVigil,Relationship_Coordinates_251,,True,1287
+EcoVigil,Event_Communication_415,sent,False,1296
+EcoVigil,Event_VesselMovement_624,,True,1297
+EcoVigil,Event_Assessment_625,,True,1298
+EcoVigil,Event_Collaborate_626,,True,1299
+EcoVigil,Event_Communication_627,sent,False,1301
+EcoVigil,Relationship_Coordinates_401,,True,1300
+EcoVigil,Event_Enforcement_666,,True,1303
+EcoVigil,Event_VesselMovement_670,,True,1306
+EcoVigil,Event_Monitoring_716,,True,1307
+EcoVigil,Relationship_AccessPermission_441,,True,1308
+EcoVigil,Event_Communication_731,sent,False,1309
+EcoVigil,Event_Communication_733,sent,False,1312
+EcoVigil,Relationship_AccessPermission_444,,True,1305
+EcoVigil,Relationship_Reports_447,,True,1321
+EcoVigil,Event_Communication_737,sent,False,1317
+EcoVigil,Event_Communication_742,sent,False,1322
+EcoVigil,Relationship_AccessPermission_455,,True,1327
+EcoVigil,Event_Communication_751,sent,False,1328
+EcoVigil,Event_Monitoring_752,,True,1326
+EcoVigil,Relationship_Suspicious_457,,True,1330
+EcoVigil,Event_Monitoring_922,,True,1333
+EcoVigil,Event_Monitoring_929,,True,1334
+EcoVigil,Relationship_AccessPermission_585,,True,1335
+EcoVigil,Event_VesselMovement_931,,True,1331
+EcoVigil,Event_Monitoring_932,,True,1337
+EcoVigil,Relationship_AccessPermission_588,,True,1332
+EcoVigil,Event_Monitoring_934,,True,1339
+EcoVigil,Event_Enforcement_952,,True,1341
+EcoVigil,Relationship_Reports_604,,True,1343
+EcoVigil,Event_Communication_960,sent,False,1344
+EcoVigil,Event_Monitoring_971,,True,1345
+EcoVigil,Event_Collaborate_972,,True,1346
+EcoVigil,Relationship_Coordinates_614,,True,1347
+EcoVigil,Relationship_AccessPermission_615,,True,1348
+EcoVigil,Event_Communication_974,sent,False,1349
+EcoVigil,Event_Communication_976,sent,False,1351
+EcoVigil,Relationship_Coordinates_616,,True,1352
+EcoVigil,Event_Communication_977,sent,False,1353
+EcoVigil,Event_Monitoring_995,,True,1342
+EcoVigil,Event_Assessment_996,,True,1315
+Sentinel,Event_Communication_69,sent,False,1357
+Sentinel,Event_Monitoring_74,,True,1358
+Sentinel,Event_Communication_79,sent,False,1359
+Sentinel,Event_Assessment_172,,True,1361
+Sentinel,Event_Monitoring_173,,True,1362
+Sentinel,Event_Enforcement_193,,True,1363
+Sentinel,Event_Communication_213,sent,False,1365
+Sentinel,Event_VesselMovement_242,,True,1367
+Sentinel,Event_Monitoring_243,,True,1368
+Sentinel,Event_Monitoring_266,,True,1382
+Sentinel,Event_Communication_267,sent,False,1370
+Sentinel,Relationship_Suspicious_145,,True,1398
+Sentinel,Event_Communication_270,sent,False,1373
+Sentinel,Event_Communication_272,sent,False,1375
+Sentinel,Event_Communication_299,sent,False,1377
+Sentinel,Event_Communication_320,sent,False,1378
+Sentinel,Event_Monitoring_410,,True,1379
+Sentinel,Relationship_Coordinates_252,,True,1380
+Sentinel,Event_Communication_435,sent,False,1383
+Sentinel,Relationship_Coordinates_269,,True,1372
+Sentinel,Event_VesselMovement_483,,True,1386
+Sentinel,Event_Monitoring_484,,True,1387
+Sentinel,Relationship_Suspicious_293,,True,1396
+Sentinel,Event_Communication_485,sent,False,1389
+Sentinel,Event_VesselMovement_563,,True,1390
+Sentinel,Event_Communication_565,sent,False,1393
+Sentinel,Event_Assessment_567,,True,1394
+Sentinel,Event_Communication_574,sent,False,1397
+Sentinel,Event_Communication_674,sent,False,1400
+Sentinel,Relationship_Reports_408,,True,1401
+Sentinel,Relationship_Suspicious_410,,True,1403
+Sentinel,Event_Communication_677,sent,False,1404
+Sentinel,Event_Enforcement_693,,True,1405
+Sentinel,Relationship_AccessPermission_421,,True,1422
+Sentinel,Event_Monitoring_777,,True,1408
+Sentinel,Event_Communication_849,sent,False,1410
+Sentinel,Event_Communication_897,sent,False,1413
+Sentinel,Event_VesselMovement_904,,True,1414
+Sentinel,Relationship_AccessPermission_569,,True,1415
+Sentinel,Relationship_Reports_572,,True,1418
+Sentinel,Event_Monitoring_909,,True,1419
+Sentinel,Event_Monitoring_911,,True,1420
+Sentinel,Event_Communication_914,sent,False,1423
+Sentinel,Event_Monitoring_922,,True,1424
+Sentinel,Event_Monitoring_934,,True,1425
+Sentinel,Event_Communication_965,sent,False,1426
+Sentinel,Event_Assessment_973,,True,1421
+Osprey,Event_TourActivity_96,,True,1428
+Osprey,Event_Communication_97,sent,False,1430
+Osprey,Event_Communication_136,sent,False,1431
+Osprey,Event_TourActivity_140,,True,1432
+Osprey,Event_Communication_141,sent,False,1433
+Osprey,Event_VesselMovement_242,,True,1434
+Osprey,Event_Monitoring_243,,True,1435
+Osprey,Event_Communication_654,sent,False,1437
+Osprey,Event_VesselMovement_806,,True,1438
+Osprey,Event_TourActivity_807,,True,1436
+Osprey,Relationship_AccessPermission_502,,True,1440
+Osprey,Event_Communication_808,sent,False,1441
+Osprey,Event_TourActivity_816,,True,1442
+Osprey,Relationship_Coordinates_509,,True,1429
+Osprey,Event_Communication_817,sent,False,1444
+Defender,Event_Communication_165,sent,False,1445
+Defender,Event_Monitoring_168,,True,1446
+Defender,Event_Communication_169,sent,False,1447
+Defender,Event_VesselMovement_242,,True,1448
+Defender,Event_Monitoring_243,,True,1449
+Defender,Event_Monitoring_688,,True,1450
+Defender,Relationship_Coordinates_418,,True,1451
+Defender,Event_Communication_689,sent,False,1452
+Defender,Event_Enforcement_769,,True,1453
+Defender,Event_Communication_855,sent,False,1454
+Defender,Event_Monitoring_934,,True,1455
+Defender,Event_Communication_999,sent,False,1456
+Northern Light,Event_Communication_228,sent,False,1457
+Northern Light,Event_Communication_230,sent,False,1458
+Northern Light,Relationship_Unfriendly_130,,True,1459
+Northern Light,Event_Communication_234,sent,False,1460
+Northern Light,Event_VesselMovement_634,,True,1461
+Northern Light,Event_Communication_635,sent,False,1462
+Northern Light,Relationship_AccessPermission_392,,True,1463
+Northern Light,Relationship_AccessPermission_393,,True,1464
+Remora,Event_Communication_32,sent,False,1468
+Remora,Event_Communication_153,sent,False,1470
+Remora,Event_Communication_158,sent,False,1472
+Remora,Relationship_AccessPermission_100,,True,1474
+Remora,Event_Communication_214,sent,False,1475
+Remora,Event_Communication_216,sent,False,1476
+Remora,Relationship_AccessPermission_122,,True,1477
+Remora,Relationship_AccessPermission_161,,True,1478
+Remora,Relationship_AccessPermission_163,,True,1479
+Remora,Event_VesselMovement_326,,True,1480
+Remora,Event_Communication_341,sent,False,1483
+Remora,Event_VesselMovement_344,,True,1484
+Remora,Relationship_AccessPermission_192,,True,1485
+Remora,Event_Communication_388,sent,False,1486
+Remora,Event_Collaborate_422,,True,1487
+Remora,Relationship_AccessPermission_259,,True,1488
+Remora,Event_Collaborate_424,,True,1489
+Remora,Event_Communication_425,sent,False,1491
+Remora,Event_Collaborate_455,,True,1492
+Remora,Event_Assessment_492,,True,1466
+Remora,Event_Communication_493,sent,False,1495
+Remora,Event_VesselMovement_494,,True,1496
+Remora,Event_TourActivity_498,,True,1498
+Remora,Relationship_Coordinates_297,,True,1490
+Remora,Event_Communication_499,sent,False,1500
+Remora,Event_VesselMovement_509,,True,1516
+Remora,Event_VesselMovement_510,,True,1497
+Remora,Event_Communication_515,sent,False,1505
+Remora,Event_VesselMovement_516,,True,1506
+Remora,Event_VesselMovement_540,,True,1507
+Remora,Event_Collaborate_554,,True,1508
+Remora,Relationship_Coordinates_334,,True,1521
+Remora,Event_Communication_555,sent,False,1510
+Remora,Event_Communication_556,sent,False,1512
+Remora,Event_Collaborate_557,,True,1513
+Remora,Event_Communication_558,sent,False,1514
+Remora,Relationship_AccessPermission_338,,True,1465
+Remora,Event_Communication_605,sent,False,1518
+Remora,Event_Communication_664,sent,False,1520
+Remora,Event_Collaborate_760,,True,1522
+Remora,Relationship_Suspicious_470,,True,1524
+Remora,Event_Communication_761,sent,False,1525
+Remora,Event_Communication_812,sent,False,1527
+Remora,Relationship_Coordinates_516,,True,1523
+Remora,Event_Communication_823,sent,False,1529
+Remora,Event_VesselMovement_843,,True,1530
+Remora,Event_Communication_850,sent,False,1532
+Remora,Relationship_AccessPermission_553,,True,1534
+Remora,Event_Communication_871,sent,False,1535
+Remora,Event_Communication_873,sent,False,1537
+Remora,Event_VesselMovement_892,,True,1545
+Remora,Event_TourActivity_938,,True,1546
+Remora,Event_Communication_939,sent,False,1540
+Remora,Relationship_AccessPermission_591,,True,1541
+Remora,Event_Monitoring_941,,True,1542
+Remora,Event_Monitoring_942,,True,1543
+Remora,Event_Communication_943,sent,False,1544
+Remora,Event_Monitoring_957,,True,1547
+Remora,Relationship_Reports_603,,True,1548
+Remora,Event_Communication_958,sent,False,1549
+Remora,Relationship_Colleagues_83,,True,
+Remora,Relationship_Colleagues_80,,True,
+Knowles,Relationship_Operates_109,,True,1552
+Knowles,Event_VesselMovement_883,,True,1555
+Knowles,Relationship_AccessPermission_560,,True,1556
+Knowles,Event_Communication_886,sent,False,1557
+Knowles,Event_VesselMovement_887,,True,1558
+Knowles,Relationship_AccessPermission_562,,True,1559
+Knowles,Relationship_Coordinates_621,,True,1560
+Knowles,Event_Communication_987,sent,False,1561
+Knowles,Event_Communication_1001,sent,False,1563
+Knowles,Event_VesselMovement_1002,,True,1564
+Knowles,Event_Communication_1003,sent,False,1565
+Knowles,Relationship_Colleagues_628,,True,
+Mariner's Dream,Event_TourActivity_188,,True,1566
+Mariner's Dream,Relationship_AccessPermission_96,,True,1567
+Mariner's Dream,Relationship_AccessPermission_98,,True,1568
+Recreational Fishing Boats,Event_VesselMovement_190,,True,1569
+Recreational Fishing Boats,Relationship_AccessPermission_129,,True,1570
+Recreational Fishing Boats,Relationship_AccessPermission_232,,True,1573
+Diving Tour Operators,Relationship_AccessPermission_118,,True,1574
+Tourists,Event_TourActivity_46,,True,1575
+Tourists,Relationship_AccessPermission_397,,True,1580
+Conservation Vessels,Event_Monitoring_722,,True,1581
+Conservation Vessels,Event_Assessment_765,,True,1586
+Conservation Vessels,Event_Monitoring_766,,True,1587
+Conservation Vessels,Relationship_AccessPermission_477,,True,1588
+Paackland Harbor,Event_Enforcement_29,,True,1594
+Paackland Harbor,Event_Communication_30,sent,False,1595
+Paackland Harbor,Relationship_Reports_18,,True,1596
+Paackland Harbor,Event_Communication_35,sent,False,1597
+Paackland Harbor,Event_Communication_48,sent,False,1598
+Paackland Harbor,Event_Monitoring_148,,True,1599
+Paackland Harbor,Event_Communication_149,sent,False,1600
+Paackland Harbor,Event_Communication_152,sent,False,1601
+Paackland Harbor,Event_Communication_197,sent,False,1602
+Paackland Harbor,Relationship_Suspicious_123,,True,1603
+Paackland Harbor,Event_Communication_222,sent,False,1604
+Paackland Harbor,Event_Communication_264,sent,False,1605
+Paackland Harbor,Relationship_Jurisdiction_162,,True,1606
+Paackland Harbor,Event_Communication_350,sent,False,1607
+Paackland Harbor,Event_Communication_353,sent,False,1608
+Paackland Harbor,Event_Communication_378,sent,False,1609
+Paackland Harbor,Event_Communication_387,sent,False,1610
+Paackland Harbor,Event_Communication_560,sent,False,1611
+Paackland Harbor,Event_Communication_656,sent,False,1612
+Paackland Harbor,Event_Communication_694,sent,False,1613
+Paackland Harbor,Event_Communication_905,sent,False,1614
+Paackland Harbor,Relationship_Jurisdiction_575,,True,1615
+Haacklee Harbor,Relationship_Coordinates_43,,True,1616
+Haacklee Harbor,Event_Communication_95,sent,False,1617
+Haacklee Harbor,Event_Communication_305,sent,False,1618
+Haacklee Harbor,Event_Assessment_329,,True,1619
+Haacklee Harbor,Event_Communication_330,sent,False,1620
+Haacklee Harbor,Event_Communication_332,sent,False,1621
+Haacklee Harbor,Event_Communication_668,sent,False,1622
+Haacklee Harbor,Event_Communication_884,sent,False,1623
+Haacklee Harbor,Event_Communication_888,sent,False,1624
+Himark Harbor,Event_Communication_17,sent,False,1625
+Himark Harbor,Event_Communication_28,sent,False,1626
+Himark Harbor,Event_Communication_51,sent,False,1627
+Himark Harbor,Event_Communication_100,sent,False,1628
+Himark Harbor,Event_Communication_118,sent,False,1629
+Himark Harbor,Event_Communication_147,sent,False,1630
+Himark Harbor,Event_Communication_191,sent,False,1631
+Himark Harbor,Event_Communication_301,sent,False,1632
+Himark Harbor,Event_Communication_304,sent,False,1633
+Himark Harbor,Event_Communication_327,sent,False,1634
+Himark Harbor,Event_Communication_340,sent,False,1635
+Himark Harbor,Event_Communication_345,sent,False,1637
+Himark Harbor,Event_Communication_390,sent,False,1638
+Himark Harbor,Event_Communication_394,sent,False,1639
+Himark Harbor,Event_Communication_449,sent,False,1640
+Himark Harbor,Event_Communication_453,sent,False,1641
+Himark Harbor,Event_Communication_501,sent,False,1642
+Himark Harbor,Event_Communication_579,sent,False,1643
+Himark Harbor,Event_Communication_632,sent,False,1644
+Himark Harbor,Relationship_AccessPermission_382,,True,1636
+Himark Harbor,Event_Communication_636,sent,False,1646
+Himark Harbor,Event_Communication_642,sent,False,1647
+Himark Harbor,Event_Communication_645,sent,False,1648
+Himark Harbor,Event_Communication_696,sent,False,1650
+Himark Harbor,Event_Enforcement_784,,True,1649
+Himark Harbor,Event_Communication_785,sent,False,1652
+Himark Harbor,Event_Communication_789,sent,False,1653
+Himark Harbor,Event_Communication_890,sent,False,1654
+Himark Harbor,Event_Enforcement_992,,True,1655
+Himark Harbor,Relationship_Coordinates_623,,True,1656
+Himark Harbor,Event_Communication_993,sent,False,1657
+Port Security,Event_Enforcement_947,,True,1658
+Port Security,Relationship_Jurisdiction_611,,True,1659
+Event_Monitoring_0,Eastern Coastline,,True,1660
+Event_Monitoring_33,Nemo Reef,,True,1740
+Event_Monitoring_33,Protected areas,,True,1741
+Event_Monitoring_38,Nemo Reef,,True,3029
+Event_Monitoring_60,Nemo Reef,,True,1805
+Event_Monitoring_60,Protected areas,,True,1806
+Event_Monitoring_68,Western Boundary,,True,1828
+Event_Monitoring_68,Protected areas,,True,1829
+Event_Monitoring_71,Western Boundary,,True,1834
+Event_Monitoring_73,Eastern Boundary,,True,1840
+Event_Monitoring_74,Western Boundary,,True,1841
+Event_Monitoring_77,Western Boundary,,True,1851
+Event_Monitoring_77,Nemo Reef,,True,1852
+Event_Monitoring_83,Nemo Reef,,True,1859
+Event_Monitoring_105,Eastern Boundary,,True,1912
+Event_Monitoring_129,Nemo Reef,,True,1974
+Event_Monitoring_133,Protected areas,,True,1994
+Event_Monitoring_148,Nemo Reef,,True,2029
+Event_Monitoring_164,Nemo Reef,,True,2063
+Event_Monitoring_164,Restricted Zone,,True,2064
+Event_Monitoring_168,Nemo Reef,,True,2070
+Event_Monitoring_192,Nemo Reef,,True,2258
+Event_Monitoring_208,Restricted areas,,True,2180
+Event_Monitoring_232,Restricted Zone,,True,2244
+Event_Monitoring_253,E7,,True,2296
+Event_Monitoring_255,E7,,True,2295
+Event_Monitoring_266,Nemo Reef,,True,2791
+Event_Monitoring_286,Nemo Reef,,True,2391
+Event_Monitoring_358,South Dock,,True,2567
+Event_Monitoring_414,Protected areas,,True,2730
+Event_Monitoring_444,Haacklee Harbor,,True,2813
+Event_Monitoring_484,Southern Boundary,,True,2911
+Event_Monitoring_530,Nemo Reef,,True,3335
+Event_Monitoring_534,Nemo Reef,,True,3036
+Event_Monitoring_595,Nemo Reef,,True,4269
+Event_Monitoring_631,Nemo Reef,,True,3003
+Event_Monitoring_661,Western quadrant,,True,3368
+Event_Monitoring_688,Eastern Boundary,,True,3437
+Event_Monitoring_704,Nemo Reef,,True,3476
+Event_Monitoring_709,Eastern quadrant,,True,3495
+Event_Monitoring_722,Nemo Reef,,True,2276
+Event_Monitoring_752,Northern quadrant,,True,3598
+Event_Monitoring_766,Restricted areas,,True,3662
+Event_Monitoring_797,Eastern quadrant,,True,3743
+Event_Monitoring_803,Nemo Reef,,True,2735
+Event_Monitoring_835,Restricted areas,,True,3861
+Event_Monitoring_856,Southern quadrant,,True,3975
+Event_Monitoring_878,Western quadrant,,True,3500
+Event_Monitoring_911,Western quadrant,,True,4061
+Event_Monitoring_917,Western Boundary,,True,4078
+Event_Monitoring_929,Restricted Zone,,True,4106
+Event_Monitoring_932,Western quadrant,,True,4116
+Event_Monitoring_941,Conservation Vessels,,True,4140
+Event_Monitoring_942,Nemo Reef,,True,4141
+Event_Monitoring_946,Nemo Reef,,True,3748
+Event_Monitoring_957,Restricted Zone,,True,4182
+Event_Monitoring_967,Protected areas,,True,4210
+Event_Monitoring_978,Nemo Reef,,True,2777
+Event_Monitoring_995,Nemo Reef,,True,4190
+Event_Communication_1,The Intern,received,False,1661
+Event_Communication_1,Event_Monitoring_0,evidence_for,True,1662
+Event_Communication_2,The Lookout,received,False,1664
+Event_Communication_2,Relationship_Friends_0,evidence_for,True,1665
+Event_Communication_3,Sam,received,False,1666
+Event_Communication_5,Mrs. Money,received,False,1669
+Event_Communication_5,Relationship_Colleagues_589,evidence_for,True,1671
+Event_Communication_5,Event_Collaborate_719,evidence_for,True,1670
+Event_Communication_6,Boss,received,False,1673
+Event_Communication_6,Relationship_Colleagues_2,evidence_for,True,1674
+Event_Communication_7,Mrs. Money,received,False,1678
+Event_Communication_7,Relationship_Colleagues_158,evidence_for,True,1680
+Event_Communication_7,Relationship_Colleagues_2,evidence_for,True,
+Event_Communication_7,Relationship_Colleagues_11,evidence_for,True,1681
+Event_Communication_8,Boss,received,False,1682
+Event_Communication_9,The Middleman,received,False,1683
+Event_Communication_10,Boss,received,False,1684
+Event_Communication_11,The Middleman,received,False,1685
+Event_Communication_12,Boss,received,False,1686
+Event_Communication_13,Mako,received,False,1688
+Event_Communication_13,Relationship_AccessPermission_7,evidence_for,True,1689
+Event_Communication_15,Serenity,received,False,1691
+Event_Communication_15,Event_Assessment_14,evidence_for,True,1692
+Event_Communication_16,Reef Guardian,received,False,1694
+Event_Communication_16,Relationship_AccessPermission_7,evidence_for,True,1695
+Event_Communication_17,Mako,received,False,1698
+Event_Communication_17,Relationship_Coordinates_387,evidence_for,True,1699
+Event_Communication_17,Relationship_AccessPermission_148,evidence_for,True,1700
+Event_Communication_20,Davis,received,False,1704
+Event_Communication_20,Event_Assessment_18,evidence_for,True,1705
+Event_Communication_20,Event_VesselMovement_122,evidence_for,True,1706
+Event_Communication_21,Mrs. Money,received,False,1710
+Event_Communication_21,Relationship_Colleagues_11,evidence_for,True,1712
+Event_Communication_21,Relationship_Colleagues_158,evidence_for,True,
+Event_Communication_21,Relationship_Colleagues_2,evidence_for,True,1711
+Event_Communication_22,The Middleman,received,False,1714
+Event_Communication_24,Serenity,received,False,1717
+Event_Communication_24,Relationship_AccessPermission_7,evidence_for,True,1719
+Event_Communication_24,Event_Enforcement_177,evidence_for,True,1718
+Event_Communication_26,Himark Harbor,received,False,1721
+Event_Communication_26,Event_VesselMovement_25,evidence_for,True,1722
+Event_Communication_28,Serenity,received,False,1725
+Event_Communication_28,Relationship_AccessPermission_238,evidence_for,True,1727
+Event_Communication_28,Event_VesselMovement_25,evidence_for,True,1726
+Event_Communication_30,Remora,received,False,1730
+Event_Communication_30,Event_Enforcement_29,evidence_for,True,1731
+Event_Communication_30,Relationship_AccessPermission_338,evidence_for,True,1732
+Event_Communication_32,Paackland Harbor,received,False,1736
+Event_Communication_32,Relationship_Colleagues_16,evidence_for,True,1738
+Event_Communication_32,Relationship_AccessPermission_338,evidence_for,True,1739
+Event_Communication_32,Event_Assessment_492,evidence_for,True,1737
+Event_Communication_35,Oceanus City Council,received,False,1747
+Event_Communication_35,Event_Monitoring_33,evidence_for,True,1748
+Event_Communication_35,Event_Enforcement_34,evidence_for,True,1749
+Event_Communication_35,Relationship_Reports_18,evidence_for,True,1750
+Event_Communication_35,Relationship_Jurisdiction_19,evidence_for,True,1751
+Event_Communication_37,Liam Thorne,received,False,1756
+Event_Communication_37,Relationship_Coordinates_20,evidence_for,True,1758
+Event_Communication_37,Relationship_Jurisdiction_21,evidence_for,True,1759
+Event_Communication_37,Relationship_Jurisdiction_446,evidence_for,True,1760
+Event_Communication_37,Event_TourActivity_46,evidence_for,True,1757
+Event_Communication_39,Mrs. Money,received,False,1763
+Event_Communication_39,Event_Monitoring_38,evidence_for,True,1764
+Event_Communication_39,Relationship_Colleagues_158,evidence_for,True,
+Event_Communication_40,Mrs. Money,received,False,1766
+Event_Communication_43,Oceanus City Council,received,False,1771
+Event_Communication_43,Event_Assessment_41,evidence_for,True,1772
+Event_Communication_43,Event_Enforcement_42,evidence_for,True,1773
+Event_Communication_43,Relationship_Coordinates_24,evidence_for,True,1774
+Event_Communication_43,Relationship_Reports_587,evidence_for,True,1775
+Event_Communication_45,Paackland Harbor,received,False,1778
+Event_Communication_45,Event_Enforcement_44,evidence_for,True,1779
+Event_Communication_45,Relationship_Coordinates_24,evidence_for,True,1780
+Event_Communication_48,Reef Guardian,received,False,1784
+Event_Communication_48,Event_TourActivity_46,evidence_for,True,1785
+Event_Communication_48,Relationship_Coordinates_27,evidence_for,True,1787
+Event_Communication_48,Event_Monitoring_946,evidence_for,True,1786
+Event_Communication_50,Himark Harbor,received,False,1789
+Event_Communication_50,Event_Fishing_49,evidence_for,True,1790
+Event_Communication_51,Marlin,received,False,1791
+Event_Communication_53,Oceanus City Council,received,False,1793
+Event_Communication_53,Event_Criticize_52,evidence_for,True,1794
+Event_Communication_54,Marlin,received,False,1795
+Event_Communication_59,Remora,received,False,1800
+Event_Communication_59,Event_Assessment_56,evidence_for,True,1802
+Event_Communication_59,Event_Assessment_14,evidence_for,True,1801
+Event_Communication_59,Event_VesselMovement_1000,evidence_for,True,1803
+Event_Communication_59,Event_VesselMovement_892,evidence_for,True,1804
+Event_Communication_62,Reef Guardian,received,False,1811
+Event_Communication_62,Event_Monitoring_60,evidence_for,True,1812
+Event_Communication_62,Event_TourActivity_61,evidence_for,True,1813
+Event_Communication_62,Relationship_Jurisdiction_29,evidence_for,True,1815
+Event_Communication_62,Relationship_Operates_566,evidence_for,True,1814
+Event_Communication_64,Sailor Shifts Team,received,False,1818
+Event_Communication_64,Relationship_Coordinates_30,evidence_for,True,1819
+Event_Communication_66,Samantha Blake,received,False,1822
+Event_Communication_66,Event_Assessment_65,evidence_for,True,1823
+Event_Communication_66,Relationship_AccessPermission_81,evidence_for,True,1824
+Event_Communication_67,Oceanus City Council,received,False,1826
+Event_Communication_67,Relationship_AccessPermission_415,evidence_for,True,1827
+Event_Communication_69,Green Guardians,received,False,1830
+Event_Communication_69,Event_Monitoring_68,evidence_for,True,1831
+Event_Communication_72,Horizon,received,False,1836
+Event_Communication_72,Event_TourActivity_70,evidence_for,True,1837
+Event_Communication_72,Event_Monitoring_71,evidence_for,True,1838
+Event_Communication_72,Relationship_Coordinates_33,evidence_for,True,1839
+Event_Communication_76,Sentinel,received,False,1845
+Event_Communication_76,Event_Monitoring_73,evidence_for,True,1846
+Event_Communication_76,Event_Monitoring_74,evidence_for,True,1847
+Event_Communication_76,Relationship_Coordinates_35,evidence_for,True,1850
+Event_Communication_76,Relationship_Coordinates_116,evidence_for,True,1849
+Event_Communication_76,Event_TourActivity_46,evidence_for,True,1848
+Event_Communication_79,Horizon,received,False,1854
+Event_Communication_79,Event_Monitoring_77,evidence_for,True,1855
+Event_Communication_79,Event_TourActivity_46,evidence_for,True,1856
+Event_Communication_85,Seawatch,received,False,1863
+Event_Communication_85,Event_Monitoring_83,evidence_for,True,1864
+Event_Communication_85,Relationship_Coordinates_39,evidence_for,True,1866
+Event_Communication_85,Event_TourActivity_46,evidence_for,True,1865
+Event_Communication_87,Sam,received,False,1868
+Event_Communication_87,Event_Monitoring_595,evidence_for,True,1869
+Event_Communication_89,Mrs. Money,received,False,1872
+Event_Communication_89,Relationship_Colleagues_589,evidence_for,True,1874
+Event_Communication_89,Event_Monitoring_595,evidence_for,True,1873
+Event_Communication_90,The Intern,received,False,1875
+Event_Communication_91,The Intern,received,False,1876
+Event_Communication_92,The Lookout,received,False,1879
+Event_Communication_92,Relationship_Reports_41,evidence_for,True,1880
+Event_Communication_92,Relationship_Colleagues_589,evidence_for,True,1881
+Event_Communication_94,Sam,received,False,1883
+Event_Communication_94,Event_Monitoring_595,evidence_for,True,1884
+Event_Communication_95,Osprey,received,False,1886
+Event_Communication_95,Relationship_Coordinates_43,evidence_for,True,1887
+Event_Communication_97,Mako,received,False,1890
+Event_Communication_97,Event_TourActivity_96,evidence_for,True,1891
+Event_Communication_97,Relationship_Coordinates_509,evidence_for,True,1892
+Event_Communication_99,Himark Harbor,received,False,1895
+Event_Communication_99,Relationship_Colleagues_45,evidence_for,True,1897
+Event_Communication_99,Event_VesselMovement_122,evidence_for,True,1896
+Event_Communication_100,Oceanus City Council,received,False,1899
+Event_Communication_100,Relationship_Reports_46,evidence_for,True,1900
+Event_Communication_102,Samantha Blake,received,False,1904
+Event_Communication_102,Event_Assessment_101,evidence_for,True,1905
+Event_Communication_102,Relationship_AccessPermission_415,evidence_for,True,1907
+Event_Communication_102,Relationship_Jurisdiction_446,evidence_for,True,1906
+Event_Communication_103,Sailor Shifts Team,received,False,1909
+Event_Communication_103,Relationship_AccessPermission_196,evidence_for,True,1910
+Event_Communication_106,EcoVigil,received,False,1915
+Event_Communication_106,Event_Monitoring_105,evidence_for,True,1917
+Event_Communication_106,Relationship_Reports_51,evidence_for,True,1919
+Event_Communication_106,Event_Assessment_174,evidence_for,True,1916
+Event_Communication_106,Relationship_Coordinates_251,evidence_for,True,1918
+Event_Communication_109,Horizon,received,False,1922
+Event_Communication_109,Event_Collaborate_108,evidence_for,True,1923
+Event_Communication_109,Relationship_Coordinates_53,evidence_for,True,1925
+Event_Communication_109,Relationship_Coordinates_251,evidence_for,True,1924
+Event_Communication_110,EcoVigil,received,False,1927
+Event_Communication_110,Relationship_Coordinates_54,evidence_for,True,1928
+Event_Communication_111,Horizon,received,False,1930
+Event_Communication_111,Relationship_Coordinates_251,evidence_for,True,1931
+Event_Communication_112,EcoVigil,received,False,1933
+Event_Communication_112,Relationship_Coordinates_54,evidence_for,True,1934
+Event_Communication_113,Sailor Shifts Team,received,False,1935
+Event_Communication_115,Mako,received,False,1939
+Event_Communication_115,Event_Assessment_114,evidence_for,True,1940
+Event_Communication_115,Relationship_Colleagues_619,evidence_for,True,1941
+Event_Communication_117,Sailor Shifts Team,received,False,1945
+Event_Communication_117,Relationship_Operates_58,evidence_for,True,1947
+Event_Communication_117,Relationship_Operates_59,evidence_for,True,1948
+Event_Communication_117,Event_VesselMovement_122,evidence_for,True,1946
+Event_Communication_118,Oceanus City Council,received,False,1950
+Event_Communication_118,Relationship_AccessPermission_238,evidence_for,True,1951
+Event_Communication_119,Himark Harbor,received,False,1953
+Event_Communication_119,Relationship_AccessPermission_238,evidence_for,True,1954
+Event_Communication_120,Boss,received,False,1958
+Event_Communication_120,Relationship_Colleagues_158,evidence_for,True,1959
+Event_Communication_120,Relationship_Colleagues_84,evidence_for,True,1960
+Event_Communication_120,Relationship_Colleagues_2,evidence_for,True,
+Event_Communication_121,Mako,received,False,1962
+Event_Communication_123,Marlin,received,False,1966
+Event_Communication_123,Event_VesselMovement_122,evidence_for,True,1967
+Event_Communication_123,Relationship_Operates_65,evidence_for,True,1968
+Event_Communication_123,Relationship_Colleagues_66,evidence_for,True,1969
+Event_Communication_124,Remora,received,False,1970
+Event_Communication_126,Clepper Jensen,received,False,1972
+Event_Communication_126,Event_Monitoring_129,evidence_for,True,1973
+Event_Communication_128,Miranda Jordan,received,False,1976
+Event_Communication_128,Relationship_Colleagues_290,evidence_for,True,1978
+Event_Communication_128,Event_Monitoring_129,evidence_for,True,1977
+Event_Communication_130,Clepper Jensen,received,False,1982
+Event_Communication_130,Event_Monitoring_129,evidence_for,True,1983
+Event_Communication_130,Relationship_AccessPermission_68,evidence_for,True,1984
+Event_Communication_130,Relationship_Reports_69,evidence_for,True,1985
+Event_Communication_131,Miranda Jordan,received,False,1988
+Event_Communication_131,Relationship_Suspicious_71,evidence_for,True,1990
+Event_Communication_131,Relationship_Suspicious_107,evidence_for,True,1989
+Event_Communication_132,Miranda Jordan,received,False,1992
+Event_Communication_132,Relationship_Colleagues_290,evidence_for,True,1993
+Event_Communication_134,Clepper Jensen,received,False,1997
+Event_Communication_134,Event_Monitoring_133,evidence_for,True,1998
+Event_Communication_134,Relationship_Reports_73,evidence_for,True,1999
+Event_Communication_134,Relationship_Suspicious_74,evidence_for,True,2000
+Event_Communication_135,Miranda Jordan,received,False,2001
+Event_Communication_136,Mako,received,False,2002
+Event_Communication_139,Osprey,received,False,2005
+Event_Communication_139,Event_TourActivity_137,evidence_for,True,2006
+Event_Communication_139,Event_VesselMovement_122,evidence_for,True,2007
+Event_Communication_141,Mako,received,False,2009
+Event_Communication_141,Event_TourActivity_140,evidence_for,True,2010
+Event_Communication_142,Rodriguez,received,False,2013
+Event_Communication_142,Relationship_Operates_75,evidence_for,True,2014
+Event_Communication_142,Relationship_AccessPermission_190,evidence_for,True,2015
+Event_Communication_143,Mako,received,False,2017
+Event_Communication_143,Relationship_Coordinates_77,evidence_for,True,2018
+Event_Communication_145,Himark Harbor,received,False,2020
+Event_Communication_145,Event_VesselMovement_122,evidence_for,True,2021
+Event_Communication_147,Serenity,received,False,2025
+Event_Communication_147,Relationship_Jurisdiction_390,evidence_for,True,2028
+Event_Communication_147,Relationship_AccessPermission_238,evidence_for,True,2027
+Event_Communication_147,Event_VesselMovement_25,evidence_for,True,2026
+Event_Communication_149,Liam Thorne,received,False,2030
+Event_Communication_149,Event_Monitoring_148,evidence_for,True,2031
+Event_Communication_150,Paackland Harbor,received,False,2032
+Event_Communication_152,Sentinel,received,False,2034
+Event_Communication_152,Event_Monitoring_266,evidence_for,True,2035
+Event_Communication_153,Rodriguez,received,False,2036
+Event_Communication_156,Remora,received,False,2041
+Event_Communication_156,Event_VesselMovement_154,evidence_for,True,2042
+Event_Communication_156,Relationship_Colleagues_80,evidence_for,True,2044
+Event_Communication_156,Relationship_AccessPermission_81,evidence_for,True,2045
+Event_Communication_156,Event_Assessment_65,evidence_for,True,2043
+Event_Communication_158,Mako,received,False,2050
+Event_Communication_158,Event_VesselMovement_157,evidence_for,True,2051
+Event_Communication_158,Relationship_Colleagues_83,evidence_for,True,2053
+Event_Communication_158,Relationship_AccessPermission_338,evidence_for,True,2052
+Event_Communication_159,The Intern,received,False,2054
+Event_Communication_160,Mrs. Money,received,False,2057
+Event_Communication_160,Relationship_Colleagues_84,evidence_for,True,2058
+Event_Communication_160,Relationship_Colleagues_589,evidence_for,True,2059
+Event_Communication_161,The Intern,received,False,2060
+Event_Communication_162,Mrs. Money,received,False,2061
+Event_Communication_163,The Middleman,received,False,2062
+Event_Communication_165,Reef Guardian,received,False,2065
+Event_Communication_165,Event_Monitoring_164,evidence_for,True,2066
+Event_Communication_167,Defender,received,False,2068
+Event_Communication_167,Event_Monitoring_946,evidence_for,True,2069
+Event_Communication_169,Seawatch,received,False,2071
+Event_Communication_169,Event_Monitoring_168,evidence_for,True,2072
+Event_Communication_171,Sentinel,received,False,2074
+Event_Communication_171,Event_Monitoring_595,evidence_for,True,2075
+Event_Communication_175,Oceanus City Council,received,False,2080
+Event_Communication_175,Event_Assessment_174,evidence_for,True,2081
+Event_Communication_175,Relationship_Jurisdiction_446,evidence_for,True,2082
+Event_Communication_176,Green Guardians,received,False,2084
+Event_Communication_176,Relationship_Jurisdiction_446,evidence_for,True,2085
+Event_Communication_179,Reef Guardian,received,False,2091
+Event_Communication_179,Event_Enforcement_177,evidence_for,True,2092
+Event_Communication_179,Relationship_Reports_526,evidence_for,True,2095
+Event_Communication_179,Relationship_Jurisdiction_446,evidence_for,True,2096
+Event_Communication_179,Relationship_Operates_566,evidence_for,True,2094
+Event_Communication_179,Event_Monitoring_946,evidence_for,True,2093
+Event_Communication_182,Oceanus City Council,received,False,2101
+Event_Communication_182,Relationship_Reports_526,evidence_for,True,2104
+Event_Communication_182,Relationship_Operates_566,evidence_for,True,2105
+Event_Communication_182,Event_Monitoring_946,evidence_for,True,2103
+Event_Communication_182,Event_VesselMovement_569,evidence_for,True,2102
+Event_Communication_183,Oceanus City Council,received,False,2106
+Event_Communication_186,Liam Thorne,received,False,2110
+Event_Communication_186,Event_Collaborate_184,evidence_for,True,2111
+Event_Communication_186,Relationship_Jurisdiction_446,evidence_for,True,2113
+Event_Communication_186,Event_Enforcement_745,evidence_for,True,2112
+Event_Communication_189,Sentinel,received,False,2117
+Event_Communication_189,Event_TourActivity_188,evidence_for,True,2119
+Event_Communication_189,Relationship_AccessPermission_96,evidence_for,True,2120
+Event_Communication_189,Event_Monitoring_595,evidence_for,True,2118
+Event_Communication_191,Seawatch,received,False,2123
+Event_Communication_191,Event_VesselMovement_190,evidence_for,True,2124
+Event_Communication_191,Relationship_Operates_97,evidence_for,True,2125
+Event_Communication_196,Horizon,received,False,2132
+Event_Communication_196,Relationship_Coordinates_35,evidence_for,True,2135
+Event_Communication_196,Event_Monitoring_192,evidence_for,True,2133
+Event_Communication_196,Event_Assessment_174,evidence_for,True,2134
+Event_Communication_197,Remora,received,False,2137
+Event_Communication_197,Relationship_AccessPermission_100,evidence_for,True,2138
+Event_Communication_199,Boss,received,False,2142
+Event_Communication_199,Event_Assessment_198,evidence_for,True,2143
+Event_Communication_199,Relationship_AccessPermission_101,evidence_for,True,2144
+Event_Communication_199,Relationship_Colleagues_102,evidence_for,True,2145
+Event_Communication_201,Clepper Jensen,received,False,2149
+Event_Communication_201,Event_Collaborate_200,evidence_for,True,2150
+Event_Communication_201,Relationship_Operates_103,evidence_for,True,2151
+Event_Communication_201,Relationship_Suspicious_110,evidence_for,True,2152
+Event_Communication_203,Miranda Jordan,received,False,2158
+Event_Communication_203,Relationship_Suspicious_106,evidence_for,True,2161
+Event_Communication_203,Relationship_Suspicious_107,evidence_for,True,2162
+Event_Communication_203,Relationship_Suspicious_108,evidence_for,True,2163
+Event_Communication_203,Event_Collaborate_200,evidence_for,True,2159
+Event_Communication_203,Relationship_Colleagues_290,evidence_for,True,2160
+Event_Communication_204,Clepper Jensen,received,False,2166
+Event_Communication_204,Relationship_Operates_109,evidence_for,True,2167
+Event_Communication_204,Relationship_Suspicious_110,evidence_for,True,2168
+Event_Communication_205,Miranda Jordan,received,False,2171
+Event_Communication_205,Relationship_Suspicious_112,evidence_for,True,2173
+Event_Communication_205,Relationship_Colleagues_290,evidence_for,True,2172
+Event_Communication_206,Clepper Jensen,received,False,2175
+Event_Communication_206,Relationship_Suspicious_113,evidence_for,True,2176
+Event_Communication_207,Miranda Jordan,received,False,2178
+Event_Communication_207,Relationship_Colleagues_290,evidence_for,True,2179
+Event_Communication_209,Horizon,received,False,2182
+Event_Communication_209,Event_Monitoring_208,evidence_for,True,2183
+Event_Communication_209,Relationship_Coordinates_251,evidence_for,True,2184
+Event_Communication_211,Sentinel,received,False,2187
+Event_Communication_211,Event_VesselMovement_210,evidence_for,True,2188
+Event_Communication_211,Relationship_Coordinates_116,evidence_for,True,2189
+Event_Communication_213,Paackland Harbor,received,False,2191
+Event_Communication_213,Event_Monitoring_266,evidence_for,True,2192
+Event_Communication_214,Paackland Harbor,received,False,2194
+Event_Communication_214,Relationship_AccessPermission_100,evidence_for,True,2195
+Event_Communication_216,Paackland Harbor,received,False,2199
+Event_Communication_216,Event_HarborReport_215,evidence_for,True,2200
+Event_Communication_216,Relationship_AccessPermission_118,evidence_for,True,2201
+Event_Communication_218,Paackland Harbor,received,False,2204
+Event_Communication_218,Relationship_Jurisdiction_446,evidence_for,True,2206
+Event_Communication_218,Event_Monitoring_266,evidence_for,True,2205
+Event_Communication_221,Paackland Harbor,received,False,2211
+Event_Communication_221,Relationship_Coordinates_120,evidence_for,True,2214
+Event_Communication_221,Relationship_Colleagues_121,evidence_for,True,2215
+Event_Communication_221,Event_Enforcement_745,evidence_for,True,2213
+Event_Communication_221,Event_Monitoring_38,evidence_for,True,2212
+Event_Communication_222,Remora,received,False,2218
+Event_Communication_222,Relationship_AccessPermission_122,evidence_for,True,2219
+Event_Communication_222,Relationship_Suspicious_123,evidence_for,True,2220
+Event_Communication_224,Remora,received,False,2225
+Event_Communication_224,Event_Assessment_223,evidence_for,True,2226
+Event_Communication_224,Relationship_AccessPermission_125,evidence_for,True,2228
+Event_Communication_224,Relationship_Operates_474,evidence_for,True,2227
+Event_Communication_225,Serenity,received,False,2230
+Event_Communication_225,Relationship_AccessPermission_7,evidence_for,True,2231
+Event_Communication_226,Serenity,received,False,2234
+Event_Communication_226,Relationship_AccessPermission_127,evidence_for,True,2235
+Event_Communication_226,Relationship_AccessPermission_128,evidence_for,True,2236
+Event_Communication_227,Mako,received,False,2237
+Event_Communication_228,Oceanus City Council,received,False,2238
+Event_Communication_229,Northern Light,received,False,2239
+Event_Communication_230,Sailor Shifts Team,received,False,2241
+Event_Communication_230,Relationship_AccessPermission_129,evidence_for,True,2242
+Event_Communication_231,Northern Light,received,False,2243
+Event_Communication_234,Green Guardians,received,False,2247
+Event_Communication_234,Event_Monitoring_232,evidence_for,True,2248
+Event_Communication_234,Event_Enforcement_233,evidence_for,True,2249
+Event_Communication_234,Relationship_Unfriendly_130,evidence_for,True,2250
+Event_Communication_237,Northern Light,received,False,2254
+Event_Communication_237,Event_Enforcement_235,evidence_for,True,2255
+Event_Communication_237,Event_Collaborate_236,evidence_for,True,2256
+Event_Communication_237,Relationship_Jurisdiction_131,evidence_for,True,2257
+Event_Communication_239,Green Guardians,received,False,2261
+Event_Communication_239,Relationship_Coordinates_116,evidence_for,True,2263
+Event_Communication_239,Relationship_Operates_176,evidence_for,True,2264
+Event_Communication_239,Event_Monitoring_192,evidence_for,True,2262
+Event_Communication_240,Davis,received,False,2265
+Event_Communication_244,Sam,received,False,2268
+Event_Communication_244,Event_VesselMovement_242,evidence_for,True,2270
+Event_Communication_244,Event_Monitoring_243,evidence_for,True,2271
+Event_Communication_244,Event_VesselMovement_549,evidence_for,True,2269
+Event_Communication_244,Relationship_AccessPermission_243,evidence_for,True,2272
+Event_Communication_246,Mrs. Money,received,False,2274
+Event_Communication_246,Event_VesselMovement_549,evidence_for,True,2275
+Event_Communication_248,Boss,received,False,2278
+Event_Communication_248,Relationship_Reports_41,evidence_for,True,2280
+Event_Communication_248,Event_Monitoring_722,evidence_for,True,2279
+Event_Communication_249,Mrs. Money,received,False,2284
+Event_Communication_249,Relationship_Colleagues_84,evidence_for,True,2286
+Event_Communication_249,Relationship_Operates_283,evidence_for,True,2285
+Event_Communication_249,Relationship_Colleagues_2,evidence_for,True,
+Event_Communication_250,The Middleman,received,False,2288
+Event_Communication_252,Mako,received,False,2290
+Event_Communication_252,Event_TransponderPing_251,evidence_for,True,2291
+Event_Communication_254,Reef Guardian,received,False,2293
+Event_Communication_254,Event_Monitoring_253,evidence_for,True,2294
+Event_Communication_258,Mako,received,False,2301
+Event_Communication_258,Event_Enforcement_261,evidence_for,True,2302
+Event_Communication_258,Relationship_Jurisdiction_131,evidence_for,True,2303
+Event_Communication_258,Relationship_AccessPermission_243,evidence_for,True,2304
+Event_Communication_260,Davis,received,False,2307
+Event_Communication_260,Relationship_Operates_58,evidence_for,True,2309
+Event_Communication_260,Event_VesselMovement_122,evidence_for,True,2308
+Event_Communication_262,Mako,received,False,2313
+Event_Communication_262,Event_Enforcement_261,evidence_for,True,2314
+Event_Communication_262,Relationship_Jurisdiction_131,evidence_for,True,2315
+Event_Communication_262,Relationship_AccessPermission_243,evidence_for,True,2316
+Event_Communication_264,Sentinel,received,False,2318
+Event_Communication_264,Event_TransponderPing_308,evidence_for,True,2319
+Event_Communication_267,Mako,received,False,2322
+Event_Communication_267,Event_Monitoring_266,evidence_for,True,2324
+Event_Communication_267,Event_TransponderPing_308,evidence_for,True,2323
+Event_Communication_268,Sentinel,received,False,2325
+Event_Communication_270,Horizon,received,False,2329
+Event_Communication_270,Relationship_Suspicious_145,evidence_for,True,2331
+Event_Communication_270,Event_TransponderPing_308,evidence_for,True,2330
+Event_Communication_270,Relationship_Coordinates_269,evidence_for,True,2332
+Event_Communication_272,Mako,received,False,2336
+Event_Communication_272,Event_TransponderPing_271,evidence_for,True,2337
+Event_Communication_272,Relationship_AccessPermission_148,evidence_for,True,2339
+Event_Communication_272,Relationship_Suspicious_145,evidence_for,True,2338
+Event_Communication_275,Boss,received,False,2343
+Event_Communication_275,Event_Collaborate_236,evidence_for,True,2345
+Event_Communication_275,Relationship_Jurisdiction_446,evidence_for,True,2346
+Event_Communication_275,Event_Enforcement_235,evidence_for,True,2344
+Event_Communication_277,The Middleman,received,False,2348
+Event_Communication_277,Event_Collaborate_276,evidence_for,True,2349
+Event_Communication_277,Relationship_Colleagues_11,evidence_for,True,
+Event_Communication_278,Mrs. Money,received,False,2353
+Event_Communication_278,Relationship_Colleagues_11,evidence_for,True,2355
+Event_Communication_278,Relationship_Colleagues_158,evidence_for,True,2354
+Event_Communication_279,Boss,received,False,2356
+Event_Communication_279,Relationship_Colleagues_11,evidence_for,True,2358
+Event_Communication_279,Relationship_Colleagues_158,evidence_for,True,2357
+Event_Communication_280,Boss,received,False,2366
+Event_Communication_280,Relationship_Operates_153,evidence_for,True,2367
+Event_Communication_280,Relationship_Operates_154,evidence_for,True,2368
+Event_Communication_280,Relationship_AccessPermission_156,evidence_for,True,2370
+Event_Communication_280,Relationship_Colleagues_158,evidence_for,True,2372
+Event_Communication_280,Relationship_Colleagues_2,evidence_for,True,2371
+Event_Communication_280,Relationship_AccessPermission_101,evidence_for,True,2369
+Event_Communication_280,Relationship_Colleagues_11,evidence_for,True,
+Event_Communication_281,Remora,received,False,2376
+Event_Communication_281,Relationship_AccessPermission_161,evidence_for,True,2378
+Event_Communication_281,Relationship_Jurisdiction_162,evidence_for,True,2379
+Event_Communication_281,Relationship_Operates_546,evidence_for,True,2377
+Event_Communication_282,Remora,received,False,2382
+Event_Communication_282,Relationship_AccessPermission_163,evidence_for,True,2383
+Event_Communication_282,Relationship_Operates_546,evidence_for,True,2384
+Event_Communication_283,Remora,received,False,2386
+Event_Communication_283,Relationship_Operates_58,evidence_for,True,2387
+Event_Communication_285,Reef Guardian,received,False,2389
+Event_Communication_285,Event_VesselMovement_284,evidence_for,True,2390
+Event_Communication_287,Marlin,received,False,2393
+Event_Communication_287,Event_Monitoring_286,evidence_for,True,2394
+Event_Communication_287,Relationship_Coordinates_380,evidence_for,True,2395
+Event_Communication_289,Remora,received,False,2397
+Event_Communication_289,Event_VesselMovement_288,evidence_for,True,2398
+Event_Communication_291,Davis,received,False,2401
+Event_Communication_291,Relationship_Operates_58,evidence_for,True,2403
+Event_Communication_291,Event_VesselMovement_549,evidence_for,True,2402
+Event_Communication_293,Mako,received,False,2406
+Event_Communication_293,Event_Enforcement_292,evidence_for,True,2407
+Event_Communication_293,Relationship_Jurisdiction_446,evidence_for,True,2408
+Event_Communication_295,Davis,received,False,2411
+Event_Communication_295,Relationship_Operates_58,evidence_for,True,2413
+Event_Communication_295,Event_VesselMovement_122,evidence_for,True,2412
+Event_Communication_297,Sentinel,received,False,2415
+Event_Communication_297,Event_Monitoring_266,evidence_for,True,2416
+Event_Communication_299,Horizon,received,False,2418
+Event_Communication_299,Event_TransponderPing_308,evidence_for,True,2419
+Event_Communication_301,Oceanus City Council,received,False,2422
+Event_Communication_301,Event_VesselMovement_300,evidence_for,True,2423
+Event_Communication_301,Relationship_Reports_170,evidence_for,True,2424
+Event_Communication_302,Himark Harbor,received,False,2425
+Event_Communication_304,Mako,received,False,2428
+Event_Communication_304,Event_VesselMovement_303,evidence_for,True,2429
+Event_Communication_305,Mako,received,False,2430
+Event_Communication_309,Oceanus City Council,received,False,2435
+Event_Communication_309,Event_TransponderPing_308,evidence_for,True,2438
+Event_Communication_309,Event_VesselMovement_122,evidence_for,True,2436
+Event_Communication_309,Relationship_AccessPermission_243,evidence_for,True,2439
+Event_Communication_309,Event_Assessment_337,evidence_for,True,2437
+Event_Communication_311,Liam Thorne,received,False,2443
+Event_Communication_311,Relationship_Coordinates_172,evidence_for,True,2445
+Event_Communication_311,Relationship_Reports_587,evidence_for,True,2446
+Event_Communication_311,Event_Monitoring_803,evidence_for,True,2444
+Event_Communication_312,V. Miesel Shipping,received,False,2447
+Event_Communication_313,Boss,received,False,2449
+Event_Communication_313,Relationship_Operates_255,evidence_for,True,2450
+Event_Communication_316,Mako,received,False,2453
+Event_Communication_316,Event_Monitoring_192,evidence_for,True,2455
+Event_Communication_316,Event_VesselMovement_122,evidence_for,True,2454
+Event_Communication_317,The Intern,received,False,2456
+Event_Communication_318,Mrs. Money,received,False,2458
+Event_Communication_318,Relationship_AccessPermission_243,evidence_for,True,2459
+Event_Communication_320,Green Guardians,received,False,2462
+Event_Communication_320,Relationship_Operates_176,evidence_for,True,2464
+Event_Communication_320,Event_Monitoring_192,evidence_for,True,2463
+Event_Communication_321,Oceanus City Council,received,False,2466
+Event_Communication_321,Relationship_AccessPermission_266,evidence_for,True,2467
+Event_Communication_323,Green Guardians,received,False,2471
+Event_Communication_323,Relationship_Jurisdiction_446,evidence_for,True,2474
+Event_Communication_323,Event_Assessment_101,evidence_for,True,2472
+Event_Communication_323,Relationship_AccessPermission_266,evidence_for,True,2473
+Event_Communication_325,Green Guardians,received,False,2477
+Event_Communication_325,Relationship_Suspicious_368,evidence_for,True,2479
+Event_Communication_325,Event_Monitoring_192,evidence_for,True,2478
+Event_Communication_327,Remora,received,False,2481
+Event_Communication_327,Event_VesselMovement_326,evidence_for,True,2482
+Event_Communication_328,Boss,received,False,2483
+Event_Communication_330,Nadia Conti,received,False,2486
+Event_Communication_330,Event_Assessment_329,evidence_for,True,2487
+Event_Communication_330,Relationship_AccessPermission_181,evidence_for,True,2488
+Event_Communication_331,Haacklee Harbor,received,False,2490
+Event_Communication_331,Relationship_AccessPermission_181,evidence_for,True,2491
+Event_Communication_332,Oceanus City Council,received,False,2493
+Event_Communication_332,Relationship_AccessPermission_181,evidence_for,True,2494
+Event_Communication_333,Nadia Conti,received,False,2495
+Event_Communication_334,Oceanus City Council,received,False,2496
+Event_Communication_336,Liam Thorne,received,False,2500
+Event_Communication_336,Relationship_Coordinates_185,evidence_for,True,2503
+Event_Communication_336,Relationship_Reports_587,evidence_for,True,2502
+Event_Communication_336,Event_Assessment_41,evidence_for,True,2501
+Event_Communication_338,Oceanus City Council,received,False,2505
+Event_Communication_338,Event_Assessment_337,evidence_for,True,2506
+Event_Communication_339,Himark Harbor,received,False,2508
+Event_Communication_339,Relationship_Jurisdiction_446,evidence_for,True,2509
+Event_Communication_340,Remora,received,False,2511
+Event_Communication_340,Relationship_Coordinates_297,evidence_for,True,2512
+Event_Communication_341,Mako,received,False,2514
+Event_Communication_341,Relationship_Coordinates_297,evidence_for,True,2515
+Event_Communication_343,Himark Harbor,received,False,2519
+Event_Communication_343,Relationship_AccessPermission_190,evidence_for,True,2522
+Event_Communication_343,Relationship_Operates_58,evidence_for,True,2521
+Event_Communication_343,Event_VesselMovement_122,evidence_for,True,2520
+Event_Communication_345,Oceanus City Council,received,False,2524
+Event_Communication_345,Event_VesselMovement_344,evidence_for,True,2525
+Event_Communication_345,Relationship_AccessPermission_192,evidence_for,True,2527
+Event_Communication_345,Relationship_AccessPermission_382,evidence_for,True,2526
+Event_Communication_347,Mako,received,False,2530
+Event_Communication_347,Event_VesselMovement_549,evidence_for,True,2531
+Event_Communication_347,Relationship_AccessPermission_243,evidence_for,True,2532
+Event_Communication_349,Davis,received,False,2535
+Event_Communication_349,Event_VesselMovement_122,evidence_for,True,2536
+Event_Communication_349,Relationship_AccessPermission_190,evidence_for,True,2537
+Event_Communication_350,Oceanus City Council,received,False,2539
+Event_Communication_350,Relationship_Jurisdiction_446,evidence_for,True,2540
+Event_Communication_351,Paackland Harbor,received,False,2543
+Event_Communication_351,Relationship_AccessPermission_196,evidence_for,True,2544
+Event_Communication_351,Relationship_Jurisdiction_446,evidence_for,True,2545
+Event_Communication_353,Reef Guardian,received,False,2548
+Event_Communication_353,Relationship_AccessPermission_497,evidence_for,True,2550
+Event_Communication_353,Event_Monitoring_946,evidence_for,True,2549
+Event_Communication_354,Green Guardians,received,False,2553
+Event_Communication_354,Relationship_Operates_566,evidence_for,True,2555
+Event_Communication_354,Relationship_AccessPermission_497,evidence_for,True,2554
+Event_Communication_355,Oceanus City Council,received,False,2556
+Event_Communication_356,Oceanus City Council,received,False,2558
+Event_Communication_356,Relationship_Coordinates_201,evidence_for,True,2559
+Event_Communication_357,Miranda Jordan,received,False,2563
+Event_Communication_357,Relationship_Operates_202,evidence_for,True,2564
+Event_Communication_357,Relationship_Colleagues_290,evidence_for,True,2566
+Event_Communication_357,Relationship_Suspicious_106,evidence_for,True,2565
+Event_Communication_359,Clepper Jensen,received,False,2569
+Event_Communication_359,Event_Monitoring_358,evidence_for,True,2570
+Event_Communication_359,Relationship_Reports_205,evidence_for,True,2571
+Event_Communication_360,Miranda Jordan,received,False,2573
+Event_Communication_360,Relationship_Colleagues_290,evidence_for,True,2574
+Event_Communication_361,Clepper Jensen,received,False,2575
+Event_Communication_362,Miranda Jordan,received,False,2576
+Event_Communication_365,Boss,received,False,2581
+Event_Communication_365,Event_VesselMovement_363,evidence_for,True,2582
+Event_Communication_365,Event_Collaborate_364,evidence_for,True,2583
+Event_Communication_365,Relationship_AccessPermission_243,evidence_for,True,2584
+Event_Communication_366,Mrs. Money,received,False,2589
+Event_Communication_366,Relationship_Suspicious_209,evidence_for,True,2591
+Event_Communication_366,Relationship_Operates_210,evidence_for,True,2592
+Event_Communication_366,Relationship_Operates_211,evidence_for,True,2593
+Event_Communication_366,Relationship_Colleagues_2,evidence_for,True,
+Event_Communication_367,V. Miesel Shipping,received,False,2594
+Event_Communication_368,Mrs. Money,received,False,2596
+Event_Communication_368,Relationship_AccessPermission_214,evidence_for,True,2597
+Event_Communication_369,The Intern,received,False,2599
+Event_Communication_369,Relationship_AccessPermission_214,evidence_for,True,2600
+Event_Communication_370,Kelly,received,False,2604
+Event_Communication_370,Relationship_Colleagues_215,evidence_for,True,2605
+Event_Communication_370,Relationship_Suspicious_217,evidence_for,True,2607
+Event_Communication_370,Relationship_Colleagues_430,evidence_for,True,2606
+Event_Communication_371,The Intern,received,False,2610
+Event_Communication_371,Relationship_Reports_218,evidence_for,True,2611
+Event_Communication_371,Relationship_Suspicious_219,evidence_for,True,2612
+Event_Communication_372,Mrs. Money,received,False,2615
+Event_Communication_372,Relationship_Reports_41,evidence_for,True,2617
+Event_Communication_372,Relationship_AccessPermission_243,evidence_for,True,2616
+Event_Communication_373,Boss,received,False,2620
+Event_Communication_373,Relationship_Coordinates_499,evidence_for,True,2622
+Event_Communication_373,Relationship_AccessPermission_243,evidence_for,True,2621
+Event_Communication_375,Green Guardians,received,False,2624
+Event_Communication_375,Event_Monitoring_38,evidence_for,True,2625
+Event_Communication_376,Clepper Jensen,received,False,2626
+Event_Communication_377,Miranda Jordan,received,False,2628
+Event_Communication_377,Relationship_Colleagues_290,evidence_for,True,2629
+Event_Communication_378,Mako,received,False,2631
+Event_Communication_378,Relationship_AccessPermission_243,evidence_for,True,2632
+Event_Communication_380,Samantha Blake,received,False,2635
+Event_Communication_380,Relationship_Coordinates_226,evidence_for,True,2637
+Event_Communication_380,Event_VesselMovement_122,evidence_for,True,2636
+Event_Communication_381,Mako,received,False,2640
+Event_Communication_381,Relationship_AccessPermission_415,evidence_for,True,2641
+Event_Communication_381,Relationship_Jurisdiction_446,evidence_for,True,2642
+Event_Communication_382,Boss,received,False,2645
+Event_Communication_382,Relationship_Unfriendly_229,evidence_for,True,2646
+Event_Communication_382,Relationship_Jurisdiction_446,evidence_for,True,2647
+Event_Communication_384,Reef Guardian,received,False,2650
+Event_Communication_384,Event_Monitoring_383,evidence_for,True,2651
+Event_Communication_384,Relationship_Coordinates_231,evidence_for,True,2652
+Event_Communication_386,Paackland Harbor,received,False,2655
+Event_Communication_386,Relationship_AccessPermission_232,evidence_for,True,2657
+Event_Communication_386,Event_Monitoring_946,evidence_for,True,2656
+Event_Communication_387,Mako,received,False,2660
+Event_Communication_387,Relationship_AccessPermission_233,evidence_for,True,2661
+Event_Communication_387,Relationship_Jurisdiction_583,evidence_for,True,2662
+Event_Communication_388,Sailor Shifts Team,received,False,2664
+Event_Communication_388,Relationship_Colleagues_551,evidence_for,True,2665
+Event_Communication_389,Boss,received,False,2667
+Event_Communication_389,Relationship_Coordinates_236,evidence_for,True,2668
+Event_Communication_390,Serenity,received,False,2670
+Event_Communication_390,Relationship_AccessPermission_7,evidence_for,True,2671
+Event_Communication_392,Himark Harbor,received,False,2674
+Event_Communication_392,Relationship_AccessPermission_238,evidence_for,True,2676
+Event_Communication_392,Event_VesselMovement_25,evidence_for,True,2675
+Event_Communication_394,Neptune,received,False,2679
+Event_Communication_394,Event_VesselMovement_393,evidence_for,True,2680
+Event_Communication_394,Relationship_AccessPermission_405,evidence_for,True,2681
+Event_Communication_396,Paackland Harbor,received,False,2684
+Event_Communication_396,Event_VesselMovement_122,evidence_for,True,2685
+Event_Communication_396,Relationship_AccessPermission_243,evidence_for,True,2686
+Event_Communication_399,Paackland Harbor,received,False,2690
+Event_Communication_399,Event_VesselMovement_122,evidence_for,True,2691
+Event_Communication_399,Relationship_AccessPermission_243,evidence_for,True,2693
+Event_Communication_399,Event_TourActivity_962,evidence_for,True,2692
+Event_Communication_401,Davis,received,False,2697
+Event_Communication_401,Relationship_AccessPermission_243,evidence_for,True,2700
+Event_Communication_401,Event_VesselMovement_549,evidence_for,True,2698
+Event_Communication_401,Relationship_Colleagues_619,evidence_for,True,
+Event_Communication_403,Mako,received,False,2704
+Event_Communication_403,Event_VesselMovement_402,evidence_for,True,2705
+Event_Communication_403,Relationship_AccessPermission_244,evidence_for,True,2706
+Event_Communication_403,Relationship_Coordinates_471,evidence_for,True,2707
+Event_Communication_405,Neptune,received,False,2709
+Event_Communication_405,Event_VesselMovement_122,evidence_for,True,2710
+Event_Communication_406,Serenity,received,False,2712
+Event_Communication_406,Relationship_Coordinates_247,evidence_for,True,2714
+Event_Communication_406,Relationship_AccessPermission_214,evidence_for,True,2713
+Event_Communication_408,Neptune,received,False,2716
+Event_Communication_408,Event_VesselMovement_25,evidence_for,True,2717
+Event_Communication_409,V. Miesel Shipping,received,False,2719
+Event_Communication_409,Relationship_Coordinates_248,evidence_for,True,2720
+Event_Communication_411,Green Guardians,received,False,2722
+Event_Communication_411,Event_Monitoring_410,evidence_for,True,2723
+Event_Communication_411,Relationship_Operates_176,evidence_for,True,2724
+Event_Communication_413,Oceanus City Council,received,False,2727
+Event_Communication_413,Relationship_Jurisdiction_446,evidence_for,True,2729
+Event_Communication_413,Event_Monitoring_192,evidence_for,True,2728
+Event_Communication_415,Horizon,received,False,2732
+Event_Communication_415,Event_Monitoring_414,evidence_for,True,2733
+Event_Communication_415,Relationship_Coordinates_251,evidence_for,True,2734
+Event_Communication_417,Mako,received,False,2737
+Event_Communication_417,Relationship_Coordinates_252,evidence_for,True,2739
+Event_Communication_417,Event_Monitoring_803,evidence_for,True,2738
+Event_Communication_419,City Officials,received,False,2740
+Event_Communication_419,Event_VesselMovement_418,evidence_for,True,2741
+Event_Communication_420,V. Miesel Shipping,received,False,2745
+Event_Communication_420,Relationship_Coordinates_253,evidence_for,True,2746
+Event_Communication_421,Neptune,received,False,2750
+Event_Communication_421,Relationship_Operates_255,evidence_for,True,2752
+Event_Communication_421,Relationship_Operates_256,evidence_for,True,2753
+Event_Communication_421,Relationship_Coordinates_248,evidence_for,True,2751
+Event_Communication_423,Remora,received,False,2756
+Event_Communication_423,Event_Collaborate_422,evidence_for,True,2757
+Event_Communication_423,Relationship_AccessPermission_259,evidence_for,True,2760
+Event_Communication_423,Relationship_Operates_255,evidence_for,True,2759
+Event_Communication_423,Relationship_Coordinates_305,evidence_for,True,2758
+Event_Communication_425,Neptune,received,False,2762
+Event_Communication_425,Event_Collaborate_424,evidence_for,True,2763
+Event_Communication_425,Relationship_Coordinates_297,evidence_for,True,2764
+Event_Communication_426,Remora,received,False,2767
+Event_Communication_426,Relationship_AccessPermission_262,evidence_for,True,2769
+Event_Communication_426,Relationship_Coordinates_305,evidence_for,True,2768
+Event_Communication_428,Horizon,received,False,2773
+Event_Communication_428,Relationship_Coordinates_555,evidence_for,True,2775
+Event_Communication_428,Event_Monitoring_978,evidence_for,True,2774
+Event_Communication_428,Relationship_AccessPermission_232,evidence_for,True,2776
+Event_Communication_431,Green Guardians,received,False,2780
+Event_Communication_431,Relationship_Operates_36,evidence_for,True,2783
+Event_Communication_431,Event_TransponderPing_308,evidence_for,True,2782
+Event_Communication_431,Event_Monitoring_978,evidence_for,True,2781
+Event_Communication_433,Sentinel,received,False,2787
+Event_Communication_433,Relationship_AccessPermission_266,evidence_for,True,2789
+Event_Communication_433,Relationship_Jurisdiction_446,evidence_for,True,2790
+Event_Communication_433,Event_Assessment_973,evidence_for,True,2788
+Event_Communication_435,Horizon,received,False,2792
+Event_Communication_435,Event_Monitoring_266,evidence_for,True,2793
+Event_Communication_436,Sentinel,received,False,2794
+Event_Communication_437,Green Guardians,received,False,2797
+Event_Communication_437,Relationship_Coordinates_269,evidence_for,True,2799
+Event_Communication_437,Relationship_Operates_176,evidence_for,True,2798
+Event_Communication_438,Paackland Harbor,received,False,2800
+Event_Communication_439,Oceanus City Council,received,False,2803
+Event_Communication_439,Relationship_Operates_271,evidence_for,True,2805
+Event_Communication_439,Relationship_Jurisdiction_583,evidence_for,True,2804
+Event_Communication_441,Sam,received,False,2807
+Event_Communication_441,Event_VesselMovement_393,evidence_for,True,2808
+Event_Communication_442,The Lookout,received,False,2809
+Event_Communication_443,Sam,received,False,2811
+Event_Communication_443,Relationship_Friends_272,evidence_for,True,2812
+Event_Communication_446,Mrs. Money,received,False,2817
+Event_Communication_446,Event_Monitoring_444,evidence_for,True,2818
+Event_Communication_446,Event_Assessment_445,evidence_for,True,2819
+Event_Communication_446,Relationship_Coordinates_274,evidence_for,True,2821
+Event_Communication_446,Relationship_Operates_514,evidence_for,True,2820
+Event_Communication_449,Mako,received,False,2825
+Event_Communication_449,Event_VesselMovement_122,evidence_for,True,2826
+Event_Communication_449,Relationship_AccessPermission_190,evidence_for,True,2828
+Event_Communication_449,Event_Monitoring_803,evidence_for,True,2827
+Event_Communication_451,Himark Harbor,received,False,2832
+Event_Communication_451,Relationship_Coordinates_336,evidence_for,True,2834
+Event_Communication_451,Event_VesselMovement_122,evidence_for,True,2833
+Event_Communication_451,Relationship_AccessPermission_190,evidence_for,True,2835
+Event_Communication_453,Neptune,received,False,2838
+Event_Communication_453,Event_VesselMovement_393,evidence_for,True,2839
+Event_Communication_453,Relationship_AccessPermission_405,evidence_for,True,2840
+Event_Communication_456,Elise,received,False,2844
+Event_Communication_456,Event_Collaborate_455,evidence_for,True,2846
+Event_Communication_456,Relationship_Coordinates_279,evidence_for,True,2847
+Event_Communication_456,Event_VesselMovement_503,evidence_for,True,2845
+Event_Communication_458,Neptune,received,False,2852
+Event_Communication_458,Relationship_Coordinates_280,evidence_for,True,2854
+Event_Communication_458,Relationship_AccessPermission_281,evidence_for,True,2855
+Event_Communication_458,Event_VesselMovement_503,evidence_for,True,2853
+Event_Communication_460,Mako,received,False,2857
+Event_Communication_460,Event_VesselMovement_503,evidence_for,True,2858
+Event_Communication_462,Elise,received,False,2861
+Event_Communication_462,Relationship_Coordinates_298,evidence_for,True,2863
+Event_Communication_462,Event_VesselMovement_122,evidence_for,True,2862
+Event_Communication_464,Mako,received,False,2866
+Event_Communication_464,Event_Assessment_463,evidence_for,True,2867
+Event_Communication_464,Relationship_Operates_283,evidence_for,True,2868
+Event_Communication_467,Sentinel,received,False,2872
+Event_Communication_467,Event_Monitoring_803,evidence_for,True,2874
+Event_Communication_467,Relationship_AccessPermission_243,evidence_for,True,2875
+Event_Communication_467,Event_TransponderPing_308,evidence_for,True,2873
+Event_Communication_468,Miranda Jordan,received,False,2877
+Event_Communication_468,Relationship_Colleagues_290,evidence_for,True,2878
+Event_Communication_469,Clepper Jensen,received,False,2879
+Event_Communication_470,Miranda Jordan,received,False,2881
+Event_Communication_470,Relationship_Colleagues_290,evidence_for,True,2882
+Event_Communication_473,Clepper Jensen,received,False,2885
+Event_Communication_473,Event_VesselMovement_393,evidence_for,True,2886
+Event_Communication_473,Event_Assessment_522,evidence_for,True,2887
+Event_Communication_474,Miranda Jordan,received,False,2888
+Event_Communication_475,Clepper Jensen,received,False,2889
+Event_Communication_476,Miranda Jordan,received,False,2891
+Event_Communication_476,Relationship_Colleagues_290,evidence_for,True,2892
+Event_Communication_478,Clepper Jensen,received,False,2896
+Event_Communication_478,Event_Collaborate_477,evidence_for,True,2897
+Event_Communication_478,Relationship_Reports_288,evidence_for,True,2898
+Event_Communication_478,Relationship_Coordinates_289,evidence_for,True,2899
+Event_Communication_479,Miranda Jordan,received,False,2901
+Event_Communication_479,Relationship_Colleagues_290,evidence_for,True,2902
+Event_Communication_482,Sentinel,received,False,2906
+Event_Communication_482,Event_Monitoring_631,evidence_for,True,2907
+Event_Communication_482,Relationship_Coordinates_292,evidence_for,True,2909
+Event_Communication_482,Event_Assessment_973,evidence_for,True,2908
+Event_Communication_485,Reef Guardian,received,False,2914
+Event_Communication_485,Event_VesselMovement_483,evidence_for,True,2915
+Event_Communication_485,Event_Monitoring_484,evidence_for,True,2916
+Event_Communication_485,Relationship_Coordinates_292,evidence_for,True,2917
+Event_Communication_485,Relationship_Suspicious_293,evidence_for,True,2918
+Event_Communication_487,Neptune,received,False,2920
+Event_Communication_487,Event_VesselMovement_393,evidence_for,True,2921
+Event_Communication_489,Reef Guardian,received,False,2923
+Event_Communication_489,Event_Assessment_488,evidence_for,True,2924
+Event_Communication_491,Horizon,received,False,2926
+Event_Communication_491,Event_Monitoring_490,evidence_for,True,2927
+Event_Communication_491,Relationship_Suspicious_294,evidence_for,True,2928
+Event_Communication_493,Mako,received,False,2931
+Event_Communication_493,Event_Assessment_492,evidence_for,True,2932
+Event_Communication_493,Relationship_Coordinates_297,evidence_for,True,2933
+Event_Communication_496,Remora,received,False,2937
+Event_Communication_496,Event_VesselMovement_494,evidence_for,True,2938
+Event_Communication_496,Event_VesselMovement_495,evidence_for,True,2939
+Event_Communication_496,Relationship_Coordinates_387,evidence_for,True,2940
+Event_Communication_499,Himark Harbor,received,False,2943
+Event_Communication_499,Event_TourActivity_498,evidence_for,True,2945
+Event_Communication_499,Relationship_Coordinates_297,evidence_for,True,2946
+Event_Communication_499,Event_VesselMovement_510,evidence_for,True,2944
+Event_Communication_501,Remora,received,False,2948
+Event_Communication_501,Event_VesselMovement_509,evidence_for,True,2949
+Event_Communication_502,Neptune,received,False,2950
+Event_Communication_504,Mako,received,False,2953
+Event_Communication_504,Event_VesselMovement_503,evidence_for,True,2954
+Event_Communication_504,Relationship_Coordinates_298,evidence_for,True,2955
+Event_Communication_506,Mako,received,False,2958
+Event_Communication_506,Event_VesselMovement_402,evidence_for,True,2959
+Event_Communication_506,Relationship_AccessPermission_281,evidence_for,True,2960
+Event_Communication_508,Remora,received,False,2963
+Event_Communication_508,Relationship_Coordinates_305,evidence_for,True,2965
+Event_Communication_508,Event_VesselMovement_393,evidence_for,True,2964
+Event_Communication_511,Sailor Shifts Team,received,False,2970
+Event_Communication_511,Event_VesselMovement_509,evidence_for,True,2971
+Event_Communication_511,Event_VesselMovement_510,evidence_for,True,2972
+Event_Communication_511,Relationship_Coordinates_302,evidence_for,True,2974
+Event_Communication_511,Relationship_Operates_476,evidence_for,True,2973
+Event_Communication_513,Remora,received,False,2978
+Event_Communication_513,Event_Collaborate_512,evidence_for,True,2979
+Event_Communication_513,Relationship_AccessPermission_303,evidence_for,True,2980
+Event_Communication_513,Relationship_AccessPermission_304,evidence_for,True,2981
+Event_Communication_515,Neptune,received,False,2985
+Event_Communication_515,Relationship_Coordinates_305,evidence_for,True,2987
+Event_Communication_515,Relationship_AccessPermission_306,evidence_for,True,2988
+Event_Communication_515,Event_VesselMovement_510,evidence_for,True,2986
+Event_Communication_518,Elise,received,False,2993
+Event_Communication_518,Event_VesselMovement_516,evidence_for,True,2994
+Event_Communication_518,Event_Collaborate_517,evidence_for,True,2995
+Event_Communication_518,Relationship_Coordinates_307,evidence_for,True,2996
+Event_Communication_519,Liam Thorne,received,False,2997
+Event_Communication_520,Nadia Conti,received,False,2998
+Event_Communication_521,Nadia Conti,received,False,2999
+Event_Communication_523,The Intern,received,False,3001
+Event_Communication_523,Event_Assessment_522,evidence_for,True,3002
+Event_Communication_525,Mrs. Money,received,False,3006
+Event_Communication_525,Relationship_Operates_514,evidence_for,True,3008
+Event_Communication_525,Relationship_AccessPermission_405,evidence_for,True,3009
+Event_Communication_525,Event_Monitoring_631,evidence_for,True,3007
+Event_Communication_528,Nadia Conti,received,False,3015
+Event_Communication_528,Relationship_Unfriendly_312,evidence_for,True,3020
+Event_Communication_528,Event_Monitoring_631,evidence_for,True,3017
+Event_Communication_528,Event_VesselMovement_549,evidence_for,True,3016
+Event_Communication_528,Relationship_Colleagues_430,evidence_for,True,3019
+Event_Communication_528,Relationship_Colleagues_321,evidence_for,True,
+Event_Communication_529,Liam Thorne,received,False,3022
+Event_Communication_529,Relationship_AccessPermission_313,evidence_for,True,3023
+Event_Communication_531,Oceanus City Council,received,False,3026
+Event_Communication_531,Event_Monitoring_530,evidence_for,True,3027
+Event_Communication_531,Relationship_Reports_587,evidence_for,True,3028
+Event_Communication_533,Liam Thorne,received,False,3032
+Event_Communication_533,Relationship_Reports_587,evidence_for,True,3034
+Event_Communication_533,Relationship_Jurisdiction_446,evidence_for,True,3035
+Event_Communication_533,Event_Monitoring_38,evidence_for,True,3033
+Event_Communication_535,Nadia Conti,received,False,3039
+Event_Communication_535,Event_Monitoring_534,evidence_for,True,3040
+Event_Communication_535,Relationship_Suspicious_317,evidence_for,True,3041
+Event_Communication_535,Relationship_Colleagues_494,evidence_for,True,
+Event_Communication_536,Neptune,received,False,3043
+Event_Communication_537,Nadia Conti,received,False,3047
+Event_Communication_537,Relationship_Colleagues_319,evidence_for,True,3048
+Event_Communication_537,Relationship_Colleagues_320,evidence_for,True,3049
+Event_Communication_537,Relationship_Colleagues_321,evidence_for,True,3050
+Event_Communication_538,Neptune,received,False,3052
+Event_Communication_538,Relationship_Colleagues_322,evidence_for,True,3053
+Event_Communication_539,Elise,received,False,3054
+Event_Communication_541,Remora,received,False,3057
+Event_Communication_541,Event_VesselMovement_540,evidence_for,True,3058
+Event_Communication_541,Relationship_Colleagues_323,evidence_for,True,3059
+Event_Communication_543,Samantha Blake,received,False,3062
+Event_Communication_543,Event_Collaborate_542,evidence_for,True,3063
+Event_Communication_543,Relationship_Coordinates_387,evidence_for,True,3064
+Event_Communication_544,Mako,received,False,3066
+Event_Communication_544,Relationship_AccessPermission_415,evidence_for,True,3067
+Event_Communication_545,Neptune,received,False,3069
+Event_Communication_545,Relationship_AccessPermission_243,evidence_for,True,3070
+Event_Communication_546,Mako,received,False,3073
+Event_Communication_546,Relationship_Operates_327,evidence_for,True,3074
+Event_Communication_546,Relationship_AccessPermission_328,evidence_for,True,3075
+Event_Communication_548,Neptune,received,False,3079
+Event_Communication_548,Relationship_Operates_58,evidence_for,True,3081
+Event_Communication_548,Relationship_AccessPermission_405,evidence_for,True,3082
+Event_Communication_548,Event_VesselMovement_549,evidence_for,True,3080
+Event_Communication_551,Mako,received,False,3086
+Event_Communication_551,Event_VesselMovement_549,evidence_for,True,3087
+Event_Communication_551,Event_Collaborate_550,evidence_for,True,3088
+Event_Communication_551,Relationship_Operates_58,evidence_for,True,3089
+Event_Communication_553,Remora,received,False,3093
+Event_Communication_553,Relationship_AccessPermission_332,evidence_for,True,3095
+Event_Communication_553,Relationship_Coordinates_298,evidence_for,True,3096
+Event_Communication_553,Event_VesselMovement_495,evidence_for,True,3094
+Event_Communication_555,Mako,received,False,3099
+Event_Communication_555,Event_Collaborate_554,evidence_for,True,3100
+Event_Communication_555,Relationship_Coordinates_334,evidence_for,True,3101
+Event_Communication_556,Mako,received,False,3103
+Event_Communication_556,Relationship_Coordinates_297,evidence_for,True,3104
+Event_Communication_558,Neptune,received,False,3107
+Event_Communication_558,Event_Collaborate_557,evidence_for,True,3108
+Event_Communication_558,Relationship_Coordinates_336,evidence_for,True,3109
+Event_Communication_559,Remora,received,False,3111
+Event_Communication_559,Relationship_Coordinates_305,evidence_for,True,3112
+Event_Communication_560,Remora,received,False,3114
+Event_Communication_560,Relationship_AccessPermission_338,evidence_for,True,3115
+Event_Communication_562,Mrs. Money,received,False,3117
+Event_Communication_562,Event_VesselMovement_509,evidence_for,True,3118
+Event_Communication_565,Horizon,received,False,3122
+Event_Communication_565,Event_VesselMovement_563,evidence_for,True,3123
+Event_Communication_565,Relationship_Suspicious_293,evidence_for,True,3125
+Event_Communication_565,Event_Monitoring_266,evidence_for,True,3124
+Event_Communication_566,Sentinel,received,False,3126
+Event_Communication_568,Green Guardians,received,False,3129
+Event_Communication_568,Event_Assessment_567,evidence_for,True,3130
+Event_Communication_568,Relationship_Suspicious_341,evidence_for,True,3132
+Event_Communication_568,Relationship_Operates_176,evidence_for,True,3131
+Event_Communication_571,Reef Guardian,received,False,3138
+Event_Communication_571,Event_VesselMovement_569,evidence_for,True,3139
+Event_Communication_571,Relationship_Coordinates_343,evidence_for,True,3142
+Event_Communication_571,Relationship_Coordinates_609,evidence_for,True,3141
+Event_Communication_571,Event_Assessment_628,evidence_for,True,3140
+Event_Communication_572,Sentinel,received,False,3145
+Event_Communication_572,Relationship_Reports_344,evidence_for,True,3146
+Event_Communication_572,Relationship_Coordinates_609,evidence_for,True,3147
+Event_Communication_574,Mako,received,False,3151
+Event_Communication_574,Relationship_Suspicious_293,evidence_for,True,3153
+Event_Communication_574,Relationship_AccessPermission_243,evidence_for,True,3154
+Event_Communication_574,Event_Assessment_973,evidence_for,True,3152
+Event_Communication_575,Sentinel,received,False,3155
+Event_Communication_576,Reef Guardian,received,False,3157
+Event_Communication_576,Relationship_Coordinates_292,evidence_for,True,3158
+Event_Communication_578,Himark Harbor,received,False,3160
+Event_Communication_578,Event_VesselMovement_577,evidence_for,True,3161
+Event_Communication_579,Marlin,received,False,3162
+Event_Communication_581,Davis,received,False,3165
+Event_Communication_581,Event_VesselMovement_580,evidence_for,True,3166
+Event_Communication_581,Relationship_AccessPermission_349,evidence_for,True,3167
+Event_Communication_582,Nadia Conti,received,False,3169
+Event_Communication_582,Relationship_Colleagues_551,evidence_for,True,3170
+Event_Communication_584,Marlin,received,False,3172
+Event_Communication_584,Event_Assessment_583,evidence_for,True,3173
+Event_Communication_585,Nadia Conti,received,False,3175
+Event_Communication_585,Relationship_Operates_351,evidence_for,True,3176
+Event_Communication_588,Rodriguez,received,False,3181
+Event_Communication_588,Relationship_Operates_352,evidence_for,True,3184
+Event_Communication_588,Event_VesselMovement_549,evidence_for,True,3182
+Event_Communication_588,Relationship_AccessPermission_243,evidence_for,True,3185
+Event_Communication_588,Event_Assessment_337,evidence_for,True,3183
+Event_Communication_588,Relationship_Colleagues_619,evidence_for,True,
+Event_Communication_590,Horizon,received,False,3188
+Event_Communication_590,Event_Monitoring_595,evidence_for,True,3189
+Event_Communication_591,Seawatch,received,False,3190
+Event_Communication_593,Green Guardians,received,False,3193
+Event_Communication_593,Relationship_Reports_355,evidence_for,True,3195
+Event_Communication_593,Event_Monitoring_192,evidence_for,True,3194
+Event_Communication_594,The Intern,received,False,3197
+Event_Communication_594,Relationship_Colleagues_589,evidence_for,True,
+Event_Communication_596,Mrs. Money,received,False,3201
+Event_Communication_596,Event_Monitoring_595,evidence_for,True,3202
+Event_Communication_596,Relationship_Reports_41,evidence_for,True,3203
+Event_Communication_597,Neptune,received,False,3204
+Event_Communication_598,V. Miesel Shipping,received,False,3206
+Event_Communication_598,Relationship_Operates_514,evidence_for,True,3207
+Event_Communication_599,Mrs. Money,received,False,3209
+Event_Communication_599,Relationship_Colleagues_589,evidence_for,True,3210
+Event_Communication_601,Nadia Conti,received,False,3213
+Event_Communication_601,Event_Assessment_600,evidence_for,True,3214
+Event_Communication_601,Relationship_Suspicious_360,evidence_for,True,3215
+Event_Communication_603,Paackland Harbor,received,False,3217
+Event_Communication_603,Event_Assessment_628,evidence_for,True,3218
+Event_Communication_604,Reef Guardian,received,False,3221
+Event_Communication_604,Relationship_Jurisdiction_446,evidence_for,True,3222
+Event_Communication_604,Relationship_AccessPermission_497,evidence_for,True,3223
+Event_Communication_605,Neptune,received,False,3225
+Event_Communication_605,Relationship_Coordinates_334,evidence_for,True,3226
+Event_Communication_606,V. Miesel Shipping,received,False,3228
+Event_Communication_606,Relationship_Reports_513,evidence_for,True,3229
+Event_Communication_607,Remora,received,False,3231
+Event_Communication_607,Relationship_Coordinates_305,evidence_for,True,3232
+Event_Communication_610,Green Guardians,received,False,3235
+Event_Communication_610,Event_Monitoring_608,evidence_for,True,3236
+Event_Communication_610,Event_Assessment_609,evidence_for,True,3237
+Event_Communication_610,Relationship_Operates_367,evidence_for,True,3239
+Event_Communication_610,Relationship_Operates_36,evidence_for,True,3238
+Event_Communication_612,Oceanus City Council,received,False,3242
+Event_Communication_612,Relationship_Suspicious_368,evidence_for,True,3244
+Event_Communication_612,Event_Assessment_174,evidence_for,True,3243
+Event_Communication_613,Reef Guardian,received,False,3247
+Event_Communication_613,Relationship_AccessPermission_370,evidence_for,True,3249
+Event_Communication_613,Relationship_Jurisdiction_583,evidence_for,True,3248
+Event_Communication_614,Oceanus City Council,received,False,3252
+Event_Communication_614,Relationship_Jurisdiction_446,evidence_for,True,3254
+Event_Communication_614,Relationship_AccessPermission_497,evidence_for,True,3253
+Event_Communication_616,Oceanus City Council,received,False,3257
+Event_Communication_616,Relationship_AccessPermission_497,evidence_for,True,3259
+Event_Communication_616,Event_Assessment_628,evidence_for,True,3258
+Event_Communication_617,Green Guardians,received,False,3260
+Event_Communication_619,Green Guardians,received,False,3263
+Event_Communication_619,Relationship_Reports_355,evidence_for,True,3265
+Event_Communication_619,Event_Monitoring_978,evidence_for,True,3264
+Event_Communication_621,Reef Guardian,received,False,3270
+Event_Communication_621,Relationship_Reports_529,evidence_for,True,3274
+Event_Communication_621,Relationship_Operates_566,evidence_for,True,3272
+Event_Communication_621,Relationship_Reports_344,evidence_for,True,3273
+Event_Communication_621,Event_Assessment_628,evidence_for,True,3271
+Event_Communication_623,EcoVigil,received,False,3277
+Event_Communication_623,Relationship_Coordinates_378,evidence_for,True,3279
+Event_Communication_623,Event_Assessment_628,evidence_for,True,3278
+Event_Communication_627,Reef Guardian,received,False,3281
+Event_Communication_627,Event_VesselMovement_624,evidence_for,True,3282
+Event_Communication_627,Event_Assessment_625,evidence_for,True,3283
+Event_Communication_627,Event_Collaborate_626,evidence_for,True,3284
+Event_Communication_627,Relationship_Coordinates_401,evidence_for,True,3285
+Event_Communication_630,Marlin,received,False,3289
+Event_Communication_630,Event_Assessment_628,evidence_for,True,3290
+Event_Communication_630,Event_VesselMovement_629,evidence_for,True,3291
+Event_Communication_630,Relationship_Coordinates_380,evidence_for,True,3292
+Event_Communication_632,Neptune,received,False,3294
+Event_Communication_632,Event_Monitoring_631,evidence_for,True,3295
+Event_Communication_633,V. Miesel Shipping,received,False,3297
+Event_Communication_633,Relationship_Reports_513,evidence_for,True,3298
+Event_Communication_635,Himark Harbor,received,False,3300
+Event_Communication_635,Event_VesselMovement_634,evidence_for,True,3301
+Event_Communication_636,Oceanus City Council,received,False,3303
+Event_Communication_636,Relationship_AccessPermission_382,evidence_for,True,3304
+Event_Communication_637,V. Miesel Shipping,received,False,3306
+Event_Communication_637,Relationship_Operates_255,evidence_for,True,3307
+Event_Communication_638,Mako,received,False,3309
+Event_Communication_638,Relationship_Operates_255,evidence_for,True,3310
+Event_Communication_639,V. Miesel Shipping,received,False,3315
+Event_Communication_639,Relationship_Coordinates_387,evidence_for,True,3318
+Event_Communication_639,Relationship_Operates_58,evidence_for,True,3316
+Event_Communication_639,Relationship_Operates_474,evidence_for,True,3317
+Event_Communication_639,Relationship_Suspicious_145,evidence_for,True,3319
+Event_Communication_640,Oceanus City Council,received,False,3321
+Event_Communication_640,Relationship_AccessPermission_415,evidence_for,True,3322
+Event_Communication_641,Himark Harbor,received,False,3324
+Event_Communication_641,Relationship_Jurisdiction_390,evidence_for,True,3325
+Event_Communication_642,Neptune,received,False,3326
+Event_Communication_644,Himark Harbor,received,False,3328
+Event_Communication_644,Event_VesselMovement_393,evidence_for,True,3329
+Event_Communication_645,Northern Light,received,False,3332
+Event_Communication_645,Relationship_AccessPermission_392,evidence_for,True,3333
+Event_Communication_645,Relationship_AccessPermission_393,evidence_for,True,3334
+Event_Communication_647,Liam Thorne,received,False,3336
+Event_Communication_647,Event_Monitoring_530,evidence_for,True,3337
+Event_Communication_649,The Intern,received,False,3340
+Event_Communication_649,Event_Monitoring_722,evidence_for,True,3341
+Event_Communication_649,Relationship_Colleagues_589,evidence_for,True,
+Event_Communication_651,The Lookout,received,False,3345
+Event_Communication_651,Event_Assessment_650,evidence_for,True,3346
+Event_Communication_651,Relationship_Colleagues_589,evidence_for,True,3347
+Event_Communication_652,Sam,received,False,3348
+Event_Communication_654,Mako,received,False,3351
+Event_Communication_654,Relationship_AccessPermission_397,evidence_for,True,3353
+Event_Communication_654,Event_TourActivity_807,evidence_for,True,3352
+Event_Communication_655,Paackland Harbor,received,False,3354
+Event_Communication_656,Mako,received,False,3356
+Event_Communication_656,Relationship_AccessPermission_243,evidence_for,True,3357
+Event_Communication_657,Samantha Blake,received,False,3359
+Event_Communication_657,Relationship_AccessPermission_243,evidence_for,True,3360
+Event_Communication_660,Marlin,received,False,3364
+Event_Communication_660,Relationship_Coordinates_380,evidence_for,True,3367
+Event_Communication_660,Event_VesselMovement_577,evidence_for,True,3366
+Event_Communication_660,Event_VesselMovement_629,evidence_for,True,3365
+Event_Communication_662,EcoVigil,received,False,3370
+Event_Communication_662,Event_Monitoring_661,evidence_for,True,3371
+Event_Communication_662,Relationship_Coordinates_401,evidence_for,True,3372
+Event_Communication_663,Remora,received,False,3374
+Event_Communication_663,Relationship_Coordinates_305,evidence_for,True,3375
+Event_Communication_664,Mako,received,False,3377
+Event_Communication_664,Relationship_Coordinates_297,evidence_for,True,3378
+Event_Communication_665,Remora,received,False,3381
+Event_Communication_665,Relationship_AccessPermission_405,evidence_for,True,3383
+Event_Communication_665,Relationship_Coordinates_387,evidence_for,True,3382
+Event_Communication_668,EcoVigil,received,False,3387
+Event_Communication_668,Event_Enforcement_666,evidence_for,True,3388
+Event_Communication_668,Relationship_AccessPermission_444,evidence_for,True,3390
+Event_Communication_668,Event_Monitoring_995,evidence_for,True,3389
+Event_Communication_672,EcoVigil,received,False,3395
+Event_Communication_672,Event_VesselMovement_670,evidence_for,True,3397
+Event_Communication_672,Relationship_Coordinates_53,evidence_for,True,3399
+Event_Communication_672,Event_Assessment_174,evidence_for,True,3398
+Event_Communication_672,Event_Monitoring_946,evidence_for,True,3396
+Event_Communication_674,Oceanus City Council,received,False,3401
+Event_Communication_674,Event_Monitoring_266,evidence_for,True,3402
+Event_Communication_675,Sentinel,received,False,3404
+Event_Communication_675,Relationship_Reports_408,evidence_for,True,3405
+Event_Communication_677,Nadia Conti,received,False,3409
+Event_Communication_677,Relationship_Suspicious_410,evidence_for,True,3412
+Event_Communication_677,Relationship_Jurisdiction_446,evidence_for,True,3411
+Event_Communication_677,Event_Monitoring_266,evidence_for,True,3410
+Event_Communication_679,Reef Guardian,received,False,3414
+Event_Communication_679,Event_Monitoring_678,evidence_for,True,3415
+Event_Communication_679,Relationship_Coordinates_411,evidence_for,True,3416
+Event_Communication_681,Seawatch,received,False,3419
+Event_Communication_681,Relationship_Coordinates_548,evidence_for,True,3421
+Event_Communication_681,Event_Monitoring_946,evidence_for,True,3420
+Event_Communication_683,Horizon,received,False,3423
+Event_Communication_683,Relationship_Coordinates_413,evidence_for,True,3424
+Event_Communication_684,Samantha Blake,received,False,3426
+Event_Communication_684,Relationship_Coordinates_334,evidence_for,True,3427
+Event_Communication_685,Oceanus City Council,received,False,3428
+Event_Communication_686,Samantha Blake,received,False,3431
+Event_Communication_686,Relationship_AccessPermission_415,evidence_for,True,3432
+Event_Communication_686,Relationship_Jurisdiction_446,evidence_for,True,3433
+Event_Communication_687,Mako,received,False,3435
+Event_Communication_687,Relationship_AccessPermission_243,evidence_for,True,3436
+Event_Communication_689,Reef Guardian,received,False,3439
+Event_Communication_689,Event_Monitoring_688,evidence_for,True,3440
+Event_Communication_689,Relationship_Coordinates_418,evidence_for,True,3441
+Event_Communication_692,Green Guardians,received,False,3444
+Event_Communication_692,Event_Monitoring_690,evidence_for,True,3445
+Event_Communication_692,Event_Assessment_691,evidence_for,True,3446
+Event_Communication_692,Relationship_Operates_566,evidence_for,True,3447
+Event_Communication_692,Relationship_Coordinates_609,evidence_for,True,3448
+Event_Communication_694,Sentinel,received,False,3451
+Event_Communication_694,Event_Enforcement_693,evidence_for,True,3452
+Event_Communication_694,Relationship_AccessPermission_421,evidence_for,True,3453
+Event_Communication_696,Oceanus City Council,received,False,3456
+Event_Communication_696,Relationship_Jurisdiction_446,evidence_for,True,3458
+Event_Communication_696,Event_Enforcement_784,evidence_for,True,3457
+Event_Communication_700,Liam Thorne,received,False,3464
+Event_Communication_700,Event_Collaborate_697,evidence_for,True,3465
+Event_Communication_700,Relationship_Coordinates_423,evidence_for,True,3468
+Event_Communication_700,Event_Collaborate_723,evidence_for,True,3466
+Event_Communication_700,Relationship_Jurisdiction_446,evidence_for,True,3469
+Event_Communication_700,Event_Enforcement_745,evidence_for,True,3467
+Event_Communication_702,The Intern,received,False,3471
+Event_Communication_702,Event_Assessment_701,evidence_for,True,3472
+Event_Communication_702,Relationship_AccessPermission_425,evidence_for,True,3473
+Event_Communication_702,Relationship_Suspicious_426,evidence_for,True,3474
+Event_Communication_705,Mrs. Money,received,False,3478
+Event_Communication_705,Event_Assessment_703,evidence_for,True,3479
+Event_Communication_705,Event_Monitoring_704,evidence_for,True,3480
+Event_Communication_705,Relationship_Colleagues_589,evidence_for,True,3481
+Event_Communication_708,Nadia Conti,received,False,3488
+Event_Communication_708,Relationship_Coordinates_428,evidence_for,True,3491
+Event_Communication_708,Relationship_Colleagues_430,evidence_for,True,3493
+Event_Communication_708,Relationship_Colleagues_431,evidence_for,True,3494
+Event_Communication_708,Event_Assessment_600,evidence_for,True,3490
+Event_Communication_708,Event_Monitoring_722,evidence_for,True,3489
+Event_Communication_708,Relationship_Colleagues_321,evidence_for,True,3492
+Event_Communication_710,Seawatch,received,False,3497
+Event_Communication_710,Event_Monitoring_709,evidence_for,True,3498
+Event_Communication_710,Relationship_Coordinates_548,evidence_for,True,3499
+Event_Communication_712,Horizon,received,False,3501
+Event_Communication_712,Event_Monitoring_878,evidence_for,True,3502
+Event_Communication_714,The Intern,received,False,3504
+Event_Communication_714,Event_Monitoring_192,evidence_for,True,3505
+Event_Communication_715,The Lookout,received,False,3507
+Event_Communication_715,Relationship_Colleagues_589,evidence_for,True,3508
+Event_Communication_717,The Intern,received,False,3509
+Event_Communication_717,Event_Monitoring_716,evidence_for,True,3510
+Event_Communication_720,Mrs. Money,received,False,3515
+Event_Communication_720,Event_Collaborate_719,evidence_for,True,3517
+Event_Communication_720,Relationship_Colleagues_589,evidence_for,True,3518
+Event_Communication_720,Relationship_Colleagues_84,evidence_for,True,3519
+Event_Communication_720,Event_Monitoring_722,evidence_for,True,3516
+Event_Communication_721,Liam Thorne,received,False,3520
+Event_Communication_724,Elise,received,False,3524
+Event_Communication_724,Event_Monitoring_722,evidence_for,True,3525
+Event_Communication_724,Event_Collaborate_723,evidence_for,True,3526
+Event_Communication_724,Relationship_Suspicious_436,evidence_for,True,3527
+Event_Communication_726,Boss,received,False,3531
+Event_Communication_726,Relationship_Coordinates_437,evidence_for,True,3533
+Event_Communication_726,Relationship_Suspicious_600,evidence_for,True,3534
+Event_Communication_726,Event_Monitoring_266,evidence_for,True,3532
+Event_Communication_727,V. Miesel Shipping,received,False,3535
+Event_Communication_728,Elise,received,False,3536
+Event_Communication_730,The Intern,received,False,3537
+Event_Communication_730,Event_Assessment_729,evidence_for,True,3538
+Event_Communication_730,Relationship_Operates_439,evidence_for,True,3539
+Event_Communication_731,EcoVigil,received,False,3542
+Event_Communication_731,Relationship_AccessPermission_441,evidence_for,True,3544
+Event_Communication_731,Relationship_Jurisdiction_446,evidence_for,True,3543
+Event_Communication_733,Oceanus City Council,received,False,3548
+Event_Communication_733,Relationship_Jurisdiction_446,evidence_for,True,3550
+Event_Communication_733,Relationship_AccessPermission_444,evidence_for,True,3551
+Event_Communication_733,Event_Monitoring_995,evidence_for,True,3549
+Event_Communication_735,EcoVigil,received,False,3556
+Event_Communication_735,Relationship_AccessPermission_444,evidence_for,True,3558
+Event_Communication_735,Relationship_Coordinates_445,evidence_for,True,3559
+Event_Communication_735,Relationship_Jurisdiction_446,evidence_for,True,3560
+Event_Communication_735,Event_Assessment_996,evidence_for,True,3557
+Event_Communication_737,Liam Thorne,received,False,3563
+Event_Communication_737,Relationship_Reports_447,evidence_for,True,3565
+Event_Communication_737,Event_Assessment_996,evidence_for,True,3564
+Event_Communication_739,Boss,received,False,3568
+Event_Communication_739,Relationship_Coordinates_448,evidence_for,True,3570
+Event_Communication_739,Event_Monitoring_995,evidence_for,True,3569
+Event_Communication_741,EcoVigil,received,False,3574
+Event_Communication_741,Relationship_Reports_447,evidence_for,True,3577
+Event_Communication_741,Relationship_Coordinates_378,evidence_for,True,3576
+Event_Communication_741,Event_Monitoring_995,evidence_for,True,3575
+Event_Communication_742,Reef Guardian,received,False,3579
+Event_Communication_742,Relationship_Reports_447,evidence_for,True,3580
+Event_Communication_744,Oceanus City Council,received,False,3582
+Event_Communication_744,Event_Monitoring_946,evidence_for,True,3583
+Event_Communication_746,Liam Thorne,received,False,3586
+Event_Communication_746,Event_Enforcement_745,evidence_for,True,3587
+Event_Communication_746,Relationship_Coordinates_27,evidence_for,True,3588
+Event_Communication_749,EcoVigil,received,False,3593
+Event_Communication_749,Relationship_Jurisdiction_454,evidence_for,True,3597
+Event_Communication_749,Relationship_AccessPermission_444,evidence_for,True,3596
+Event_Communication_749,Event_Monitoring_995,evidence_for,True,3594
+Event_Communication_749,Event_Monitoring_752,evidence_for,True,3595
+Event_Communication_751,Liam Thorne,received,False,3600
+Event_Communication_751,Relationship_AccessPermission_455,evidence_for,True,3602
+Event_Communication_751,Event_Monitoring_752,evidence_for,True,3601
+Event_Communication_753,Nadia Conti,received,False,3606
+Event_Communication_753,Event_Monitoring_752,evidence_for,True,3607
+Event_Communication_753,Relationship_Suspicious_457,evidence_for,True,3609
+Event_Communication_753,Relationship_Colleagues_494,evidence_for,True,3608
+Event_Communication_754,Mako,received,False,3611
+Event_Communication_754,Relationship_Coordinates_298,evidence_for,True,3612
+Event_Communication_755,Neptune,received,False,3615
+Event_Communication_755,Relationship_Operates_459,evidence_for,True,3616
+Event_Communication_755,Relationship_Coordinates_336,evidence_for,True,3617
+Event_Communication_756,Mako,received,False,3621
+Event_Communication_756,Relationship_Operates_461,evidence_for,True,3622
+Event_Communication_756,Relationship_Coordinates_298,evidence_for,True,3623
+Event_Communication_757,V. Miesel Shipping,received,False,3625
+Event_Communication_757,Relationship_Operates_463,evidence_for,True,3626
+Event_Communication_758,Neptune,received,False,3629
+Event_Communication_758,Relationship_Coordinates_471,evidence_for,True,3630
+Event_Communication_758,Relationship_Coordinates_473,evidence_for,True,3631
+Event_Communication_759,Remora,received,False,3635
+Event_Communication_759,Relationship_Operates_514,evidence_for,True,3637
+Event_Communication_759,Relationship_Operates_474,evidence_for,True,3638
+Event_Communication_759,Relationship_Coordinates_305,evidence_for,True,3636
+Event_Communication_761,Neptune,received,False,3642
+Event_Communication_761,Event_Collaborate_760,evidence_for,True,3643
+Event_Communication_761,Relationship_Suspicious_470,evidence_for,True,3645
+Event_Communication_761,Relationship_Coordinates_516,evidence_for,True,3644
+Event_Communication_762,V. Miesel Shipping,received,False,3649
+Event_Communication_762,Relationship_Coordinates_471,evidence_for,True,3650
+Event_Communication_762,Relationship_Coordinates_473,evidence_for,True,3652
+Event_Communication_762,Relationship_Coordinates_499,evidence_for,True,3651
+Event_Communication_763,Remora,received,False,3655
+Event_Communication_763,Relationship_Operates_474,evidence_for,True,3656
+Event_Communication_763,Relationship_Operates_514,evidence_for,True,3657
+Event_Communication_764,Boss,received,False,3659
+Event_Communication_764,Relationship_Operates_476,evidence_for,True,3660
+Event_Communication_767,Clepper Jensen,received,False,3664
+Event_Communication_767,Event_Assessment_765,evidence_for,True,3665
+Event_Communication_767,Event_Monitoring_766,evidence_for,True,3666
+Event_Communication_767,Relationship_AccessPermission_477,evidence_for,True,3667
+Event_Communication_768,Miranda Jordan,received,False,3669
+Event_Communication_768,Relationship_Colleagues_290,evidence_for,True,3670
+Event_Communication_770,Clepper Jensen,received,False,3673
+Event_Communication_770,Event_Enforcement_769,evidence_for,True,3674
+Event_Communication_770,Relationship_AccessPermission_479,evidence_for,True,3675
+Event_Communication_771,Miranda Jordan,received,False,3677
+Event_Communication_771,Relationship_Colleagues_290,evidence_for,True,3678
+Event_Communication_772,Clepper Jensen,received,False,3679
+Event_Communication_773,Miranda Jordan,received,False,3681
+Event_Communication_773,Relationship_Colleagues_290,evidence_for,True,3682
+Event_Communication_774,Clepper Jensen,received,False,3685
+Event_Communication_774,Relationship_Suspicious_483,evidence_for,True,3687
+Event_Communication_774,Relationship_Jurisdiction_586,evidence_for,True,3686
+Event_Communication_775,Miranda Jordan,received,False,3689
+Event_Communication_775,Relationship_Suspicious_485,evidence_for,True,3691
+Event_Communication_775,Relationship_Colleagues_290,evidence_for,True,3690
+Event_Communication_776,Clepper Jensen,received,False,3692
+Event_Communication_778,Green Guardians,received,False,3694
+Event_Communication_778,Event_Monitoring_777,evidence_for,True,3695
+Event_Communication_778,Relationship_Operates_176,evidence_for,True,3696
+Event_Communication_781,Oceanus City Council,received,False,3700
+Event_Communication_781,Relationship_Jurisdiction_446,evidence_for,True,3703
+Event_Communication_781,Event_Monitoring_192,evidence_for,True,3701
+Event_Communication_781,Event_Assessment_174,evidence_for,True,3702
+Event_Communication_783,Himark Harbor,received,False,3706
+Event_Communication_783,Relationship_Jurisdiction_446,evidence_for,True,3708
+Event_Communication_783,Event_Enforcement_745,evidence_for,True,3707
+Event_Communication_785,Seawatch,received,False,3711
+Event_Communication_785,Event_Enforcement_784,evidence_for,True,3712
+Event_Communication_785,Relationship_AccessPermission_489,evidence_for,True,3713
+Event_Communication_787,Himark Harbor,received,False,3715
+Event_Communication_787,Event_Assessment_786,evidence_for,True,3716
+Event_Communication_789,Seawatch,received,False,3718
+Event_Communication_789,Event_Monitoring_722,evidence_for,True,3719
+Event_Communication_792,Green Guardians,received,False,3724
+Event_Communication_792,Event_Assessment_791,evidence_for,True,3726
+Event_Communication_792,Relationship_Reports_355,evidence_for,True,3728
+Event_Communication_792,Event_Monitoring_595,evidence_for,True,3725
+Event_Communication_792,Relationship_AccessPermission_232,evidence_for,True,3727
+Event_Communication_793,Green Guardians,received,False,3730
+Event_Communication_793,Relationship_Coordinates_492,evidence_for,True,3731
+Event_Communication_794,Sam,received,False,3732
+Event_Communication_795,Liam Thorne,received,False,3735
+Event_Communication_795,Relationship_Coordinates_493,evidence_for,True,3736
+Event_Communication_795,Relationship_Colleagues_494,evidence_for,True,3737
+Event_Communication_796,The Accountant,received,False,3740
+Event_Communication_796,Relationship_Reports_496,evidence_for,True,3742
+Event_Communication_796,Relationship_Colleagues_601,evidence_for,True,
+Event_Communication_799,Reef Guardian,received,False,3745
+Event_Communication_799,Event_Monitoring_797,evidence_for,True,3746
+Event_Communication_799,Event_VesselMovement_798,evidence_for,True,3747
+Event_Communication_801,Defender,received,False,3750
+Event_Communication_801,Relationship_AccessPermission_497,evidence_for,True,3752
+Event_Communication_801,Event_Monitoring_946,evidence_for,True,3751
+Event_Communication_802,Mako,received,False,3755
+Event_Communication_802,Relationship_Coordinates_499,evidence_for,True,3757
+Event_Communication_802,Relationship_Operates_58,evidence_for,True,3756
+Event_Communication_804,Davis,received,False,3761
+Event_Communication_804,Event_Monitoring_803,evidence_for,True,3762
+Event_Communication_804,Relationship_AccessPermission_243,evidence_for,True,3763
+Event_Communication_804,Relationship_Colleagues_619,evidence_for,True,3764
+Event_Communication_805,Nadia Conti,received,False,3765
+Event_Communication_805,Event_Monitoring_803,evidence_for,True,3766
+Event_Communication_805,Relationship_AccessPermission_243,evidence_for,True,3767
+Event_Communication_805,Relationship_Colleagues_619,evidence_for,True,3768
+Event_Communication_808,Mako,received,False,3772
+Event_Communication_808,Event_VesselMovement_806,evidence_for,True,3773
+Event_Communication_808,Event_TourActivity_807,evidence_for,True,3774
+Event_Communication_808,Relationship_AccessPermission_502,evidence_for,True,3775
+Event_Communication_809,Remora,received,False,3778
+Event_Communication_809,Relationship_Coordinates_503,evidence_for,True,3779
+Event_Communication_810,Rodriguez,received,False,3782
+Event_Communication_810,Relationship_Operates_505,evidence_for,True,3784
+Event_Communication_810,Relationship_Operates_476,evidence_for,True,3783
+Event_Communication_811,Remora,received,False,3786
+Event_Communication_811,Relationship_Operates_506,evidence_for,True,3787
+Event_Communication_812,Mako,received,False,3790
+Event_Communication_812,Relationship_Coordinates_499,evidence_for,True,3792
+Event_Communication_812,Relationship_Coordinates_297,evidence_for,True,3791
+Event_Communication_815,Osprey,received,False,3795
+Event_Communication_815,Event_TourActivity_814,evidence_for,True,3797
+Event_Communication_815,Event_VesselMovement_122,evidence_for,True,3796
+Event_Communication_817,Mako,received,False,3800
+Event_Communication_817,Event_TourActivity_816,evidence_for,True,3801
+Event_Communication_817,Relationship_Coordinates_509,evidence_for,True,3802
+Event_Communication_819,Mako,received,False,3807
+Event_Communication_819,Event_Collaborate_818,evidence_for,True,3808
+Event_Communication_819,Relationship_AccessPermission_511,evidence_for,True,3810
+Event_Communication_819,Relationship_AccessPermission_512,evidence_for,True,3811
+Event_Communication_819,Relationship_Operates_58,evidence_for,True,3809
+Event_Communication_820,V. Miesel Shipping,received,False,3813
+Event_Communication_820,Relationship_Reports_513,evidence_for,True,3814
+Event_Communication_821,Neptune,received,False,3816
+Event_Communication_821,Relationship_Operates_514,evidence_for,True,3817
+Event_Communication_822,Remora,received,False,3819
+Event_Communication_822,Relationship_Coordinates_305,evidence_for,True,3820
+Event_Communication_823,Neptune,received,False,3823
+Event_Communication_823,Relationship_Coordinates_516,evidence_for,True,3824
+Event_Communication_823,Relationship_Operates_514,evidence_for,True,3825
+Event_Communication_824,V. Miesel Shipping,received,False,3827
+Event_Communication_824,Relationship_Coordinates_518,evidence_for,True,3828
+Event_Communication_825,Davis,received,False,3831
+Event_Communication_825,Relationship_Operates_519,evidence_for,True,3832
+Event_Communication_826,Reef Guardian,received,False,3833
+Event_Communication_828,Oceanus City Council,received,False,3837
+Event_Communication_828,Relationship_Operates_521,evidence_for,True,3840
+Event_Communication_828,Relationship_AccessPermission_497,evidence_for,True,3839
+Event_Communication_828,Event_Monitoring_946,evidence_for,True,3838
+Event_Communication_831,Horizon,received,False,3843
+Event_Communication_831,Event_Monitoring_829,evidence_for,True,3844
+Event_Communication_831,Relationship_Operates_36,evidence_for,True,3846
+Event_Communication_831,Event_Assessment_174,evidence_for,True,3845
+Event_Communication_833,Oceanus City Council,received,False,3849
+Event_Communication_833,Relationship_Suspicious_368,evidence_for,True,3851
+Event_Communication_833,Event_Monitoring_192,evidence_for,True,3850
+Event_Communication_834,Green Guardians,received,False,3856
+Event_Communication_834,Relationship_Reports_526,evidence_for,True,3859
+Event_Communication_834,Relationship_Jurisdiction_446,evidence_for,True,3860
+Event_Communication_834,Relationship_Operates_566,evidence_for,True,3857
+Event_Communication_834,Relationship_AccessPermission_497,evidence_for,True,3858
+Event_Communication_836,Horizon,received,False,3864
+Event_Communication_836,Event_Monitoring_835,evidence_for,True,3865
+Event_Communication_836,Relationship_Reports_529,evidence_for,True,3867
+Event_Communication_836,Relationship_Operates_36,evidence_for,True,3866
+Event_Communication_838,EcoVigil,received,False,3870
+Event_Communication_838,Event_Assessment_837,evidence_for,True,3871
+Event_Communication_838,Relationship_Coordinates_54,evidence_for,True,3872
+Event_Communication_840,V. Miesel Shipping,received,False,3875
+Event_Communication_840,Event_Enforcement_839,evidence_for,True,3876
+Event_Communication_840,Relationship_AccessPermission_214,evidence_for,True,3877
+Event_Communication_841,Rodriguez,received,False,3880
+Event_Communication_841,Relationship_Operates_514,evidence_for,True,3881
+Event_Communication_841,Relationship_AccessPermission_405,evidence_for,True,3882
+Event_Communication_842,Davis,received,False,3887
+Event_Communication_842,Relationship_Colleagues_535,evidence_for,True,3889
+Event_Communication_842,Relationship_Colleagues_536,evidence_for,True,3890
+Event_Communication_842,Relationship_Reports_537,evidence_for,True,3891
+Event_Communication_842,Relationship_Colleagues_617,evidence_for,True,3888
+Event_Communication_844,V. Miesel Shipping,received,False,3896
+Event_Communication_844,Event_VesselMovement_843,evidence_for,True,3897
+Event_Communication_844,Relationship_Operates_538,evidence_for,True,3898
+Event_Communication_844,Relationship_Colleagues_551,evidence_for,True,3899
+Event_Communication_845,Nadia Conti,received,False,3900
+Event_Communication_845,Event_VesselMovement_843,evidence_for,True,3901
+Event_Communication_845,Relationship_Operates_538,evidence_for,True,3902
+Event_Communication_845,Relationship_Colleagues_551,evidence_for,True,3903
+Event_Communication_846,Nadia Conti,received,False,3906
+Event_Communication_846,Relationship_Colleagues_551,evidence_for,True,3907
+Event_Communication_846,Relationship_AccessPermission_214,evidence_for,True,3908
+Event_Communication_847,V. Miesel Shipping,received,False,3909
+Event_Communication_849,Oceanus City Council,received,False,3911
+Event_Communication_849,Event_Monitoring_266,evidence_for,True,3912
+Event_Communication_850,Mako,received,False,3914
+Event_Communication_850,Relationship_Coordinates_297,evidence_for,True,3915
+Event_Communication_851,Neptune,received,False,3918
+Event_Communication_851,Relationship_Operates_543,evidence_for,True,3919
+Event_Communication_851,Relationship_Colleagues_551,evidence_for,True,3920
+Event_Communication_852,Remora,received,False,3922
+Event_Communication_852,Relationship_Coordinates_305,evidence_for,True,3923
+Event_Communication_853,Remora,received,False,3925
+Event_Communication_853,Relationship_Operates_546,evidence_for,True,3926
+Event_Communication_855,Reef Guardian,received,False,3930
+Event_Communication_855,Event_Enforcement_854,evidence_for,True,3931
+Event_Communication_855,Relationship_AccessPermission_497,evidence_for,True,3932
+Event_Communication_857,Seawatch,received,False,3935
+Event_Communication_857,Event_Monitoring_856,evidence_for,True,3936
+Event_Communication_857,Relationship_Coordinates_548,evidence_for,True,3937
+Event_Communication_859,Sam,received,False,3939
+Event_Communication_859,Event_Monitoring_722,evidence_for,True,3940
+Event_Communication_860,The Lookout,received,False,3941
+Event_Communication_862,Sam,received,False,3943
+Event_Communication_862,Event_Monitoring_722,evidence_for,True,3944
+Event_Communication_864,Mrs. Money,received,False,3947
+Event_Communication_864,Relationship_Reports_41,evidence_for,True,3949
+Event_Communication_864,Event_Monitoring_722,evidence_for,True,3948
+Event_Communication_866,Boss,received,False,3952
+Event_Communication_866,Relationship_Coordinates_550,evidence_for,True,3954
+Event_Communication_866,Event_Monitoring_722,evidence_for,True,3953
+Event_Communication_867,The Accountant,received,False,3955
+Event_Communication_867,Relationship_Coordinates_550,evidence_for,True,3957
+Event_Communication_867,Event_Monitoring_722,evidence_for,True,3956
+Event_Communication_869,Nadia Conti,received,False,3959
+Event_Communication_869,Event_Collaborate_868,evidence_for,True,3960
+Event_Communication_869,Relationship_Colleagues_551,evidence_for,True,3961
+Event_Communication_871,Mako,received,False,3964
+Event_Communication_871,Relationship_AccessPermission_553,evidence_for,True,3966
+Event_Communication_871,Event_VesselMovement_892,evidence_for,True,3965
+Event_Communication_873,Davis,received,False,3969
+Event_Communication_873,Relationship_Operates_546,evidence_for,True,3971
+Event_Communication_873,Event_VesselMovement_892,evidence_for,True,3970
+Event_Communication_875,Reef Guardian,received,False,3973
+Event_Communication_875,Event_Monitoring_978,evidence_for,True,3974
+Event_Communication_877,Horizon,received,False,3977
+Event_Communication_877,Relationship_Coordinates_555,evidence_for,True,3979
+Event_Communication_877,Event_Monitoring_856,evidence_for,True,3978
+Event_Communication_879,Seawatch,received,False,3982
+Event_Communication_879,Event_Monitoring_878,evidence_for,True,3983
+Event_Communication_879,Relationship_Coordinates_556,evidence_for,True,3984
+Event_Communication_881,Oceanus City Council,received,False,3988
+Event_Communication_881,Relationship_Reports_587,evidence_for,True,3991
+Event_Communication_881,Event_VesselMovement_931,evidence_for,True,3989
+Event_Communication_881,Relationship_AccessPermission_588,evidence_for,True,3990
+Event_Communication_882,Green Guardians,received,False,3993
+Event_Communication_882,Relationship_Unfriendly_625,evidence_for,True,3994
+Event_Communication_884,Knowles,received,False,3997
+Event_Communication_884,Event_VesselMovement_883,evidence_for,True,3998
+Event_Communication_884,Relationship_AccessPermission_560,evidence_for,True,3999
+Event_Communication_886,Haacklee Harbor,received,False,4002
+Event_Communication_886,Event_VesselMovement_883,evidence_for,True,4003
+Event_Communication_886,Relationship_AccessPermission_560,evidence_for,True,4004
+Event_Communication_888,Oceanus City Council,received,False,4007
+Event_Communication_888,Event_VesselMovement_887,evidence_for,True,4008
+Event_Communication_888,Relationship_AccessPermission_562,evidence_for,True,4009
+Event_Communication_890,Neptune,received,False,4012
+Event_Communication_890,Event_VesselMovement_402,evidence_for,True,4013
+Event_Communication_890,Relationship_AccessPermission_244,evidence_for,True,4014
+Event_Communication_891,Davis,received,False,4016
+Event_Communication_891,Relationship_AccessPermission_564,evidence_for,True,4017
+Event_Communication_893,Remora,received,False,4019
+Event_Communication_893,Event_VesselMovement_892,evidence_for,True,4020
+Event_Communication_895,Sentinel,received,False,4022
+Event_Communication_897,Mako,received,False,4024
+Event_Communication_897,Event_Monitoring_266,evidence_for,True,4025
+Event_Communication_898,Sentinel,received,False,4027
+Event_Communication_898,Relationship_Coordinates_565,evidence_for,True,4028
+Event_Communication_899,Reef Guardian,received,False,4029
+Event_Communication_901,Green Guardians,received,False,4031
+Event_Communication_901,Event_Monitoring_900,evidence_for,True,4032
+Event_Communication_901,Relationship_Operates_566,evidence_for,True,4033
+Event_Communication_902,Oceanus City Council,received,False,4035
+Event_Communication_902,Relationship_Unfriendly_567,evidence_for,True,4036
+Event_Communication_903,Paackland Harbor,received,False,4038
+Event_Communication_903,Relationship_Jurisdiction_583,evidence_for,True,4039
+Event_Communication_905,Sentinel,received,False,4043
+Event_Communication_905,Event_VesselMovement_904,evidence_for,True,4044
+Event_Communication_905,Relationship_AccessPermission_569,evidence_for,True,4045
+Event_Communication_905,Relationship_Jurisdiction_583,evidence_for,True,4046
+Event_Communication_908,Green Guardians,received,False,4051
+Event_Communication_908,Relationship_Reports_572,evidence_for,True,4055
+Event_Communication_908,Relationship_Operates_176,evidence_for,True,4054
+Event_Communication_908,Event_Monitoring_266,evidence_for,True,4052
+Event_Communication_908,Event_Assessment_973,evidence_for,True,4053
+Event_Communication_910,Seawatch,received,False,4058
+Event_Communication_910,Event_Monitoring_909,evidence_for,True,4059
+Event_Communication_910,Relationship_Coordinates_573,evidence_for,True,4060
+Event_Communication_912,Sentinel,received,False,4062
+Event_Communication_912,Event_Monitoring_911,evidence_for,True,4063
+Event_Communication_914,Mako,received,False,4067
+Event_Communication_914,Relationship_Jurisdiction_575,evidence_for,True,4070
+Event_Communication_914,Event_Assessment_973,evidence_for,True,4068
+Event_Communication_914,Relationship_AccessPermission_421,evidence_for,True,4069
+Event_Communication_916,Davis,received,False,4074
+Event_Communication_916,Relationship_Suspicious_577,evidence_for,True,4077
+Event_Communication_916,Relationship_Operates_58,evidence_for,True,4076
+Event_Communication_916,Event_Monitoring_803,evidence_for,True,4075
+Event_Communication_919,Mako,received,False,4081
+Event_Communication_919,Event_Monitoring_917,evidence_for,True,4082
+Event_Communication_919,Relationship_Coordinates_578,evidence_for,True,4084
+Event_Communication_919,Event_Assessment_628,evidence_for,True,4083
+Event_Communication_920,Reef Guardian,received,False,4085
+Event_Communication_921,The Lookout,received,False,4087
+Event_Communication_921,Relationship_Colleagues_589,evidence_for,True,4088
+Event_Communication_923,The Intern,received,False,4090
+Event_Communication_923,Event_Monitoring_922,evidence_for,True,4091
+Event_Communication_923,Relationship_Colleagues_589,evidence_for,True,4092
+Event_Communication_925,Mrs. Money,received,False,4096
+Event_Communication_925,Relationship_Colleagues_589,evidence_for,True,4099
+Event_Communication_925,Relationship_Colleagues_84,evidence_for,True,4098
+Event_Communication_925,Event_Monitoring_595,evidence_for,True,4097
+Event_Communication_926,Horizon,received,False,4100
+Event_Communication_928,Oceanus City Council,received,False,4103
+Event_Communication_928,Event_HarborReport_927,evidence_for,True,4104
+Event_Communication_928,Relationship_Jurisdiction_583,evidence_for,True,4105
+Event_Communication_930,Liam Thorne,received,False,4110
+Event_Communication_930,Event_Monitoring_929,evidence_for,True,4111
+Event_Communication_930,Relationship_AccessPermission_585,evidence_for,True,4113
+Event_Communication_930,Relationship_Jurisdiction_586,evidence_for,True,4114
+Event_Communication_930,Relationship_Reports_587,evidence_for,True,4112
+Event_Communication_933,Oceanus City Council,received,False,4119
+Event_Communication_933,Event_VesselMovement_931,evidence_for,True,4120
+Event_Communication_933,Event_Monitoring_932,evidence_for,True,4121
+Event_Communication_933,Relationship_Reports_587,evidence_for,True,4122
+Event_Communication_933,Relationship_AccessPermission_588,evidence_for,True,4123
+Event_Communication_935,The Intern,received,False,4124
+Event_Communication_935,Event_Monitoring_934,evidence_for,True,4125
+Event_Communication_936,The Lookout,received,False,4127
+Event_Communication_936,Relationship_Colleagues_589,evidence_for,True,4128
+Event_Communication_937,The Intern,received,False,4129
+Event_Communication_939,Sailor Shifts Team,received,False,4132
+Event_Communication_939,Event_TourActivity_938,evidence_for,True,4133
+Event_Communication_939,Relationship_AccessPermission_594,evidence_for,True,4134
+Event_Communication_940,Remora,received,False,4137
+Event_Communication_940,Relationship_AccessPermission_591,evidence_for,True,4138
+Event_Communication_940,Relationship_Operates_592,evidence_for,True,4139
+Event_Communication_943,Nadia Conti,received,False,4144
+Event_Communication_943,Event_Monitoring_941,evidence_for,True,4145
+Event_Communication_943,Event_Monitoring_942,evidence_for,True,4146
+Event_Communication_943,Relationship_Operates_593,evidence_for,True,4147
+Event_Communication_943,Relationship_AccessPermission_594,evidence_for,True,4148
+Event_Communication_945,Reef Guardian,received,False,4150
+Event_Communication_945,Event_VesselMovement_944,evidence_for,True,4151
+Event_Communication_949,EcoVigil,received,False,4157
+Event_Communication_949,Event_Monitoring_946,evidence_for,True,4158
+Event_Communication_949,Event_Enforcement_947,evidence_for,True,4159
+Event_Communication_949,Relationship_Coordinates_378,evidence_for,True,4161
+Event_Communication_949,Relationship_AccessPermission_497,evidence_for,True,4162
+Event_Communication_949,Event_Assessment_996,evidence_for,True,4160
+Event_Communication_950,The Accountant,received,False,4166
+Event_Communication_950,Relationship_Colleagues_599,evidence_for,True,4169
+Event_Communication_950,Relationship_Colleagues_11,evidence_for,True,4168
+Event_Communication_950,Relationship_Colleagues_601,evidence_for,True,4167
+Event_Communication_951,The Middleman,received,False,4172
+Event_Communication_951,Relationship_Suspicious_600,evidence_for,True,4173
+Event_Communication_951,Relationship_Colleagues_601,evidence_for,True,4174
+Event_Communication_953,Oceanus City Council,received,False,4176
+Event_Communication_953,Event_Enforcement_952,evidence_for,True,4177
+Event_Communication_955,Remora,received,False,4179
+Event_Communication_955,Event_VesselMovement_892,evidence_for,True,4180
+Event_Communication_958,V. Miesel Shipping,received,False,4185
+Event_Communication_958,Event_Monitoring_957,evidence_for,True,4187
+Event_Communication_958,Relationship_Operates_602,evidence_for,True,4188
+Event_Communication_958,Relationship_Reports_603,evidence_for,True,4189
+Event_Communication_958,Event_TourActivity_938,evidence_for,True,4186
+Event_Communication_960,Horizon,received,False,4192
+Event_Communication_960,Relationship_Reports_604,evidence_for,True,4194
+Event_Communication_960,Event_Monitoring_995,evidence_for,True,4193
+Event_Communication_961,Green Guardians,received,False,4196
+Event_Communication_961,Relationship_Coordinates_54,evidence_for,True,4197
+Event_Communication_963,Boss,received,False,4201
+Event_Communication_963,Event_TourActivity_962,evidence_for,True,4202
+Event_Communication_963,Relationship_Operates_58,evidence_for,True,4203
+Event_Communication_963,Relationship_AccessPermission_243,evidence_for,True,4204
+Event_Communication_964,Mako,received,False,4206
+Event_Communication_964,Relationship_Colleagues_536,evidence_for,True,4207
+Event_Communication_965,Seawatch,received,False,4208
+Event_Communication_968,Reef Guardian,received,False,4213
+Event_Communication_968,Event_Assessment_966,evidence_for,True,4214
+Event_Communication_968,Event_Monitoring_967,evidence_for,True,4215
+Event_Communication_968,Relationship_Coordinates_609,evidence_for,True,4216
+Event_Communication_968,Relationship_Reports_344,evidence_for,True,4217
+Event_Communication_970,Port Security,received,False,4222
+Event_Communication_970,Relationship_Jurisdiction_611,evidence_for,True,4224
+Event_Communication_970,Relationship_Jurisdiction_613,evidence_for,True,4226
+Event_Communication_970,Relationship_AccessPermission_497,evidence_for,True,4225
+Event_Communication_970,Event_Monitoring_946,evidence_for,True,4223
+Event_Communication_974,EcoVigil,received,False,4228
+Event_Communication_974,Event_Monitoring_971,evidence_for,True,4229
+Event_Communication_974,Event_Collaborate_972,evidence_for,True,4230
+Event_Communication_974,Event_Assessment_973,evidence_for,True,4231
+Event_Communication_974,Relationship_Coordinates_614,evidence_for,True,4232
+Event_Communication_974,Relationship_AccessPermission_615,evidence_for,True,4233
+Event_Communication_976,Sentinel,received,False,4235
+Event_Communication_976,Event_Monitoring_995,evidence_for,True,4236
+Event_Communication_977,Sentinel,received,False,4238
+Event_Communication_977,Relationship_Coordinates_616,evidence_for,True,4239
+Event_Communication_979,Oceanus City Council,received,False,4241
+Event_Communication_979,Event_Monitoring_978,evidence_for,True,4242
+Event_Communication_981,Davis,received,False,4244
+Event_Communication_981,Event_VesselMovement_980,evidence_for,True,4245
+Event_Communication_982,Rodriguez,received,False,4246
+Event_Communication_984,Davis,received,False,4250
+Event_Communication_984,Relationship_Colleagues_617,evidence_for,True,4252
+Event_Communication_984,Relationship_Coordinates_618,evidence_for,True,4253
+Event_Communication_984,Event_VesselMovement_892,evidence_for,True,4251
+Event_Communication_986,Remora,received,False,4257
+Event_Communication_986,Relationship_Colleagues_619,evidence_for,True,4259
+Event_Communication_986,Relationship_Operates_546,evidence_for,True,4260
+Event_Communication_986,Event_VesselMovement_892,evidence_for,True,4258
+Event_Communication_987,Mako,received,False,4262
+Event_Communication_987,Relationship_Coordinates_621,evidence_for,True,4263
+Event_Communication_989,Himark Harbor,received,False,4266
+Event_Communication_989,Relationship_Reports_622,evidence_for,True,4268
+Event_Communication_989,Event_VesselMovement_122,evidence_for,True,4267
+Event_Communication_991,Horizon,received,False,4270
+Event_Communication_991,Event_Monitoring_595,evidence_for,True,4271
+Event_Communication_993,Oceanus City Council,received,False,4275
+Event_Communication_993,Event_Enforcement_992,evidence_for,True,4276
+Event_Communication_993,Relationship_Coordinates_623,evidence_for,True,4277
+Event_Communication_993,Relationship_AccessPermission_489,evidence_for,True,4278
+Event_Communication_994,Green Guardians,received,False,4280
+Event_Communication_994,Relationship_Unfriendly_625,evidence_for,True,4281
+Event_Communication_997,EcoVigil,received,False,4285
+Event_Communication_997,Event_Monitoring_995,evidence_for,True,4286
+Event_Communication_997,Event_Assessment_996,evidence_for,True,4287
+Event_Communication_997,Relationship_Reports_51,evidence_for,True,4288
+Event_Communication_999,Mako,received,False,4291
+Event_Communication_999,Event_Enforcement_998,evidence_for,True,4292
+Event_Communication_999,Relationship_AccessPermission_497,evidence_for,True,4293
+Event_Communication_1001,Davis,received,False,4296
+Event_Communication_1001,Event_VesselMovement_1000,evidence_for,True,4297
+Event_Communication_1001,Relationship_Colleagues_628,evidence_for,True,4298
+Event_Communication_1003,Davis,received,False,4301
+Event_Communication_1003,Event_VesselMovement_1002,evidence_for,True,4302
+Event_Communication_1003,Relationship_Coordinates_629,evidence_for,True,4303
+Event_Assessment_14,Azure Cove,,True,1796
+Event_Assessment_18,Coral Point,,True,1701
+Event_Assessment_18,Dolphin Bay,,True,1702
+Event_Assessment_41,Nemo Reef,,True,2497
+Event_Assessment_56,Dolphin Bay,,True,1797
+Event_Assessment_65,Nemo Reef,,True,2038
+Event_Assessment_101,Nemo Reef,,True,2468
+Event_Assessment_114,Coral Point,,True,1936
+Event_Assessment_114,Dolphin Bay,,True,1937
+Event_Assessment_174,Nemo Reef,,True,3698
+Event_Assessment_198,Southern coastline,,True,2139
+Event_Assessment_223,Nemo Reef,,True,2221
+Event_Assessment_223,Southern coastline,,True,2222
+Event_Assessment_329,Nemo Reef,,True,2484
+Event_Assessment_337,Nemo Reef,,True,2432
+Event_Assessment_445,Haacklee Harbor,,True,2814
+Event_Assessment_463,Eastern reefs,,True,2864
+Event_Assessment_488,Eastern Boundary,,True,2922
+Event_Assessment_492,Nemo Reef,,True,1733
+Event_Assessment_522,Nemo Reef,,True,2884
+Event_Assessment_583,Eastern Shoals,,True,3171
+Event_Assessment_600,Nemo Reef,,True,3483
+Event_Assessment_628,Nemo Reef,,True,3266
+Event_Assessment_650,Restricted areas,,True,3343
+Event_Assessment_701,Nemo Reef,,True,3470
+Event_Assessment_703,Nemo Reef,,True,3475
+Event_Assessment_765,Restricted areas,,True,3661
+Event_Assessment_786,Nemo Reef,,True,3714
+Event_Assessment_791,Nemo Reef,,True,3721
+Event_Assessment_837,Nemo Reef,,True,3868
+Event_Assessment_966,Protected areas,,True,4209
+Event_Assessment_973,Nemo Reef,,True,4064
+Event_Assessment_996,Nemo Reef,,True,3561
+Event_VesselMovement_25,Himark Harbor,,True,2715
+Event_VesselMovement_122,Himark Harbor,,True,4264
+Event_VesselMovement_154,Nemo Reef,,True,2037
+Event_VesselMovement_157,Himark Harbor,,True,2046
+Event_VesselMovement_157,South Dock,,True,2047
+Event_VesselMovement_190,Himark Harbor,,True,2121
+Event_VesselMovement_210,Western quadrant,,True,2185
+Event_VesselMovement_284,Eastern Boundary,,True,2388
+Event_VesselMovement_288,Eastern quadrant,,True,2396
+Event_VesselMovement_300,Eastern Islands,,True,2420
+Event_VesselMovement_303,Himark Harbor,,True,2426
+Event_VesselMovement_303,Eastern Islands,,True,2427
+Event_VesselMovement_326,Himark Harbor,,True,2480
+Event_VesselMovement_363,Himark Harbor,,True,2577
+Event_VesselMovement_363,Nemo Reef,,True,2578
+Event_VesselMovement_393,Nemo Reef,,True,3327
+Event_VesselMovement_402,Himark Harbor,,True,4010
+Event_VesselMovement_483,Southern Boundary,,True,2910
+Event_VesselMovement_494,Eastern reefs,,True,2934
+Event_VesselMovement_495,Eastern reefs,,True,3090
+Event_VesselMovement_503,Eastern reefs,,True,2841
+Event_VesselMovement_509,Nemo Reef,,True,3116
+Event_VesselMovement_510,Route C,,True,2941
+Event_VesselMovement_549,Nemo Reef,,True,2273
+Event_VesselMovement_563,Nemo Reef,,True,3119
+Event_VesselMovement_569,Nemo Reef,,True,2097
+Event_VesselMovement_577,Himark Harbor,,True,3362
+Event_VesselMovement_580,Eastern Shoals,,True,3163
+Event_VesselMovement_629,Eastern quadrant,,True,3361
+Event_VesselMovement_634,Himark Harbor,,True,3299
+Event_VesselMovement_670,Nemo Reef,,True,3392
+Event_VesselMovement_798,Northern quadrant,,True,3744
+Event_VesselMovement_806,Himark Harbor,,True,3769
+Event_VesselMovement_843,Neptune,,True,3892
+Event_VesselMovement_883,Haacklee Harbor,,True,4000
+Event_VesselMovement_887,Nemo Reef,,True,4005
+Event_VesselMovement_892,South Dock,,True,4178
+Event_VesselMovement_904,Paackland Harbor,,True,4040
+Event_VesselMovement_931,Northern quadrant,,True,3985
+Event_VesselMovement_944,Dolphin Bay,,True,4149
+Event_VesselMovement_980,Berth 14,,True,4243
+Event_VesselMovement_1000,South Dock,,True,1798
+Event_VesselMovement_1002,South Dock,,True,4299
+Event_Enforcement_29,Remora,,True,1728
+Event_Enforcement_34,Protected areas,,True,1742
+Event_Enforcement_34,Nemo Reef,,True,1743
+Event_Enforcement_42,Nemo Reef,,True,1768
+Event_Enforcement_44,Paackland Harbor,,True,1776
+Event_Enforcement_177,Nemo Reef,,True,1715
+Event_Enforcement_193,Mariner's Dream,,True,2127
+Event_Enforcement_233,Northern Light,,True,2245
+Event_Enforcement_235,Nemo Reef,,True,2340
+Event_Enforcement_261,Mako,,True,2298
+Event_Enforcement_292,Mako,,True,2404
+Event_Enforcement_666,Nemo Reef,,True,3384
+Event_Enforcement_693,Nemo Reef,,True,3449
+Event_Enforcement_745,Nemo Reef,,True,2208
+Event_Enforcement_769,Restricted areas,,True,3671
+Event_Enforcement_784,Nemo Reef,,True,3454
+Event_Enforcement_839,Nemo Reef,,True,3873
+Event_Enforcement_854,Reef Guardian,,True,3927
+Event_Enforcement_854,Nemo Reef,,True,3928
+Event_Enforcement_947,Reef Guardian,,True,4153
+Event_Enforcement_952,Northern quadrant,,True,4175
+Event_Enforcement_992,Seawatch,,True,4272
+Event_Enforcement_998,Nemo Reef,,True,4289
+Event_TourActivity_46,Nemo Reef,,True,1752
+Event_TourActivity_61,Nemo Reef,,True,1807
+Event_TourActivity_61,Protected areas,,True,1808
+Event_TourActivity_70,Nemo Reef,,True,1832
+Event_TourActivity_70,Protected areas,,True,1833
+Event_TourActivity_96,Haacklee Harbor,,True,1888
+Event_TourActivity_137,Himark Harbor,,True,2003
+Event_TourActivity_140,Himark Harbor,,True,2008
+Event_TourActivity_188,Nemo Reef,,True,2115
+Event_TourActivity_807,Nemo Reef,,True,3349
+Event_TourActivity_814,Castaway Cove,,True,3794
+Event_TourActivity_816,Castaway Cove,,True,3798
+Event_TourActivity_938,South Dock,,True,4181
+Event_TourActivity_962,Nemo Reef,,True,2688
+Event_Fishing_49,Himark Harbor,,True,1788
+Event_Criticize_52,Oceanus City Council,,True,1792
+Event_Collaborate_184,Green Guardians,,True,2107
+Event_Collaborate_200,Knowles,,True,2153
+Event_Collaborate_236,Oceanus City Council,,True,2341
+Event_Collaborate_364,Mako,,True,2579
+Event_Collaborate_477,City Officials,,True,2893
+Event_Collaborate_512,Glitters Team,,True,2975
+Event_Collaborate_517,Mako,,True,2989
+Event_Collaborate_517,Remora,,True,2990
+Event_Collaborate_542,Remora,,True,3060
+Event_Collaborate_550,Nadia Conti,,True,3084
+Event_Collaborate_554,Mako,,True,3097
+Event_Collaborate_557,Neptune,,True,3105
+Event_Collaborate_697,Oceanus City Council,,True,3459
+Event_Collaborate_719,The Lookout,,True,1667
+Event_Collaborate_723,Sentinel,,True,3460
+Event_Collaborate_760,V. Miesel Shipping,,True,3639
+Event_Collaborate_818,Mako,,True,3803
+Event_HarborReport_215,Southern islands,,True,2196
+Event_HarborReport_215,Protected areas,,True,2197
+Event_HarborReport_927,Paackland Harbor,,True,4101
+Event_TransponderPing_251,E7,,True,2289
+Event_TransponderPing_271,Protected areas,,True,2333
+Event_TransponderPing_308,Nemo Reef,,True,2869
+Relationship_Colleagues_323,Remora,,True,3055
+Relationship_Colleagues_323,Mako,,True,3056
+Relationship_AccessPermission_7,Nemo Reef,,True,2669
+Relationship_AccessPermission_68,Nemo Reef,,True,1980
+Relationship_AccessPermission_81,Nemo Reef,,True,1821
+Relationship_AccessPermission_96,Nemo Reef,,True,2116
+Relationship_AccessPermission_98,Restricted areas,,True,2128
+Relationship_AccessPermission_100,Southern islands,,True,2193
+Relationship_AccessPermission_101,Nemo Reef,,True,2361
+Relationship_AccessPermission_118,Protected areas,,True,2198
+Relationship_AccessPermission_122,Protected areas,,True,2216
+Relationship_AccessPermission_125,Protected areas,,True,2224
+Relationship_AccessPermission_127,Dolphin Bay,,True,2232
+Relationship_AccessPermission_128,Paackland Harbor,,True,2233
+Relationship_AccessPermission_129,Restricted Zone,,True,2240
+Relationship_AccessPermission_148,Protected areas,,True,1697
+Relationship_AccessPermission_156,Nemo Reef,,True,2362
+Relationship_AccessPermission_163,Paackland Harbor,,True,2380
+Relationship_AccessPermission_181,Nemo Reef,,True,2492
+Relationship_AccessPermission_190,Himark Harbor,,True,2824
+Relationship_AccessPermission_196,Nemo Reef,,True,1908
+Relationship_AccessPermission_214,Nemo Reef,,True,3874
+Relationship_AccessPermission_232,Nemo Reef,,True,3722
+Relationship_AccessPermission_233,Paackland Harbor,,True,2658
+Relationship_AccessPermission_238,Himark Harbor,,True,2023
+Relationship_AccessPermission_243,Nemo Reef,,True,2580
+Relationship_AccessPermission_244,Himark Harbor,,True,4011
+Relationship_AccessPermission_262,South Dock,,True,2766
+Relationship_AccessPermission_266,Nemo Reef,,True,2469
+Relationship_AccessPermission_281,Eastern reefs,,True,2957
+Relationship_AccessPermission_303,Nemo Reef,,True,2976
+Relationship_AccessPermission_304,Route C,,True,2977
+Relationship_AccessPermission_306,Route C,,True,2984
+Relationship_AccessPermission_313,Nemo Reef,,True,3021
+Relationship_AccessPermission_328,Restricted Zone,,True,3072
+Relationship_AccessPermission_332,Eastern reefs,,True,3091
+Relationship_AccessPermission_338,Nemo Reef,,True,1729
+Relationship_AccessPermission_349,Himark Harbor,,True,3164
+Relationship_AccessPermission_370,Paackland Harbor,,True,3246
+Relationship_AccessPermission_382,Nemo Reef,,True,2523
+Relationship_AccessPermission_392,Himark Harbor,,True,3330
+Relationship_AccessPermission_393,Nemo Reef,,True,3331
+Relationship_AccessPermission_397,Nemo Reef,,True,3350
+Relationship_AccessPermission_405,Nemo Reef,,True,3078
+Relationship_AccessPermission_415,Nemo Reef,,True,3320
+Relationship_AccessPermission_421,Nemo Reef,,True,4065
+Relationship_AccessPermission_441,Paackland Harbor,,True,3541
+Relationship_AccessPermission_444,Nemo Reef,,True,3386
+Relationship_AccessPermission_455,Northern quadrant,,True,3599
+Relationship_AccessPermission_477,Restricted areas,,True,3663
+Relationship_AccessPermission_479,Restricted areas,,True,3672
+Relationship_AccessPermission_489,Nemo Reef,,True,4274
+Relationship_AccessPermission_497,Nemo Reef,,True,3250
+Relationship_AccessPermission_502,Nemo Reef,,True,3771
+Relationship_AccessPermission_511,Restricted Zone,,True,3805
+Relationship_AccessPermission_512,Restricted Zone,,True,3806
+Relationship_AccessPermission_553,South Dock,,True,3963
+Relationship_AccessPermission_560,Haacklee Harbor,,True,4001
+Relationship_AccessPermission_562,Nemo Reef,,True,4006
+Relationship_AccessPermission_564,Berth 14,,True,4015
+Relationship_AccessPermission_569,Paackland Harbor,,True,4041
+Relationship_AccessPermission_585,Restricted Zone,,True,4108
+Relationship_AccessPermission_588,Western quadrant,,True,3986
+Relationship_AccessPermission_591,Coral Point,,True,4135
+Relationship_AccessPermission_594,South Dock,,True,4131
+Relationship_Reports_18,Oceanus City Council,,True,1744
+Relationship_Reports_38,Green Guardians,,True,1858
+Relationship_Reports_41,Mrs. Money,,True,2614
+Relationship_Reports_46,Oceanus City Council,,True,1898
+Relationship_Reports_51,Green Guardians,,True,4284
+Relationship_Reports_69,Sailor Shifts Team,,True,1981
+Relationship_Reports_73,Rodriguez,,True,1995
+Relationship_Reports_170,Oceanus City Council,,True,2421
+Relationship_Reports_205,V. Miesel Shipping,,True,2568
+Relationship_Reports_218,Oceanus City Council,,True,2608
+Relationship_Reports_288,Green Guardians,,True,2894
+Relationship_Reports_344,Green Guardians,,True,4212
+Relationship_Reports_355,Green Guardians,,True,3262
+Relationship_Reports_408,Oceanus City Council,,True,3403
+Relationship_Reports_447,Oceanus City Council,,True,3578
+Relationship_Reports_496,Boss,,True,3739
+Relationship_Reports_513,V. Miesel Shipping,,True,3296
+Relationship_Reports_526,Oceanus City Council,,True,2089
+Relationship_Reports_529,Oceanus City Council,,True,3269
+Relationship_Reports_537,V. Miesel Shipping,,True,3886
+Relationship_Reports_572,Green Guardians,,True,4050
+Relationship_Reports_587,Oceanus City Council,,True,3030
+Relationship_Reports_603,V. Miesel Shipping,,True,4184
+Relationship_Reports_604,Horizon,,True,4191
+Relationship_Reports_622,Boss,,True,4265
+Relationship_Jurisdiction_19,Protected areas,,True,1745
+Relationship_Jurisdiction_19,Nemo Reef,,True,1746
+Relationship_Jurisdiction_21,Protected areas,,True,1754
+Relationship_Jurisdiction_29,Protected areas,,True,1810
+Relationship_Jurisdiction_131,Nemo Reef,,True,2311
+Relationship_Jurisdiction_162,Protected areas,,True,2375
+Relationship_Jurisdiction_390,Himark Harbor,,True,2024
+Relationship_Jurisdiction_446,Nemo Reef,,True,2083
+Relationship_Jurisdiction_454,Northern quadrant,,True,3592
+Relationship_Jurisdiction_575,Nemo Reef,,True,4066
+Relationship_Jurisdiction_583,Paackland Harbor,,True,4042
+Relationship_Jurisdiction_586,Restricted Zone,,True,3683
+Relationship_Jurisdiction_611,Nemo Reef,,True,4219
+Relationship_Jurisdiction_613,Nemo Reef,,True,4221
+Relationship_Coordinates_20,Paackland Harbor,,True,1753
+Relationship_Coordinates_24,Oceanus City Council,,True,1777
+Relationship_Coordinates_27,Reef Guardian,,True,3585
+Relationship_Coordinates_30,Sailor Shifts Team,,True,1817
+Relationship_Coordinates_33,Sentinel,,True,1835
+Relationship_Coordinates_35,Sentinel,,True,2131
+Relationship_Coordinates_39,Horizon,,True,1861
+Relationship_Coordinates_39,Sentinel,,True,1862
+Relationship_Coordinates_43,Mako,,True,1885
+Relationship_Coordinates_53,EcoVigil,,True,3394
+Relationship_Coordinates_54,EcoVigil,,True,3869
+Relationship_Coordinates_77,Small Fry,,True,2016
+Relationship_Coordinates_116,Horizon,,True,2077
+Relationship_Coordinates_120,Mariner's Dream,,True,2209
+Relationship_Coordinates_172,Paackland Harbor,,True,2441
+Relationship_Coordinates_185,Mako,,True,2499
+Relationship_Coordinates_201,Oceanus City Council,,True,2557
+Relationship_Coordinates_226,Mako,,True,2634
+Relationship_Coordinates_231,Horizon,,True,2648
+Relationship_Coordinates_231,Sentinel,,True,2649
+Relationship_Coordinates_236,Boss,,True,2666
+Relationship_Coordinates_248,Serenity,,True,2747
+Relationship_Coordinates_251,Horizon,,True,1929
+Relationship_Coordinates_252,Mako,,True,2736
+Relationship_Coordinates_253,Neptune,,True,2742
+Relationship_Coordinates_253,Mako,,True,2743
+Relationship_Coordinates_253,Serenity,,True,2744
+Relationship_Coordinates_269,Horizon,,True,2328
+Relationship_Coordinates_274,Mrs. Money,,True,2816
+Relationship_Coordinates_279,Mako,,True,2842
+Relationship_Coordinates_279,Remora,,True,2843
+Relationship_Coordinates_280,Mako,,True,2849
+Relationship_Coordinates_280,Remora,,True,2850
+Relationship_Coordinates_289,City Officials,,True,2895
+Relationship_Coordinates_292,Sentinel,,True,2905
+Relationship_Coordinates_297,Mako,,True,2761
+Relationship_Coordinates_298,Mako,,True,3092
+Relationship_Coordinates_302,Remora,,True,2969
+Relationship_Coordinates_305,Remora,,True,3921
+Relationship_Coordinates_307,Mako,,True,2991
+Relationship_Coordinates_307,Remora,,True,2992
+Relationship_Coordinates_334,Neptune,,True,3425
+Relationship_Coordinates_336,Neptune,,True,2830
+Relationship_Coordinates_343,Sentinel,,True,3136
+Relationship_Coordinates_343,Horizon,,True,3137
+Relationship_Coordinates_378,EcoVigil,,True,3572
+Relationship_Coordinates_380,Marlin,,True,3363
+Relationship_Coordinates_387,Remora,,True,3061
+Relationship_Coordinates_401,Reef Guardian,,True,3280
+Relationship_Coordinates_411,Reef Guardian,,True,3413
+Relationship_Coordinates_413,Reef Guardian,,True,3422
+Relationship_Coordinates_418,Reef Guardian,,True,3438
+Relationship_Coordinates_423,Sentinel,,True,3462
+Relationship_Coordinates_428,Nadia Conti,,True,3484
+Relationship_Coordinates_437,Sentinel,,True,3529
+Relationship_Coordinates_445,EcoVigil,,True,3554
+Relationship_Coordinates_448,EcoVigil,,True,3567
+Relationship_Coordinates_471,Neptune,,True,2703
+Relationship_Coordinates_473,Remora,,True,3628
+Relationship_Coordinates_492,Seawatch,,True,3729
+Relationship_Coordinates_493,EcoVigil,,True,3733
+Relationship_Coordinates_499,Mako,,True,3789
+Relationship_Coordinates_503,Mako,,True,3776
+Relationship_Coordinates_503,Remora,,True,3777
+Relationship_Coordinates_509,Mako,,True,1889
+Relationship_Coordinates_516,V. Miesel Shipping,,True,3640
+Relationship_Coordinates_518,V. Miesel Shipping,,True,3826
+Relationship_Coordinates_548,Seawatch,,True,3496
+Relationship_Coordinates_550,V. Miesel Shipping,,True,3951
+Relationship_Coordinates_555,Horizon,,True,2771
+Relationship_Coordinates_556,Seawatch,,True,3981
+Relationship_Coordinates_565,Sentinel,,True,4026
+Relationship_Coordinates_573,Sentinel,,True,4056
+Relationship_Coordinates_573,Horizon,,True,4057
+Relationship_Coordinates_578,Mako,,True,4080
+Relationship_Coordinates_609,Reef Guardian,,True,3135
+Relationship_Coordinates_616,Sentinel,,True,4237
+Relationship_Coordinates_618,Remora,,True,4249
+Relationship_Coordinates_621,Mako,,True,4261
+Relationship_Coordinates_623,Neptune,,True,4273
+Relationship_Coordinates_629,Knowles,,True,4300
+Relationship_Operates_36,Horizon,,True,3862
+Relationship_Operates_58,Mako,,True,3085
+Relationship_Operates_59,Mako,,True,1944
+Relationship_Operates_65,Sailor Shifts Team,,True,1964
+Relationship_Operates_75,Mako,,True,2011
+Relationship_Operates_97,Recreational Fishing Boats,,True,2122
+Relationship_Operates_103,Knowles,,True,2147
+Relationship_Operates_109,V. Miesel Shipping,,True,2164
+Relationship_Operates_153,V. Miesel Shipping,,True,2359
+Relationship_Operates_154,V. Miesel Shipping,,True,2360
+Relationship_Operates_176,Sentinel,,True,4049
+Relationship_Operates_202,V. Miesel Shipping,,True,2560
+Relationship_Operates_210,Nemo Reef,,True,2587
+Relationship_Operates_211,Nemo Reef,,True,2588
+Relationship_Operates_255,Mako,,True,2448
+Relationship_Operates_256,Serenity,,True,2749
+Relationship_Operates_271,Paackland Harbor,,True,2802
+Relationship_Operates_283,Mako,,True,2281
+Relationship_Operates_327,Neptune,,True,3071
+Relationship_Operates_351,Marlin,,True,3174
+Relationship_Operates_367,Neptune,,True,3234
+Relationship_Operates_459,Mako,,True,3613
+Relationship_Operates_461,Neptune,,True,3618
+Relationship_Operates_461,Mako,,True,3619
+Relationship_Operates_463,Neptune,,True,3624
+Relationship_Operates_474,Remora,,True,3312
+Relationship_Operates_476,Remora,,True,2968
+Relationship_Operates_505,Neptune,,True,3781
+Relationship_Operates_506,Remora,,True,3785
+Relationship_Operates_514,Neptune,,True,3205
+Relationship_Operates_519,Neptune,,True,3829
+Relationship_Operates_519,Remora,,True,3830
+Relationship_Operates_521,Reef Guardian,,True,3836
+Relationship_Operates_538,Remora,,True,3893
+Relationship_Operates_538,Neptune,,True,3894
+Relationship_Operates_543,Neptune,,True,3916
+Relationship_Operates_546,Remora,,True,2374
+Relationship_Operates_566,Reef Guardian,,True,3442
+Relationship_Operates_592,Remora,,True,4136
+Relationship_Operates_593,Remora,,True,4142
+Relationship_Operates_602,Remora,,True,4183
+Relationship_Suspicious_71,Sailor Shifts Team,,True,1987
+Relationship_Suspicious_74,Rodriguez,,True,1996
+Relationship_Suspicious_106,V. Miesel Shipping,,True,2561
+Relationship_Suspicious_107,Rodriguez,,True,1986
+Relationship_Suspicious_108,Knowles,,True,2157
+Relationship_Suspicious_110,V. Miesel Shipping,,True,2148
+Relationship_Suspicious_112,Oceanus City Council,,True,2170
+Relationship_Suspicious_113,Knowles,,True,2174
+Relationship_Suspicious_123,Remora,,True,2217
+Relationship_Suspicious_145,Mako,,True,3314
+Relationship_Suspicious_209,Oceanus City Council,,True,2586
+Relationship_Suspicious_217,Oceanus City Council,,True,2603
+Relationship_Suspicious_219,Clepper Jensen,,True,2609
+Relationship_Suspicious_293,Neptune,,True,3149
+Relationship_Suspicious_294,Neptune,,True,2925
+Relationship_Suspicious_317,Oceanus City Council,,True,3037
+Relationship_Suspicious_341,Neptune,,True,3128
+Relationship_Suspicious_360,V. Miesel Shipping,,True,3212
+Relationship_Suspicious_368,Oceanus City Council,,True,3848
+Relationship_Suspicious_410,Oceanus City Council,,True,3408
+Relationship_Suspicious_436,V. Miesel Shipping,,True,3523
+Relationship_Suspicious_457,Liam Thorne,,True,3605
+Relationship_Suspicious_470,Green Guardians,,True,3641
+Relationship_Suspicious_483,Oceanus City Council,,True,3684
+Relationship_Suspicious_577,Defender,,True,4073
+Relationship_Suspicious_600,V. Miesel Shipping,,True,3530
+Relationship_Unfriendly_130,Green Guardians,,True,2246
+Relationship_Unfriendly_229,Oceanus City Council,,True,2643
+Relationship_Unfriendly_312,Mako,,True,3014
+Relationship_Unfriendly_567,Oceanus City Council,,True,4034
+Relationship_Unfriendly_625,Green Guardians,,True,3992

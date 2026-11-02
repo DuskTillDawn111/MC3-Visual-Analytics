@@ -1,0 +1,77 @@
+import {chromium} from 'playwright'
+import assert from 'node:assert/strict'
+import {readFile} from 'node:fs/promises'
+
+const base=process.env.MC3_BASE_URL||'http://127.0.0.1:8000'
+const browser=await chromium.launch({executablePath:process.env.MC3_EDGE_PATH||'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe',headless:true})
+const page=await browser.newPage({viewport:{width:1366,height:768}})
+const errors=[];page.on('pageerror',e=>errors.push(e.message))
+const overlaps=(a,b)=>a.x<b.x+b.width&&a.x+a.width>b.x&&a.y<b.y+b.height&&a.y+a.height>b.y
+try{
+  await page.goto(base,{waitUntil:'networkidle'})
+  await page.getByTestId('case-stage-0').waitFor()
+  assert.equal(await page.locator('.case-reader').count(),0)
+  const finding=(await(await page.request.get(`${base}/api/findings`)).json()).items.find(f=>f.id==='nadia')
+  for(const message of finding.evidence){
+    const edge=page.locator(`.case-mark[data-source="${message.id}"]`)
+    assert.equal(await edge.getAttribute('data-sender'),message.sender)
+    assert.equal(await edge.getAttribute('data-receiver'),message.receiver)
+  }
+  for(const width of [1366,1920]){
+    await page.setViewportSize({width,height:width===1366?768:1080})
+    await page.waitForTimeout(250)
+    const center=await page.locator('.case-person text').filter({hasText:/^Nadia Conti$/}).boundingBox()
+    for(const label of await page.locator('.case-mark .edge-label').all()){
+      assert(!overlaps(center,await label.boundingBox()),'The central name must not overlap an action label')
+    }
+    assert((await page.locator('.case-relation-graph').boundingBox()).height>=400)
+    assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false)
+  }
+  console.log('PASS The relation canvas preserves all source directions and separates the central name from action labels at both desktop sizes')
+  await page.setViewportSize({width:1366,height:768})
+  await page.getByTestId('case-stage-1').click()
+  const scrollBefore=await page.getByTestId('case-study').evaluate(e=>e.scrollTop)
+  await page.locator('.case-mark[data-source="Event_Communication_535"] .edge-label').click()
+  await page.waitForTimeout(250)
+  assert.equal(await page.getByTestId('case-study').evaluate(e=>e.scrollTop),scrollBefore,'Opening a source must preserve the canvas scroll position')
+  const labels=await page.locator('.case-mark .edge-label').evaluateAll(es=>es.map(e=>{const b=e.getBoundingClientRect();return{x:b.x,y:b.y,width:b.width,height:b.height}}))
+  for(let i=0;i<labels.length;i++)for(let j=i+1;j<labels.length;j++)assert(!overlaps(labels[i],labels[j]),'Action labels must remain separate when the reader is open')
+  const sourceList=await page.locator('.rail-evidence').boundingBox()
+  const lastSource=await page.getByTestId('case-source-Event_Communication_575').boundingBox()
+  assert(lastSource.y+lastSource.height<=sourceList.y+sourceList.height+1,'All four citations must fit in the desktop stage list')
+  await page.getByRole('button',{name:'关闭原文',exact:true}).click()
+  const before=await page.locator('.case-canvas').boundingBox()
+  const source=page.locator('.case-mark[data-source="Event_Communication_575"]')
+  await source.focus();await page.keyboard.press('Enter')
+  assert.equal(await page.getByRole('button',{name:'关闭原文',exact:true}).evaluate(e=>e===document.activeElement),true)
+  assert.equal(await page.locator('.source-provenance').isVisible(),false)
+  await page.locator('.source-details summary').click()
+  assert.match(await page.locator('.source-provenance').innerText(),/关联主体的交叉引用/)
+  assert((await page.locator('.case-canvas').boundingBox()).width<before.width)
+  await page.keyboard.press('Escape')
+  assert.equal(await page.locator('.case-reader').count(),0)
+  assert.equal(await source.evaluate(e=>e===document.activeElement),true)
+  const day=page.getByRole('button',{name:'选择 2040-10-12 调查阶段',exact:true})
+  await day.focus();await page.keyboard.press('Space')
+  assert.equal(await page.getByTestId('case-stage-2').getAttribute('aria-pressed'),'true')
+  const dayTotal=await page.locator('.case-timeline g[data-count]').evaluateAll(es=>es.reduce((total,e)=>total+Number(e.dataset.count),0))
+  assert.equal(dayTotal,26)
+  console.log('PASS Reading opens on demand, Escape returns focus, and the date track keeps all 26 direct communications')
+  const pending=page.waitForEvent('download')
+  await page.getByTestId('case-export-html').click()
+  const html=await readFile(await(await pending).path(),'utf8')
+  const report=await browser.newPage();await report.setContent(html)
+  assert.equal(await report.locator('.case-mark').count(),8)
+  assert.equal(await report.locator('.message-record').count(),8)
+  assert.equal(await report.getByText('通信图颜色为社区、大小为唯一消息数',{exact:false}).count(),0,'The investigation report must describe its own evidence encoding')
+  await report.close()
+  console.log('PASS The offline dossier retains all eight citations and describes the investigation graph encoding')
+  await page.setViewportSize({width:390,height:844})
+  await page.getByTestId('case-source-Event_Communication_847').click()
+  assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false)
+  await page.getByRole('button',{name:'关闭原文',exact:true}).click()
+  await page.emulateMedia({reducedMotion:'reduce'})
+  assert.equal(await page.locator('.case-mark .relation-line').first().evaluate(e=>getComputedStyle(e).transitionDuration),'0s')
+  assert.deepEqual(errors,[])
+  console.log('PASS Narrow-screen reading and reduced-motion preferences remain usable without page overflow')
+}finally{await browser.close()}

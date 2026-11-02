@@ -1,0 +1,73 @@
+﻿id,sub_type,label,name
+Sam,Person,Sam,Sam
+Kelly,Person,Kelly,Kelly
+Nadia Conti,Person,Nadia Conti,Nadia Conti
+Elise,Person,Elise,Elise
+Liam Thorne,Person,Liam Thorne,Liam Thorne
+Samantha Blake,Person,Samantha Blake,Samantha Blake
+Davis,Person,Davis,Davis
+Rodriguez,Person,Rodriguez,Rodriguez
+Sailor Shift,Person,Sailor Shift,Sailor Shift
+Clepper Jensen,Person,Clepper Jensen,Clepper Jensen
+Miranda Jordan,Person,Miranda Jordan,Miranda Jordan
+The Intern,Person,The Intern,The Intern
+The Lookout,Person,The Lookout,The Lookout
+The Accountant,Person,The Accountant,The Accountant
+Mrs. Money,Person,Mrs. Money,Mrs. Money
+The Middleman,Person,The Middleman,The Middleman
+Boss,Person,Boss,Boss
+Small Fry,Person,Small Fry,Small Fry
+Glitters Team,Organization,Glitters Team,Glitters Team
+Oceanus City Council,Organization,Oceanus City Council,Oceanus City Council
+Green Guardians,Organization,Green Guardians,Green Guardians
+V. Miesel Shipping,Organization,V. Miesel Shipping,V. Miesel Shipping
+Sailor Shifts Team,Organization,Sailor Shifts Team,Sailor Shifts Team
+Neptune,Vessel,Neptune,Neptune
+Marlin,Vessel,Marlin,Marlin
+Serenity,Vessel,Serenity,Serenity
+Mako,Vessel,Mako,Mako
+Reef Guardian,Vessel,Reef Guardian,Reef Guardian
+Horizon,Vessel,Horizon,Horizon
+Seawatch,Vessel,Seawatch,Seawatch
+EcoVigil,Vessel,EcoVigil,EcoVigil
+Sentinel,Vessel,Sentinel,Sentinel
+Osprey,Vessel,Osprey,Osprey
+Defender,Vessel,Defender,Defender
+Northern Light,Vessel,Northern Light,Northern Light
+Remora,Vessel,Remora,Remora
+Knowles,Vessel,Knowles,Knowles
+Mariner's Dream,Vessel,Mariner's Dream,Mariner's Dream
+Recreational Fishing Boats,Group,Recreational Fishing Boats,Recreational Fishing Boats
+City Officials,Group,City Officials,City Officials
+Diving Tour Operators,Group,Diving Tour Operators,Diving Tour Operators
+Tourists,Group,Tourists,Tourists
+Conservation Vessels,Group,Conservation Vessels,Conservation Vessels
+Paackland Harbor,Location,Paackland Harbor,Paackland Harbor
+Haacklee Harbor,Location,Haacklee Harbor,Haacklee Harbor
+Himark Harbor,Location,Himark Harbor,Himark Harbor
+Nemo Reef,Location,Nemo Reef,Nemo Reef
+Restricted areas,Location,Restricted areas,Restricted areas
+Azure Cove,Location,Azure Cove,Azure Cove
+Protected areas,Location,Protected areas,Protected areas
+Eastern reefs,Location,Eastern reefs,Eastern reefs
+Eastern Coastline,Location,Eastern Coastline,Eastern Coastline
+Southern islands,Location,Southern islands,Southern islands
+Southern coastline,Location,Southern coastline,Southern coastline
+Coral Point,Location,Coral Point,Coral Point
+Dolphin Bay,Location,Dolphin Bay,Dolphin Bay
+E7,Location,E7,E7
+Northern quadrant,Location,Northern quadrant,Northern quadrant
+Southern quadrant,Location,Southern quadrant,Southern quadrant
+Eastern quadrant,Location,Eastern quadrant,Eastern quadrant
+Western quadrant,Location,Western quadrant,Western quadrant
+Eastern Islands,Location,Eastern Islands,Eastern Islands
+Western Boundary,Location,Western Boundary,Western Boundary
+Eastern Boundary,Location,Eastern Boundary,Eastern Boundary
+Southern Boundary,Location,Southern Boundary,Southern Boundary
+Eastern Shoals,Location,Eastern Shoals,Eastern Shoals
+Restricted Zone,Location,Restricted Zone,Restricted Zone
+Route C,Location,Route C,Route C
+South Dock,Location,South Dock,South Dock
+Castaway Cove,Location,Castaway Cove,Castaway Cove
+Berth 14,Location,Berth 14,Berth 14
+Port Security,Location,Port Security,Port Security

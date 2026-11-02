@@ -1,0 +1,81 @@
+{
+  "source": "MC3_release.zip",
+  "total_nodes": 1159,
+  "total_edges": 3226,
+  "node_type_counts": {
+    "Entity": 72,
+    "Event": 802,
+    "Relationship": 285
+  },
+  "entity_subtype_counts": {
+    "Person": 18,
+    "Organization": 5,
+    "Vessel": 15,
+    "Group": 5,
+    "Location": 29
+  },
+  "event_subtype_counts": {
+    "Monitoring": 70,
+    "Communication": 584,
+    "Assessment": 36,
+    "VesselMovement": 46,
+    "Enforcement": 21,
+    "TourActivity": 13,
+    "Fishing": 1,
+    "Criticize": 1,
+    "Collaborate": 25,
+    "HarborReport": 2,
+    "TransponderPing": 3
+  },
+  "relationship_subtype_counts": {
+    "Friends": 2,
+    "Colleagues": 30,
+    "AccessPermission": 68,
+    "Reports": 25,
+    "Jurisdiction": 13,
+    "Coordinates": 74,
+    "Operates": 40,
+    "Suspicious": 28,
+    "Unfriendly": 5
+  },
+  "edge_type_counts": {
+    "none": 1022,
+    "sent": 584,
+    "received": 584,
+    "evidence_for": 1036
+  },
+  "edge_inferred_counts": {
+    "True": 2058,
+    "False": 1168
+  },
+  "communication_count": 584,
+  "communication_first": "2040-10-01 08:09:00",
+  "communication_last": "2040-10-14 13:35:00",
+  "daily_communication_counts": {
+    "2040-10-01": 44,
+    "2040-10-02": 46,
+    "2040-10-03": 46,
+    "2040-10-04": 40,
+    "2040-10-05": 45,
+    "2040-10-06": 38,
+    "2040-10-07": 42,
+    "2040-10-08": 43,
+    "2040-10-09": 35,
+    "2040-10-10": 34,
+    "2040-10-11": 49,
+    "2040-10-12": 43,
+    "2040-10-13": 42,
+    "2040-10-14": 37
+  },
+  "outlier_event_timestamps": [
+    {
+      "id": "Event_VesselMovement_1000",
+      "sub_type": "VesselMovement",
+      "timestamp": "2023-10-14 22:00:00"
+    }
+  ],
+  "events_with_missing_timestamp": 32,
+  "communications_with_missing_timestamp": 0,
+  "communications_without_evidence_links": 81,
+  "coordinates_present": false
+}

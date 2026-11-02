@@ -1,0 +1,322 @@
+{
+  "date": "2026-10-23",
+  "status": "passed",
+  "scope": "System implementation, analysis support, documentation and runtime delivery; human walkthrough pending; course materials excluded",
+  "archive": "MC3-Visual-Analytics-20261023.zip",
+  "clone_root": "D:\\MC3-Visual-Analytics\\work\\release-check-20261023",
+  "dataset_root_verified": "D:\\MC3-Visual-Analytics\\work\\release-check-20261023",
+  "base_url": "http://127.0.0.1:8002",
+  "dependencies": "Existing Python dependencies and Playwright/Edge reused; not a clean-machine installation test",
+  "backend": {
+    "windows_passed": 37,
+    "wsl_passed": 37,
+    "independent_clone_passed": 37,
+    "warnings": 1,
+    "warning": "Starlette TestClient/httpx deprecation",
+    "wsl_environment": "/tmp/mc3-audit-20261021/venv"
+  },
+  "builds": {
+    "windows": "passed: vue-tsc + Vite",
+    "wsl_native": "not rerun for 2026-10-23"
+  },
+  "browser": {
+    "primary_passed": 59,
+    "primary_scripts": {
+      "e2e": [
+        "PASS Official overview and real charts",
+        "PASS Time cell synchronizes graph and original messages",
+        "PASS Actual SVG heatmap cell filters 24 source messages",
+        "PASS Filtered report matches the selected hour and every source message",
+        "PASS Actual graph node click and communication without evidence",
+        "PASS Nadia selection and URL-encoded identity",
+        "PASS Two-hop, community and edge-type filters survive graph-mode changes",
+        "PASS Neighborhood context edge reveals all of its messages",
+        "PASS Search Boss and The Lookout",
+        "PASS First communication source and evidence targets",
+        "PASS Copy event ID to the actual browser clipboard",
+        "PASS Network drag, zoom and original inferred edges",
+        "PASS Mouse-wheel zoom changes the visible network transform",
+        "PASS Explain anomaly and follow original IDs",
+        "PASS Missing timestamps and original anomalous year",
+        "PASS Candidate scores, weights, manual uncertainty and evidence",
+        "PASS Empty date range is stable",
+        "PASS Export contains all filtered original messages and provenance",
+        "PASS Offline report includes source messages, vector views and provenance",
+        "PASS Responsive 1366 desktop and runtime errors"
+      ],
+      "redesign": [
+        "PASS Reopening the same evidence returns to its visible detail",
+        "PASS Single-day communication opens exact source text beside the chart",
+        "PASS Hour selection keeps fourteen-day context and undo restores scope",
+        "PASS Anomaly explanation includes all fourteen same-hour observations",
+        "PASS Directed matrix retains every source communication weight",
+        "PASS Topic group cells and representative messages use original evidence",
+        "PASS Export from a task switch never produces zero-size hidden figures",
+        "PASS Candidate feature comparison and Nadia event swimlanes remain auditable",
+        "PASS Desktop layouts keep evidence in the viewport and have no page overflow"
+      ],
+      "topic-scope": [
+        "PASS Selected group count and ranked samples belong to the same official message set",
+        "PASS Evidence and topic exports preserve the selected group scope",
+        "PASS Selecting a topic header returns to all groups in the current filter",
+        "PASS A delayed previous group request cannot overwrite a newer group selection",
+        "PASS Changing the topic model clears the previous model selection",
+        "PASS Date filtering clears obsolete group membership and reloads scoped samples",
+        "PASS Empty scopes do not retain old representatives"
+      ],
+      "investigation": [
+        "PASS Vessel candidates, original operator roles, evidence and export agree",
+        "PASS Switching types clears incompatible candidates and restores Person comparisons",
+        "PASS Empty filters clear both candidates and roles without page overflow",
+        "PASS Source conflicts and duplicate/nearby communication links retain original evidence"
+      ],
+      "workbench": [
+        "PASS Event overview covers all filtered events and stays fixed while the list paginates",
+        "PASS Small desktop shows linked panels together and maximize returns to the same context",
+        "PASS Expanded topic view uses the available width for matrix and original-sample comparison"
+      ],
+      "analysis-tasks": [
+        "PASS Q1: dense-hour investigation and offline report preserve direction, scope and source text",
+        "PASS Q2: topic uncertainty is visible and group selection exports only the selected official records",
+        "PASS Q3: Person/Vessel comparison preserves candidate uncertainty and original role evidence",
+        "PASS Q4: Nadia event overview and export include every selected event with raw support and time",
+        "PASS Event export records local controls and blocks stale-scope export while reloading"
+      ],
+      "reliability": [
+        "PASS Failed partial refresh blocks export; retry restores a coherent scope",
+        "PASS Rapid filters and partial response delays keep the exported report coherent",
+        "PASS Visible self-loop opens its six source messages using the keyboard",
+        "PASS Eight distinct topic colors, normalized group shares and boundary evidence are inspectable",
+        "PASS Report export waits for independently loading visible views",
+        "PASS Small-desktop event chart fits the panel width"
+      ],
+      "investigation-quality": [
+        "PASS Candidate evidence precedes rankings and explains each side with source excerpts",
+        "PASS Weight reload preserves the open note editor and its unsaved text",
+        "PASS Weight/sample sensitivity and custom periods remain traceable in exports"
+      ],
+      "findings": [
+        "PASS All four findings restore their scope, retain original messages and export counterarguments and limitations"
+      ],
+      "topic-sampling": [
+        "PASS All six topics show mathematically closest boundary samples and reproducible reviewed samples within scope"
+      ]
+    },
+    "independent_passed": 59,
+    "independent_scripts": {
+      "e2e": [
+        "PASS Official overview and real charts",
+        "PASS Time cell synchronizes graph and original messages",
+        "PASS Actual SVG heatmap cell filters 24 source messages",
+        "PASS Filtered report matches the selected hour and every source message",
+        "PASS Actual graph node click and communication without evidence",
+        "PASS Nadia selection and URL-encoded identity",
+        "PASS Two-hop, community and edge-type filters survive graph-mode changes",
+        "PASS Neighborhood context edge reveals all of its messages",
+        "PASS Search Boss and The Lookout",
+        "PASS First communication source and evidence targets",
+        "PASS Copy event ID to the actual browser clipboard",
+        "PASS Network drag, zoom and original inferred edges",
+        "PASS Mouse-wheel zoom changes the visible network transform",
+        "PASS Explain anomaly and follow original IDs",
+        "PASS Missing timestamps and original anomalous year",
+        "PASS Candidate scores, weights, manual uncertainty and evidence",
+        "PASS Empty date range is stable",
+        "PASS Export contains all filtered original messages and provenance",
+        "PASS Offline report includes source messages, vector views and provenance",
+        "PASS Responsive 1366 desktop and runtime errors"
+      ],
+      "redesign": [
+        "PASS Reopening the same evidence returns to its visible detail",
+        "PASS Single-day communication opens exact source text beside the chart",
+        "PASS Hour selection keeps fourteen-day context and undo restores scope",
+        "PASS Anomaly explanation includes all fourteen same-hour observations",
+        "PASS Directed matrix retains every source communication weight",
+        "PASS Topic group cells and representative messages use original evidence",
+        "PASS Export from a task switch never produces zero-size hidden figures",
+        "PASS Candidate feature comparison and Nadia event swimlanes remain auditable",
+        "PASS Desktop layouts keep evidence in the viewport and have no page overflow"
+      ],
+      "topic-scope": [
+        "PASS Selected group count and ranked samples belong to the same official message set",
+        "PASS Evidence and topic exports preserve the selected group scope",
+        "PASS Selecting a topic header returns to all groups in the current filter",
+        "PASS A delayed previous group request cannot overwrite a newer group selection",
+        "PASS Changing the topic model clears the previous model selection",
+        "PASS Date filtering clears obsolete group membership and reloads scoped samples",
+        "PASS Empty scopes do not retain old representatives"
+      ],
+      "investigation": [
+        "PASS Vessel candidates, original operator roles, evidence and export agree",
+        "PASS Switching types clears incompatible candidates and restores Person comparisons",
+        "PASS Empty filters clear both candidates and roles without page overflow",
+        "PASS Source conflicts and duplicate/nearby communication links retain original evidence"
+      ],
+      "workbench": [
+        "PASS Event overview covers all filtered events and stays fixed while the list paginates",
+        "PASS Small desktop shows linked panels together and maximize returns to the same context",
+        "PASS Expanded topic view uses the available width for matrix and original-sample comparison"
+      ],
+      "analysis-tasks": [
+        "PASS Q1: dense-hour investigation and offline report preserve direction, scope and source text",
+        "PASS Q2: topic uncertainty is visible and group selection exports only the selected official records",
+        "PASS Q3: Person/Vessel comparison preserves candidate uncertainty and original role evidence",
+        "PASS Q4: Nadia event overview and export include every selected event with raw support and time",
+        "PASS Event export records local controls and blocks stale-scope export while reloading"
+      ],
+      "reliability": [
+        "PASS Failed partial refresh blocks export; retry restores a coherent scope",
+        "PASS Rapid filters and partial response delays keep the exported report coherent",
+        "PASS Visible self-loop opens its six source messages using the keyboard",
+        "PASS Eight distinct topic colors, normalized group shares and boundary evidence are inspectable",
+        "PASS Report export waits for independently loading visible views",
+        "PASS Small-desktop event chart fits the panel width"
+      ],
+      "investigation-quality": [
+        "PASS Candidate evidence precedes rankings and explains each side with source excerpts",
+        "PASS Weight reload preserves the open note editor and its unsaved text",
+        "PASS Weight/sample sensitivity and custom periods remain traceable in exports"
+      ],
+      "findings": [
+        "PASS All four findings restore their scope, retain original messages and export counterarguments and limitations"
+      ],
+      "topic-sampling": [
+        "PASS All six topics show mathematically closest boundary samples and reproducible reviewed samples within scope"
+      ]
+    }
+  },
+  "visual": {
+    "viewports": [
+      "1366x768",
+      "1920x1080"
+    ],
+    "workspaces": [
+      "patterns",
+      "groups",
+      "investigation"
+    ],
+    "path": "docs/screenshots/improvements",
+    "horizontal_page_overflow": false
+  },
+  "human_walkthrough": {
+    "status": "pending",
+    "coordination": "Project owner agreed to arrange classmates; no participant feedback received",
+    "protocol": "docs/USER_WALKTHROUGH.md"
+  },
+  "topic_review": {
+    "additional_messages": 24,
+    "reviewer": "AI assisted, not independent human labels",
+    "protocol": "docs/TOPIC_SAMPLE_REVIEW.md"
+  },
+  "source_sha256": "ca62ea3d0605b05b57b2a9b6c824da67d6ab47e3e714069bfd69f0963380c9d6",
+  "source_files": {
+    "backend/requirements.lock.txt": "d94e883674960ac9342d3d64538bc1c971eebeb3139dc67bbd2c998013e5692e",
+    "backend/requirements.txt": "11c43672c023dba3485f7642bf156bd7b14239f51e074f0d01ad18ded2e37303",
+    "backend/app/aliases.py": "c924fb15ef439990e90fe734be4aa3e4600ac923d7ca32923d0ea7ae18bf7439",
+    "backend/app/data.py": "2e38f026d67b045937d3ab781b985849333b9a492b4c2382e36ebbf421849c8b",
+    "backend/app/events.py": "6cf4a58be903a731a41876d99ee67a1913a663418d7203d58accb46a837b8969",
+    "backend/app/findings.py": "b899d532602869101e3f8036cd56b92e82eca88ba6692e2b64152863798a5685",
+    "backend/app/graph.py": "ea976d2acaba299005e67558f1ed5b6039f108b3ed2f8739623bab6f2bb38339",
+    "backend/app/main.py": "95d40f87600a6ab5459bb8b5acd782e2feece2a09f61fddf999c74d5517c1b4b",
+    "backend/app/queries.py": "2c6052b8a9bf5526f3d62be183f7aec167f95606c7e822a5c19825e416934032",
+    "backend/app/topics.py": "c788b516d9c4b96d1114c0019a4e70e2899dfdb3ef8b3284a7da00748ff7fab0",
+    "backend/tests/test_aliases.py": "0f34d82bf445c49487f05f4d22de1375d5a2094df345446fa9bf03309ca7c58c",
+    "backend/tests/test_api.py": "042ca344394be97ee1a8c480aa5d91114c56cb355c6911e14ce882b65dc3f4b7",
+    "backend/tests/test_data.py": "d217d469e704bb98539a48e2dae99437f51846d3f87d787d7b2bad085c05b4f7",
+    "backend/tests/test_events.py": "0694a5738b1b8160f42c71e9afbc1a30728f3ef8b417f79530783b5b81a09b41",
+    "backend/tests/test_findings.py": "3588348d2676a68175d778bcd7b96a5311ffb782960a39ceb41e58e52496f192",
+    "backend/tests/test_graph.py": "ff2f6643ad7e3c6a2e47259a50a7b3c9ced510084f881c341a9ea29fe40a77c5",
+    "backend/tests/test_topics.py": "1cdc9f9dc7963db4d2cee4c67bffe4a421b87534384e1a2ab0a78df069c10ec6",
+    "frontend/index.html": "62c19863317862234a7fa80bec18421508670548edcf89998cea112acffecd27",
+    "frontend/package-lock.json": "25fecac541ae8bb5fd01871b29ce44d1d5fa43432ce71bf3cb625c58537ea45a",
+    "frontend/package.json": "60db3c5186e94926c4c6c00a5d21e84d5ba83851674ec95e1323959f067aea09",
+    "frontend/tsconfig.json": "0e96fa5e43915915c6eab414a4792d4e116f6dcc01bc1c6b527d9789339ee4df",
+    "frontend/vite.config.ts": "8c61fa421db19996af65359650fcd0586cded51afa46d9cb7525a363d5762469",
+    "frontend/dist/index.html": "26f65f1eae35eb22817e522836b25dcbbfe51b18c32e1aa0404da5849447a987",
+    "frontend/dist/assets/charts-B_N1Tq5M.js": "0e6d5991a11f9eabe67a648ff7c5f4f7806cc2a85ddd2be5997344934b1d67c6",
+    "frontend/dist/assets/index-Cf4-wcmW.js": "ac64795e94807b2f41776cf8f4ece379cf6f520977fa34e8457b6d389773d298",
+    "frontend/dist/assets/index-DMiMiemC.css": "689c699502146de8367b633ef98f31f6f6f2f7df8414d0464a7519fa4fa58f8f",
+    "frontend/dist/assets/network-CQpBcylI.js": "7dcd9b73a4c94563dbb86cd79977417a51795df8f9ff1110a303d00a9eaac06d",
+    "frontend/dist/assets/render-engine-BsqbCYZE.js": "2c2c75b26eaf29fc0b1e56a6964642cff02c9a587b016b41aa61ab933ca2b5e1",
+    "frontend/src/api.ts": "88faddd327bb400d8d70aed58a77ce49420d4c6e409fc6bdefec3970b4921d3f",
+    "frontend/src/App.vue": "4606c2c29cf205d5fe4354579f55da406452b4c006936cabdde49c0c108ef90a",
+    "frontend/src/main.ts": "0d42fb6bb74a51d647f20a0cd2bcdcc7b89b146f4cdfbf6f1f7b640e7e036119",
+    "frontend/src/report.ts": "f4e1b103a3322888499c5cff43646cad429875fd98ebcbd41fd476f7ac9aff94",
+    "frontend/src/store.ts": "54bcc8db4c779103e13accbcc2b24ef454f00afb17235d04d1f71fa92e1a042f",
+    "frontend/src/style.css": "e305882b3191bc56dd779105521f278b073a00ee2f0d436742f27001f1c2297f",
+    "frontend/src/components/AliasView.vue": "7eed7f1f992dd38971b4533d567a73cc68271a195043e978899c2ce18910da0d",
+    "frontend/src/components/AnomalyView.vue": "232d1a5b5516a5e3fb8f819003550db4d4f8b940f90251c1d5b497e4276ee35b",
+    "frontend/src/components/EventView.vue": "7894fd4932452ef6387c4b7e139ebcae3961ef898ddc12f94f7009df40bebcdf",
+    "frontend/src/components/EvidencePanel.vue": "1c8d36dc379f6cd9a7577aa8b71cf4c1e33de59d0043af2157d6b9b1c56cc38a",
+    "frontend/src/components/FindingsPanel.vue": "9f519927f797c24fd184a7374b6868aff8d45bbb7792685691a2039bfcd9f4c1",
+    "frontend/src/components/NetworkView.vue": "e85a610ceb1b2ae39b0ec674063fd3d77bb0cbd0d3f79a047a1a4d9f93cb36ec",
+    "frontend/src/components/TemporalView.vue": "52ad00126c22cbcafb5b4313053721692e09f58b50b221f96148d98c4efc7d37",
+    "frontend/src/components/TopicView.vue": "2d7e9bd3c34c128d147d73162f0653ee603febee1b4e5a192712f1c309d90cf4",
+    "frontend/tests/analysis-tasks.mjs": "a92cc015475558c67d7ce45691ca337076c94f49f24013a60da03eb7763105f3",
+    "frontend/tests/e2e.mjs": "fd44405eb0b629b3b9961c7927c0d363ab2d3429334ea9c6a4eb8e1b63c1dc4d",
+    "frontend/tests/findings.mjs": "6477778e27c2576eaee45e31ccec2fa539fd85d4bdcfeb6132be8381194f55ed",
+    "frontend/tests/investigation-quality.mjs": "43338bf9ee31d4d89430f426e3450fbc6f71d7077364d715b6afe6bfe11b54d4",
+    "frontend/tests/investigation.mjs": "5de2f850bcf1a0f78bfcbed8fd082d45b05384414dbc343f0c567069cf8be316",
+    "frontend/tests/redesign.mjs": "aeadc976e967f8d0b65843e2c0d560fe012af93bf42d5aef0a9a3f2b06a1ec4c",
+    "frontend/tests/reliability.mjs": "df977718c1a515bdefd9855ac2c459ac164d797f11c276d9a4240680178f8451",
+    "frontend/tests/topic-sampling.mjs": "d7a8e603edbe92b78e9f4b6069881b4a59035fa8713ecd82e44491cd3b1bfbbb",
+    "frontend/tests/topic-scope.mjs": "b000ec9222fef7f2de8f03d6d1a5e72b6e47a7fe93b2723281c218c2804727fd",
+    "frontend/tests/workbench.mjs": "919a3644259c1c3e9611d38b311b635f7723bb7df4f2d1bd17d9429d0b922ae8",
+    "data/processed/daily_communication_counts.csv": "d736473cf4be3b4a20218ad89715072fc6e2a292a9ee8d4c7eff938f82bcc147",
+    "data/processed/data_validation_report.json": "167f5f1bffcb6edfe280b44a475b9cdcac2b65c54d77a3130e44e766f1221c56",
+    "data/processed/edges.csv": "0e05fc535754b03c463556916164b64c6c14f682d8965851425c6bc17fcd5baf",
+    "data/processed/entities.csv": "328205356d27c5f0876f21194c20c2b97f07089de87a5b0b970e62a18e201f2a",
+    "data/processed/events.csv": "7116238d0e0009789006a9bfad365d2a223e92d01e32e2551059204259d30d70",
+    "data/processed/messages.csv": "7158f654cca3444b38c188be1d55b2a3c3d8fe563ab3b88b2d2fa8cd5efa9ef2",
+    "data/processed/profile.json": "f1356aeb06332bb344f6828f16f3c32eac302b4f143bbe5573566720f75da0d3",
+    "data/processed/relationships.csv": "d8af3fb8486077bf72d40aecca1eabac5eb7fc769b3797d38401f6ee51e5d1ba",
+    "data/raw/MC3_release.zip": "ca62ea3d0605b05b57b2a9b6c824da67d6ab47e3e714069bfd69f0963380c9d6",
+    "scripts/benchmark.py": "3c5119abbe51f06f3c86f3fb1bd3b3dfc623fbd348be152aae579f6f68d641d2",
+    "scripts/export_analysis.py": "8fea51ba1e0f9c03757f63f5fa7f4f62d40e83e4d1ef7c7b1df0ac37ecd14d88",
+    "scripts/prepare_data.py": "38e95fb8eaa14d121f186bcfa4d659a7bb6c61aaa4d89c716bae8623639a39d2",
+    "scripts/review_topics.py": "1f956b96aa5f259a291c7f0314fea9316943349a272c261fa896d3390e4bb333",
+    "scripts/sample_topic_evidence.py": "b40e369c3d67a2c022ab5b609fdcd4f8ad1325b9637bbbec7c955d3cd58308c6",
+    "scripts/setup.ps1": "83270fe6d3104d13966e5f5033820fd84fef5d75b77024b576906e270e5baef7",
+    "scripts/test_lifecycle.ps1": "72c0385e8c530874739e994e5f5b993f071b8dae472063d74c463cd6c46d365c",
+    "tools/prepare_mc3.py": "8a6687552d85391893a69303fc7d9419137c1118e2b19d2edd24108af2a83960",
+    ".gitignore": "fa7777890a3a016d9fbd4fabdb1ad2a9afade4cc9dc0b575f3b8add351d3c088",
+    "AGENTS.md": "c2a97d4f70ae4d3f8780e7d23dbb9756c373359c02839707b74387de0eb654d0",
+    "IMPLEMENTATION_PLAN.md": "080377a8a5455ff63c29ab1b157850e0efbd77817a513f44310861517be766df",
+    "INPUT_AUDIT.md": "7617e730384efa8363d442303e145566197e54b41ef0836b4093eab4c734b50e",
+    "PROJECT_SPEC.md": "269550d91c25a45cda0cdbaedcd5ab95beab344de8ea9d8bf53e6f2ff098cec8",
+    "start.ps1": "0f1a4de94e2f42bed7bdeb9119827c9dccc36f0b36e615264b9bd1449ae6c8a3",
+    "stop.ps1": "df2de12febe6284fa6746de2a28254de3bb5eb0e14b1f21b908d5d73ab6078d3"
+  },
+  "finalization": "Final archive documents synchronized after tests; all listed non-document runtime/source/data/config/test files must match the independently validated copy. Archive hash is stored externally in .zip.sha256 to avoid self-referential hashing.",
+  "windows_lifecycle": {
+    "status": "passed",
+    "checks": [
+      "hidden background process",
+      "idempotent start",
+      "stop",
+      "restart",
+      "production frontend and official data"
+    ]
+  },
+  "post_release_feedback": {
+    "date": "2026-10-23",
+    "status": "human_feedback_received_improvements_and_retest_pending",
+    "confirmation": "User explicitly confirmed that the submitted questionnaire was filled by a human; Codex signature is not an exclusion criterion.",
+    "response": "docs/CODEX_WALKTHROUGH_20261023.md",
+    "tracking": "docs/USER_WALKTHROUGH.md",
+    "submitted_questionnaires": 1,
+    "tasks_with_responses": 5,
+    "unrecorded": [
+      "participant count",
+      "independent completion conditions",
+      "task duration",
+      "assistance counts"
+    ],
+    "issues": [
+      "hour versus full-day scope",
+      "similarity score mistaken for probability",
+      "selected report citations versus entity-filtered charts"
+    ],
+    "archive_note": "The human_walkthrough field above records the original package verification date state. The delivered ZIP and runtime test evidence are unchanged; this addendum records subsequent user confirmation."
+  }
+}

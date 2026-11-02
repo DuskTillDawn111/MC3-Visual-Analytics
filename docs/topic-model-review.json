@@ -1,0 +1,375 @@
+{
+  "note": "Exploratory parameter comparison; no ground-truth topic labels or identity accuracy claims",
+  "results": [
+    {
+      "topic_count": 4,
+      "seconds": 0.1899,
+      "total": 584,
+      "unassigned": 0,
+      "version": "f24c78048f91b848",
+      "topics": [
+        {
+          "id": 0,
+          "keywords": [
+            "vessels",
+            "environmental",
+            "activities",
+            "near",
+            "ve",
+            "closure",
+            "monitoring",
+            "tourism"
+          ],
+          "count": 184,
+          "representatives": [
+            "Event_Communication_134",
+            "Event_Communication_149",
+            "Event_Communication_152"
+          ]
+        },
+        {
+          "id": 1,
+          "keywords": [
+            "security",
+            "team",
+            "0600",
+            "maintain",
+            "miesel",
+            "security team",
+            "cr 7844",
+            "7844"
+          ],
+          "count": 111,
+          "representatives": [
+            "Event_Communication_756",
+            "Event_Communication_802",
+            "Event_Communication_804"
+          ]
+        },
+        {
+          "id": 2,
+          "keywords": [
+            "tomorrow",
+            "meeting",
+            "bring",
+            "0500",
+            "equipment",
+            "ll",
+            "need",
+            "payment"
+          ],
+          "count": 158,
+          "representatives": [
+            "Event_Communication_11",
+            "Event_Communication_2",
+            "Event_Communication_40"
+          ]
+        },
+        {
+          "id": 3,
+          "keywords": [
+            "permit",
+            "access",
+            "expedited",
+            "1045",
+            "nr 1045",
+            "nr",
+            "special",
+            "approved"
+          ],
+          "count": 131,
+          "representatives": [
+            "Event_Communication_318",
+            "Event_Communication_333",
+            "Event_Communication_339"
+          ]
+        }
+      ]
+    },
+    {
+      "topic_count": 6,
+      "seconds": 0.1221,
+      "total": 584,
+      "unassigned": 0,
+      "version": "c2d0ba3cfd540561",
+      "topics": [
+        {
+          "id": 0,
+          "keywords": [
+            "near",
+            "tourism",
+            "vessels",
+            "vessel",
+            "report",
+            "increased",
+            "activity",
+            "ve"
+          ],
+          "count": 82,
+          "representatives": [
+            "Event_Communication_149",
+            "Event_Communication_152",
+            "Event_Communication_189"
+          ]
+        },
+        {
+          "id": 1,
+          "keywords": [
+            "equipment",
+            "payment",
+            "payment protocols",
+            "protocols",
+            "route",
+            "eastern",
+            "transfer",
+            "eastern reef"
+          ],
+          "count": 57,
+          "representatives": [
+            "Event_Communication_460",
+            "Event_Communication_496",
+            "Event_Communication_504"
+          ]
+        },
+        {
+          "id": 2,
+          "keywords": [
+            "meeting",
+            "tomorrow",
+            "council",
+            "need",
+            "bring",
+            "discuss",
+            "ll",
+            "ve"
+          ],
+          "count": 132,
+          "representatives": [
+            "Event_Communication_11",
+            "Event_Communication_21",
+            "Event_Communication_22"
+          ]
+        },
+        {
+          "id": 3,
+          "keywords": [
+            "security",
+            "team",
+            "0600",
+            "maintain",
+            "miesel",
+            "7844",
+            "cr",
+            "cr 7844"
+          ],
+          "count": 103,
+          "representatives": [
+            "Event_Communication_756",
+            "Event_Communication_812",
+            "Event_Communication_819"
+          ]
+        },
+        {
+          "id": 4,
+          "keywords": [
+            "environmental",
+            "closure",
+            "extraction",
+            "activities",
+            "extraction activities",
+            "equipment",
+            "documented",
+            "evidence"
+          ],
+          "count": 113,
+          "representatives": [
+            "Event_Communication_604",
+            "Event_Communication_672",
+            "Event_Communication_733"
+          ]
+        },
+        {
+          "id": 5,
+          "keywords": [
+            "permit",
+            "expedited",
+            "access",
+            "nr 1045",
+            "nr",
+            "1045",
+            "special",
+            "approved"
+          ],
+          "count": 97,
+          "representatives": [
+            "Event_Communication_318",
+            "Event_Communication_350",
+            "Event_Communication_351"
+          ]
+        }
+      ]
+    },
+    {
+      "topic_count": 8,
+      "seconds": 0.1474,
+      "total": 584,
+      "unassigned": 0,
+      "version": "29bced8665cbfa7a",
+      "topics": [
+        {
+          "id": 0,
+          "keywords": [
+            "near",
+            "tourism",
+            "vessels",
+            "report",
+            "increased",
+            "vessel",
+            "activity",
+            "ve"
+          ],
+          "count": 62,
+          "representatives": [
+            "Event_Communication_149",
+            "Event_Communication_152",
+            "Event_Communication_167"
+          ]
+        },
+        {
+          "id": 1,
+          "keywords": [
+            "equipment",
+            "payment",
+            "payment protocols",
+            "route",
+            "eastern",
+            "protocols",
+            "eastern reef",
+            "reef"
+          ],
+          "count": 49,
+          "representatives": [
+            "Event_Communication_496",
+            "Event_Communication_504",
+            "Event_Communication_508"
+          ]
+        },
+        {
+          "id": 2,
+          "keywords": [
+            "meeting",
+            "tomorrow",
+            "council",
+            "bring",
+            "discuss",
+            "ve",
+            "need",
+            "ll"
+          ],
+          "count": 137,
+          "representatives": [
+            "Event_Communication_11",
+            "Event_Communication_22",
+            "Event_Communication_40"
+          ]
+        },
+        {
+          "id": 3,
+          "keywords": [
+            "7844",
+            "cr",
+            "cr 7844",
+            "permit cr",
+            "permit",
+            "0600",
+            "operations",
+            "tonight"
+          ],
+          "count": 36,
+          "representatives": [
+            "Event_Communication_844",
+            "Event_Communication_845",
+            "Event_Communication_825"
+          ]
+        },
+        {
+          "id": 4,
+          "keywords": [
+            "environmental",
+            "closure",
+            "extraction",
+            "activities",
+            "extraction activities",
+            "documented",
+            "environmental protection",
+            "suspicious"
+          ],
+          "count": 90,
+          "representatives": [
+            "Event_Communication_604",
+            "Event_Communication_733",
+            "Event_Communication_672"
+          ]
+        },
+        {
+          "id": 5,
+          "keywords": [
+            "1045",
+            "nr",
+            "nr 1045",
+            "access",
+            "permit",
+            "expedited",
+            "approved",
+            "special"
+          ],
+          "count": 85,
+          "representatives": [
+            "Event_Communication_351",
+            "Event_Communication_353",
+            "Event_Communication_355"
+          ]
+        },
+        {
+          "id": 6,
+          "keywords": [
+            "security",
+            "team",
+            "maintain",
+            "delta",
+            "radio",
+            "operation",
+            "final",
+            "radio silence"
+          ],
+          "count": 91,
+          "representatives": [
+            "Event_Communication_291",
+            "Event_Communication_886",
+            "Event_Communication_981"
+          ]
+        },
+        {
+          "id": 7,
+          "keywords": [
+            "video",
+            "music",
+            "music video",
+            "equipment",
+            "lighting",
+            "video production",
+            "production",
+            "footage"
+          ],
+          "count": 34,
+          "representatives": [
+            "Event_Communication_960",
+            "Event_Communication_961",
+            "Event_Communication_965"
+          ]
+        }
+      ]
+    }
+  ],
+  "historical_status": "nmf-v2 snapshot; current model and perturbation evaluation are in TOPIC_QUALITY_REVIEW.json"
+}

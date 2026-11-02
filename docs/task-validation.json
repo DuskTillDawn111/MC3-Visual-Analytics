@@ -1,0 +1,28 @@
+{
+  "base_url": "http://127.0.0.1:8000",
+  "browser": "Windows Microsoft Edge / Playwright",
+  "scope": "Scripted official-question walkthrough; not a human usability study",
+  "results": [
+    {
+      "name": "Q1: dense-hour investigation and offline report preserve direction, scope and source text",
+      "status": "passed"
+    },
+    {
+      "name": "Q2: model details open on demand and group selection exports only the selected official records",
+      "status": "passed"
+    },
+    {
+      "name": "Q3: Person/Vessel comparison preserves candidate uncertainty and original role evidence",
+      "status": "passed"
+    },
+    {
+      "name": "Q4: Nadia event overview and export include every selected event with raw support and time",
+      "status": "passed"
+    },
+    {
+      "name": "Event export records local controls and blocks stale-scope export while reloading",
+      "status": "passed"
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,87 @@
+{
+  "browser": "Microsoft Edge (Playwright)",
+  "base_url": "http://127.0.0.1:8000",
+  "results": [
+    {
+      "name": "Official overview and real charts",
+      "status": "passed"
+    },
+    {
+      "name": "Time cell synchronizes graph and original messages",
+      "status": "passed"
+    },
+    {
+      "name": "Actual SVG heatmap cell filters 24 source messages",
+      "status": "passed"
+    },
+    {
+      "name": "Filtered report matches the selected hour and every source message",
+      "status": "passed"
+    },
+    {
+      "name": "Actual graph node click and communication without evidence",
+      "status": "passed"
+    },
+    {
+      "name": "Nadia selection and URL-encoded identity",
+      "status": "passed"
+    },
+    {
+      "name": "Two-hop, community and edge-type filters survive graph-mode changes",
+      "status": "passed"
+    },
+    {
+      "name": "Neighborhood context edge reveals all of its messages",
+      "status": "passed"
+    },
+    {
+      "name": "Search Boss and The Lookout",
+      "status": "passed"
+    },
+    {
+      "name": "First communication source and evidence targets",
+      "status": "passed"
+    },
+    {
+      "name": "Copy event ID to the actual browser clipboard",
+      "status": "passed"
+    },
+    {
+      "name": "Network drag, zoom and original inferred edges",
+      "status": "passed"
+    },
+    {
+      "name": "Mouse-wheel zoom changes the visible network transform",
+      "status": "passed"
+    },
+    {
+      "name": "Explain anomaly and follow original IDs",
+      "status": "passed"
+    },
+    {
+      "name": "Missing timestamps and original anomalous year",
+      "status": "passed"
+    },
+    {
+      "name": "Candidate scores, weights, manual uncertainty and evidence",
+      "status": "passed"
+    },
+    {
+      "name": "Empty date range is stable",
+      "status": "passed"
+    },
+    {
+      "name": "Export contains all filtered original messages and provenance",
+      "status": "passed"
+    },
+    {
+      "name": "Offline report includes source messages, vector views and provenance",
+      "status": "passed"
+    },
+    {
+      "name": "Responsive 1366 desktop and runtime errors",
+      "status": "passed"
+    }
+  ],
+  "errors": []
+}
