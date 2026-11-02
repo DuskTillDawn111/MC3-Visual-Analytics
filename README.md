@@ -1,21 +1,67 @@
-# 暗潮寻踪
+# 暗潮寻踪 · MC3 Visual Analytics
 
-基于 IEEE VAST Challenge 2025 MC3 官方记录的本地可视分析工作台，面向《可视化技术》课程展示。数据为官方合成竞赛数据；应用使用实际原始记录，不使用模拟页面数据。故事时间为 2040 年。
+暗潮寻踪是基于 IEEE VAST Challenge 2025 Mini-Challenge 3 官方数据的可视分析工作台，用于探索通信模式、群体联系、化名线索与人物活动。系统将关系图、时间视图和原文证据联动，支持从分析发现回到具体通信、事件及关系记录。
 
-## 在本机使用
+项目采用 Vue 前端与 FastAPI 后端，支持本地运行及 HTML / JSON 分析档案导出。首页以 Nadia Conti 的四阶段调查为入口，完整分析见 [四题分析](docs/ANALYSIS_STORY.md)，实现与验收记录见 [项目验收](docs/FINAL_PROJECT_AUDIT.md)。
 
-当前入口（2026-10-29）为“证据调查”：左侧选择 Nadia 的四个调查阶段，中央关系画布呈现八条引用的原始消息方向，点击行动标签展开原文；底部时间轨道显示全期 26 条主体参与通信。支持键盘核查、阅读状态保留与 HTML/JSON 调查档案导出。顶部可进入通信、群体和身份工具。四题完整结果见 [ANALYSIS_STORY.md](docs/ANALYSIS_STORY.md)，当前视觉与交互验收见 [FINAL_PROJECT_AUDIT.md](docs/FINAL_PROJECT_AUDIT.md)。
+## 功能概括
 
-项目工作区：`D:\MC3-Visual-Analytics`。已创建 Python 3.11 虚拟环境、安装依赖并构建前端。
+- **证据调查**：按四个阶段梳理 Nadia 的活动，通过关系画布、时间轨道和原文阅读器核查八条引用，保存阅读状态并导出调查档案。
+- **通信模式**：通过每日趋势、14 × 24 小时热力图和有向关系图探索通信分布，按日期、小时、主体及关键词筛选，查看异常时段与对应消息。
+- **群体与主题**：结合社区划分、有向邻接矩阵和 TF-IDF + NMF 主题模型，比较群体的通信联系、主题分布及代表原文。
+- **身份与事件**：比较人物或船舶的化名候选，查看特征贡献、分时段画像、人员与船舶角色，以及事件时间线和支撑通信。
+- **分析导出**：导出筛选范围内的消息、证据及图表，生成可离线阅读的 HTML 报告和 JSON 数据。
 
-在 **Windows PowerShell 7** 中运行：
+## 技术栈
+
+| 层次 | 技术 |
+| --- | --- |
+| 前端 | Vue 3、TypeScript、Vite、D3、ECharts |
+| 后端 | Python、FastAPI、Uvicorn、Pydantic |
+| 数据分析 | NetworkX、scikit-learn、pandas |
+| 验证 | pytest、Playwright、vue-tsc |
+| 本地运行 | PowerShell 7 启停脚本、FastAPI 托管前端静态资源 |
+
+## 项目结构
+
+```text
+MC3-Visual-Analytics/
+├── backend/
+│   ├── app/                  数据索引、API 与分析算法
+│   ├── tests/                后端测试
+│   └── requirements.lock.txt Python 依赖锁定文件
+├── frontend/
+│   ├── src/                  Vue 工作台、图表、筛选状态与报告导出
+│   ├── tests/                浏览器交互与界面回归脚本
+│   └── package-lock.json     前端依赖锁定文件
+├── data/
+│   ├── raw/                  官方原始数据 ZIP
+│   └── processed/            可重建的数据表与质量报告
+├── scripts/                  环境准备、数据核验与分析导出脚本
+├── tools/                    原始图数据预处理程序
+├── docs/                     分析、设计、接口、验收与截图
+├── releases/                 历史源码包与校验值
+├── PROJECT_SPEC.md           项目任务说明
+├── start.ps1                 启动本地服务
+└── stop.ps1                  停止本地服务
+```
+
+运行时的虚拟环境、前端依赖、构建目录及 `work/` 日志目录由本机生成，已在 `.gitignore` 中配置。
+
+## 本地运行
+
+准备 **Python 3.11、Node.js 24、npm 和 PowerShell 7**。在 Windows PowerShell 7 中执行：
 
 ```powershell
-Set-Location 'D:\MC3-Visual-Analytics'
+git clone https://github.com/DuskTillDawn111/MC3-Visual-Analytics.git
+Set-Location MC3-Visual-Analytics
+pwsh -NoProfile -ExecutionPolicy Bypass -File .\scripts\setup.ps1
 pwsh -NoProfile -ExecutionPolicy Bypass -File .\start.ps1 -OpenBrowser
 ```
 
-浏览器访问 **http://127.0.0.1:8000/**。同端口提供网页与 API，无需同时启动 Vite。服务在后台运行，不会反复弹出控制台。
+`setup.ps1` 创建 Python 虚拟环境、安装锁定依赖、重建数据表、构建前端并运行后端测试。首次准备完成后，日常使用直接运行 `start.ps1`。
+
+浏览器访问 **<http://127.0.0.1:8000/>**。FastAPI 在同一端口提供网页与 API，启动脚本会在后台运行服务。健康检查地址为 <http://127.0.0.1:8000/api/health>。
 
 停止服务：
 
@@ -23,120 +69,72 @@ pwsh -NoProfile -ExecutionPolicy Bypass -File .\start.ps1 -OpenBrowser
 pwsh -NoProfile -ExecutionPolicy Bypass -File .\stop.ps1
 ```
 
-换电脑或首次从源码部署，先运行：
+## 本地开发
+
+完成环境准备后，在项目根目录停止已有服务，再分别打开两个 PowerShell 7 终端。
+
+后端：
 
 ```powershell
-pwsh -NoProfile -ExecutionPolicy Bypass -File .\scripts\setup.ps1
+& '.\.venv\Scripts\python.exe' -m uvicorn backend.app.main:app --host 127.0.0.1 --port 8000 --reload --reload-dir backend
 ```
 
-需要 Python 3.11、Node.js 及 npm；已验证环境为 Python 3.11、Node.js 24.13.1、npm 11.8.0。Python 精确版本锁定在 `backend/requirements.lock.txt`，前端锁定在 `frontend/package-lock.json`。准备脚本创建项目独立环境、安装锁定依赖、重建数据、构建前端并运行后端测试。已有环境无需重复安装。
-
-## 已实现功能
-
-| 阶段 | 可使用的功能 |
-| --- | --- |
-| Phase 0 | 原始 ZIP 校验、数据字典、质量报告、真实总览、健康检查 |
-| Phase 1 | 14×24 通信热力图、逐日趋势、有向通信投影、社区与中心性、日期/小时/主体/文本联动、图节点和边到原文 |
-| Phase 2 | 时序异常特征与基线、原始消息 ID、主体事件链、事件类型过滤、独立日期来源、缺失时间与观察期外事件、原始异构图检查 |
-| Phase 3 | 可调权重候选排名、特征贡献与样本量、支持/反证 ID、一对多探索、人工不确定标记、JSON 导出、课程发现与演示脚本 |
-
-## 当前项目版本（2026-10-23）
-
-- 刷新失败明确标为未同步，旧视图暂停交互；全局及当前工作区模块未就绪时禁止导出，报告使用同一范围快照。
-- 网络节点按唯一通信数计数，自环可见并可回查；加权度与发送、接收、自环分别标注。
-- 群体主题可切换绝对量和群内占比，8 主题颜色独立；增加边界样本和固定种子抽样，新增 24 条原文复核。
-- 候选比较提供两侧特征证据、特征移除/去重/逐日留出敏感性及可调分段；默认展示前三名，结论与局限前置。
-- “分析发现”提供四题论证、竞争解释、证据缺口及 Nadia 时间线，可恢复调查条件并随 JSON/HTML 导出。
-
-- 浅色任务工作台：通信模式、群体与主题、身份与事件调查；统计缩为一行，原文证据固定在右侧。
-- 保留完整 14×24 时间概览，增加单日主体通信泳道；支持撤销筛选。
-- 通信网络按当前社区进行有界力布局并缓存位置，支持有向矩阵、邻域、按需标签、内部/跨群计数和消息高亮；桌面双图并排，可单图放大。
-- 固定官方语料的 TF-IDF + NMF 主题模型，支持 4/6/8 主题比较、群体—主题矩阵、时间分布和原文样本；当前 v3 排除英语缩写碎片，已完成 63 组扰动评估与 18 条代表原文复核，大屏放大视图支持矩阵与样本并排。
-- 人物/船舶同类候选、人员—船舶原始角色、前后时段画像；不把操作者等同船舶身份。事件概览覆盖当前筛选内全部事件，列表分页不改变时间轴。
-- 原文阅读器提示自环、同文节点、可能的发送角色冲突和计划时间风险；可回查相同双方附近 24 小时的通信。群体主题的计数、样本及导出保持同一范围。
-- 当前验证范围与结果以 `docs/FINAL_PROJECT_AUDIT.md` 为准；`VALIDATION.md`、`COMPLETION_AUDIT.md` 和 `REDESIGN_VALIDATION.md` 属于历史快照。
-
-本轮范围为系统实现、分析支撑及运行交付；按用户要求，暂不制作课程 PPT、个人总结或课程提交包。当前四题分析与机器快照见 `docs/CURRENT_ANALYSIS.md/json`；主题质量见 `docs/TOPIC_QUALITY_REVIEW.md/json`。`docs/MC3_ANALYSIS_DRAFT.md` 及 `MC3_ANALYSIS_EVIDENCE.json` 保留第二阶段旧模型快照，开放身份问题仍保留不确定结论。
-
-当前运行源码包：`releases/MC3-Visual-Analytics-20261029.zip`，校验值见同名 `.sha256` 文件。当前浏览器验证与运行文件哈希见 `docs/release-verification-20261029.json`；本轮验证环境为已有依赖的 Windows 工作区。包内排除虚拟环境与 node_modules，首次使用按上方 setup.ps1 准备依赖。
-
-## 两分钟上手
-
-1. 点击通信热力图色块，或“密集时段”按钮，观察总览、网络及消息同步变化。
-2. 点击图中节点查看主体；点击连接检查构成消息。图支持滚轮缩放、节点拖动、画布拖动、邻域和社区过滤。
-3. 重置后，点击异常提示查看基线、特征贡献和原始通信，再从消息进入其支撑事件/关系。
-4. 切到“群体与主题”，在关系图和有向邻接矩阵间切换；点击主题矩阵色块或代表消息，检查原文与群体联系。
-5. 切到“身份与事件调查”，点击“调查 Nadia Conti”，检查主体—事件泳道与支撑通信，不预设违法结论。
-6. 在候选视图选择“人物”或“船舶”，比较 Boss / The Lookout / Mako 等对象；展开“分时段对照”和“人员—船舶角色”，回查原文。分数不是身份概率，角色不是身份相等。
-7. 顶部“导出证据”保存当前筛选的完整消息及所选节点证据；“导出报告”生成自包含 HTML，内嵌当前工作区可见的 SVG 图表、完整英文消息、质量说明和来源哈希，离线可打开并打印为 PDF。消息页、事件页与候选比较另有独立导出；示例见 `docs/sample-report.html`。
-
-点击邻域内的连接时，消息阅读器显示该连接的消息，临时独立于主体筛选；日期、小时及检索仍生效。节点证据详情始终返回完整原始连接，可能包含筛选窗口外的支撑消息。
-
-化名比较继承日期、小时和检索范围，为保证比较两方，独立于上方主体过滤。默认候选集按称呼形式区分，仅是探索入口。船舶默认只比较船舶；跨类型请求使用角色关系查询。分时段画像默认比较观察范围前后两半，也可指定分界日，不自动识别共享操作者。人工标记仅保存在当前浏览器，可导出 JSON；不写回原始数据。
-
-## 测试与复现
-
-Windows PowerShell 7：
+前端：
 
 ```powershell
-Set-Location 'D:\MC3-Visual-Analytics'
-& '.\.venv\Scripts\python.exe' scripts/prepare_data.py
 Set-Location frontend
-npm run build
-Set-Location ..
+npm run dev
+```
+
+开发页面为 **<http://127.0.0.1:5173/>**，Vite 将 `/api` 请求代理到本地后端。
+
+## 测试与数据复现
+
+在项目根目录运行后端测试：
+
+```powershell
 & '.\.venv\Scripts\python.exe' -m pytest backend/tests -q
+```
+
+前端类型检查与生产构建：
+
+```powershell
+Push-Location frontend
+npm run build
+Pop-Location
+```
+
+浏览器回归使用本机 Microsoft Edge。启动服务后，在项目根目录执行：
+
+```powershell
 pwsh -NoProfile -ExecutionPolicy Bypass -File .\start.ps1
-Set-Location frontend
+Push-Location frontend
 $env:MC3_BASE_URL = 'http://127.0.0.1:8000'
 npm run test:e2e
-node tests/redesign.mjs
-node tests/topic-scope.mjs
-node tests/investigation.mjs
-node tests/workbench.mjs
-node tests/analysis-tasks.mjs
-node tests/reliability.mjs
-node tests/investigation-quality.mjs
-node tests/findings.mjs
-node tests/topic-sampling.mjs
-node tests/user-feedback.mjs
 node tests/case-study.mjs
-node tests/visual-design.mjs
-Set-Location ..
-& '.\.venv\Scripts\python.exe' scripts/export_analysis.py
-& '.\.venv\Scripts\python.exe' scripts/review_topics.py
-& '.\.venv\Scripts\python.exe' scripts/sample_topic_evidence.py
-& '.\.venv\Scripts\python.exe' scripts/benchmark.py
+Pop-Location
 ```
 
-浏览器测试通过 Playwright 调用本机 Microsoft Edge，无需下载浏览器。测试结果、性能测量及截图存于 `docs/`。若没有 Edge，可安装 Edge 或调整测试中的 Playwright channel；后端与构建检查不依赖浏览器。
+更多专项检查位于 `frontend/tests/`，已有验证结果及检查范围见 [项目验收](docs/FINAL_PROJECT_AUDIT.md)。
 
-开发模式使用两个终端，分别执行项目根目录下的 `.venv\Scripts\python.exe -m uvicorn backend.app.main:app --host 127.0.0.1 --port 8000 --reload --reload-dir backend` 和 frontend 下的 `npm run dev`，前端地址为 http://127.0.0.1:5173/。请先停止生产服务，避免端口冲突。
+项目保留官方提供的合成竞赛数据，故事主要时间范围为 2040 年 10 月 1—14 日。原始图包含 **1,159 个节点、3,226 条边及 584 条通信**；通信投影覆盖 **41 个参与实体和 217 个有向连接**。系统直接读取 `data/raw/MC3_release.zip`，按原始 ID 建立证据索引，并保留数据质量检查结果。
 
-WSL2 Ubuntu 的 Bash 环境可在已安装 Python 3.11/3.12、对应 venv 包及兼容 Node.js 的前提下运行。Ubuntu 缺少 ensurepip 时先由用户安装 `python3-venv`，或使用已有的独立 Python 环境：
+重建处理表与质量报告：
 
-```bash
-cd /mnt/d/MC3-Visual-Analytics
-python3 -m venv .venv-linux
-source .venv-linux/bin/activate
-python -m pip install -r backend/requirements.lock.txt
-python scripts/prepare_data.py
-cd frontend
-npm ci
-npm run build
-cd ..
-python -m pytest backend/tests -q
-python -m uvicorn backend.app.main:app --host 127.0.0.1 --port 8000
+```powershell
+& '.\.venv\Scripts\python.exe' scripts/prepare_data.py
 ```
 
-前版历史验收：已实测 WSL2 Ubuntu 24.04、Python 3.12.3、Node.js 24.18.0：Linux 后端 16 项测试、原生前端构建和 Windows Edge 访问 WSL 服务的 20 组交互均通过。2026-10-22 历史版本已复验 Linux 后端和原生前端构建；2026-10-23 当前版本的复验范围见 FINAL_PROJECT_AUDIT。浏览器完整交互本轮在 Windows Edge 中执行。前版验收环境使用 Linux 临时虚拟环境及独立前端副本，未替换 Windows 依赖；不要在 Windows PowerShell 直接粘贴 Bash 代码。
+数据字段与检查结果分别见 [数据字典](docs/DATA_DICTIONARY.md) 和 [输入检查](INPUT_AUDIT.md)，复现说明见 [REPRODUCTION.md](docs/REPRODUCTION.md)。
 
-## 工程结构与说明
+## 文档导航
 
-- `backend/app/`：原始数据索引、API、投影图、事件/异常及化名算法。
-- `backend/tests/`：数据、API、图、事件、化名测试。
-- `frontend/src/`：Vue 工作台、统一筛选、ECharts 时间视图、D3 网络和证据组件。
-- `data/raw/`：原始官方 ZIP，保留不变；`data/processed/`：可重建表和质量报告。
-- `scripts/`：准备、数据发现、性能测量；`start.ps1/stop.ps1`：本地生产服务。
-- `docs/API.md`、`DATA_DICTIONARY.md`、`DESIGN_RATIONALE.md`、`FINDINGS.md`、`DEMO_SCRIPT.md`、`REPRODUCTION.md`：课程及复现资料。
-
-原始图为 1,159 个节点、3,226 条边；通信投影有 41 个参与实体和 217 个有向连接，承载 584 条消息。两者不是同一种网络。推断、异常和候选结果均可回到原始 ID；不得把相关性解释为因果或违法事实。
+| 文档 | 内容 |
+| --- | --- |
+| [项目任务](PROJECT_SPEC.md) | 数据背景与分析问题 |
+| [四题分析](docs/ANALYSIS_STORY.md) | 通信、群体、化名和 Nadia 活动的分析结果与依据 |
+| [当前分析快照](docs/CURRENT_ANALYSIS.md) | 可复核的统计与证据记录 |
+| [可视化设计](docs/DESIGN_RATIONALE.md) | 任务组织、图形编码与交互设计 |
+| [API 说明](docs/API.md) | 接口参数、返回结构与筛选约定 |
+| [主题质量评审](docs/TOPIC_QUALITY_REVIEW.md) | 主题模型评估与代表原文核查 |
+| [项目验收](docs/FINAL_PROJECT_AUDIT.md) | 实现记录、实际验证范围与待复核事项 |
