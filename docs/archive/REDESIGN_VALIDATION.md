@@ -1,6 +1,6 @@
 # 本轮重设计验收记录
 
-> 历史记录（2026-10-21）：圆周排列、当前页事件泳道等描述已被后续实现替代。当前布局、船舶调查、全范围事件和测试结果见 [FINAL_PROJECT_AUDIT.md](FINAL_PROJECT_AUDIT.md)。
+> 历史记录（2026-10-21）：圆周排列、当前页事件泳道等描述已被后续实现替代。当前布局、船舶调查、全范围事件和测试结果见 [FINAL_PROJECT_AUDIT.md](../FINAL_PROJECT_AUDIT.md)。
 
 日期：2026-10-21。工作区：D:/MC3-Visual-Analytics。Windows 11 / PowerShell 7 / Python 3.11 独立环境 / Node 24 / Microsoft Edge（Playwright）。本轮未重新进行 WSL 验收，前版 Linux 记录不能视为新增功能验收结果。
 

@@ -37,6 +37,6 @@
 
 ## 当前分析与主题质量
 
-`python scripts/export_analysis.py` 同时输出 CURRENT_ANALYSIS.json；`python scripts/review_topics.py` 输出 TOPIC_QUALITY_REVIEW.json，执行 63 组固定词表的 NMF 扰动。当前人工解释见 CURRENT_ANALYSIS.md 与 TOPIC_QUALITY_REVIEW.md。旧 MC3_ANALYSIS_EVIDENCE.json 和 topic-model-review.json 保留为历史快照，不以新模型覆盖。
+`python scripts/export_analysis.py` 同时输出 CURRENT_ANALYSIS.json；`python scripts/review_topics.py` 输出 TOPIC_QUALITY_REVIEW.json，执行 63 组固定词表的 NMF 扰动。当前人工解释见 CURRENT_ANALYSIS.md 与 TOPIC_QUALITY_REVIEW.md。旧 archive/MC3_ANALYSIS_EVIDENCE.json 和 topic-model-review.json 保留为历史快照，不以新模型覆盖。
 
 `node tests/analysis-tasks.mjs` 是四题及事件导出范围的 5 项脚本化任务检查；它不测量人类完成时间或学习成本。独立包测试的实际依赖、请求地址和文件哈希见 release-verification.json。

@@ -74,7 +74,7 @@ App.vue 在分析区加入常驻“全部视图”及具名视图切换，覆盖
 
 验证：vue-tsc 和 Vite 生产构建通过；13 个浏览器脚本共 70 组通过，其中既有 66 组、新增视觉交互 4 组。新增检查覆盖原始发送方向、标签分离、阅读器焦点与 Esc 返回、26 条通信统计、八条离线引用、图例语义、390px 窄屏及减少动效。后端应用与模型本轮未修改，既有后端 38 项结果保留在上一版本记录。
 
-视觉复查：1366×768 与 1920×1080 的首页、原文展开、阶段切换、四题分析，以及三个探索工作区；另检查 390×844 窄屏。实际截图见 screenshots/visual-design，离线报告为 case-study-report.html，日志位于 work/visual-redesign-20261029。当前运行包为 releases/MC3-Visual-Analytics-20261029.zip，文件与构建校验见 release-verification-20261029.json。
+视觉复查：1366×768 与 1920×1080 的首页、原文展开、阶段切换、四题分析，以及三个探索工作区；另检查 390×844 窄屏。实际截图见 screenshots/visual-design，离线报告为 case-study-report.html，日志位于 work/visual-redesign-20261029。当前运行包为 [MC3-Visual-Analytics-20261029.zip](https://github.com/DuskTillDawn111/MC3-Visual-Analytics/releases/download/archive-2026-10/MC3-Visual-Analytics-20261029.zip)，文件与构建校验见 release-verification-20261029.json。
 
 后续重点：真人复测对箭头、证据角色、26/8 两种范围与原文展开的理解；窄屏关系图采用局部横向浏览。视觉质量由实际页面和用户反馈继续评审。前一版本记录的单次报告下载超时在本轮完整回归中未出现。
 
@@ -86,7 +86,7 @@ App.vue 在分析区加入常驻“全部视图”及具名视图切换，覆盖
 
 交付核验完成于 2026-10-29：独立解包服务同样通过后端 38 项与浏览器 66 组检查；79 个运行、源码、测试、配置及数据文件逐项核对哈希。复用本机依赖，浏览器脚本指向独立服务执行。连续脚本中曾出现一次 HTML 下载超时，手动复查、单独运行及随后三次重复检查均通过；原因尚未复现，列入后续观察。
 
-修改文件：backend/app/findings.py、backend/tests/test_findings.py；frontend/src/components/CaseStudyView.vue、FindingsPanel.vue、App.vue、report.ts、style.css；新增 case-study.mjs 并调整六个既有测试的首页入口。原始数据、算法权重、依赖锁文件保持原版本。源码、构建及项目文档打包为 releases/MC3-Visual-Analytics-20261028.zip，独立目录验证结果见 release-verification-20261028.json。
+修改文件：backend/app/findings.py、backend/tests/test_findings.py；frontend/src/components/CaseStudyView.vue、FindingsPanel.vue、App.vue、report.ts、style.css；新增 case-study.mjs 并调整六个既有测试的首页入口。原始数据、算法权重、依赖锁文件保持原版本。源码、构建及项目文档打包为 [MC3-Visual-Analytics-20261028.zip](https://github.com/DuskTillDawn111/MC3-Visual-Analytics/releases/download/archive-2026-10/MC3-Visual-Analytics-20261028.zip)，独立目录验证结果见 release-verification-20261028.json。
 
 可能的使用风险与复测重点：阶段等距排列的理解、证据角色与事件类型的区别、跨主体引用的解释、从原始关系返回后的上下文、改变阅读视角后档案仍保留全部八条引用。自动检查已覆盖来源、状态与导出；新版核心场景待真人实际复测。课程 PPT 与个人总结仍按既有范围安排。
 
@@ -147,7 +147,7 @@ App.vue 在分析区加入常驻“全部视图”及具名视图切换，覆盖
 
 唯一事实输入 data/raw/MC3_release.zip，SHA-256：`ca62ea3d0605b05b57b2a9b6c824da67d6ab47e3e714069bfd69f0963380c9d6`。原图 1,159 节点、3,226 边、584 条通信；投影 41 主体、217 个有向联系。保留 32 个缺失事件时间、81 条无 evidence_for 通信、31 条自环及 4 对相同正文。
 
-运行源码包：releases/MC3-Visual-Analytics-20261023.zip，附同名 .zip.sha256。包括源码、测试、锁文件、官方数据、处理表、生产前端、脚本和文档；排除虚拟环境、node_modules、缓存、work、releases 自身。入口为 start.ps1/stop.ps1。
+运行源码包：[MC3-Visual-Analytics-20261023.zip](https://github.com/DuskTillDawn111/MC3-Visual-Analytics/releases/download/archive-2026-10/MC3-Visual-Analytics-20261023.zip)，附同名 .zip.sha256。包括源码、测试、锁文件、官方数据、处理表、生产前端、脚本和文档；排除虚拟环境、node_modules、缓存、work、releases 自身。入口为 start.ps1/stop.ps1。
 
 独立验证复用本机 Python 依赖和 Edge/Playwright，浏览器测试从开发目录请求解包后的 8002 服务，不代表全新电脑联网安装验证。最后仅同步文档并重新封装；运行源码、测试、配置、数据与构建产物须逐文件哈希匹配已验证副本。机器记录见 [release-verification.json](release-verification.json)。
 

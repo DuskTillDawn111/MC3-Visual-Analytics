@@ -55,7 +55,7 @@
 
 ### P2：历史完成记录、演示说明和当前版本冲突
 
-docs/COMPLETION_AUDIT.md 仍写“未遗留必须开发或验证的工作”；docs/VALIDATION.md 仍多处写“无必需项遗留”。它们属于旧版本工程检查，不可作为当前课程完成声明。
+docs/archive/COMPLETION_AUDIT.md 仍写“未遗留必须开发或验证的工作”；docs/archive/VALIDATION.md 仍多处写“无必需项遗留”。它们属于旧版本工程检查，不可作为当前课程完成声明。
 
 docs/DEMO_SCRIPT.md 仍按 3–5 分钟编排，包含“证据阅读器位于页面下方”等旧布局说明，以及历史双平台结果。短系统演示可作为 10–15 分钟答辩的一部分，但目前不是完整课程汇报材料。
 
@@ -142,7 +142,7 @@ FINDINGS 目前的统计区别、投影参与者数量和候选不确定性有�
 
 日期：2026-10-22。状态：本阶段底稿与证据整理完成，尚未完成最终课程答卷或剩余功能开发。
 
-本阶段新增 docs/MC3_ANALYSIS_DRAFT.md、docs/MC3_ANALYSIS_EVIDENCE.json，并更新本记录，共 3 个文档/数据文件。未改应用代码、依赖、原始数据、旧 FINDINGS 和旧验收记录。5 张实际页面截图位于 work/stage2-analysis。
+本阶段新增 docs/archive/MC3_ANALYSIS_DRAFT.md、docs/archive/MC3_ANALYSIS_EVIDENCE.json，并更新本记录，共 3 个文档/数据文件。未改应用代码、依赖、原始数据、旧 FINDINGS 和旧验收记录。5 张实际页面截图位于 work/stage2-analysis。
 
 实质进展：
 

@@ -49,7 +49,7 @@
 - Node.js v24.13.1，npm 11.8.0；rg 可用。
 - 检查时默认 Python 环境未安装 FastAPI、Pandas、NetworkX、scikit-learn。
 - 官方 PDF 使用本机 pdftotext 读取；未新增 PDF 解析依赖。
-- 后续开发已完成 Phase 0–3，使用独立 .venv 安装依赖；应用测试、构建、浏览器交互和后台启动/停止已运行，详见 docs/VALIDATION.md。
+- 后续开发已完成 Phase 0–3，使用独立 .venv 安装依赖；应用测试、构建、浏览器交互和后台启动/停止已运行，详见 docs/archive/VALIDATION.md。
 
 ## 后续新增发现
 

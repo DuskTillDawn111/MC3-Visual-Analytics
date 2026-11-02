@@ -39,8 +39,11 @@ MC3-Visual-Analytics/
 │   └── processed/            可重建的数据表与质量报告
 ├── scripts/                  环境准备、数据核验与分析导出脚本
 ├── tools/                    原始图数据预处理程序
-├── docs/                     分析、设计、接口、验收与截图
-├── releases/                 历史源码包与校验值
+├── docs/
+│   ├── README.md             文档分类导航
+│   ├── archive/              历史验收与旧版分析快照
+│   └── screenshots/          分析与交互验证截图
+├── releases/README.md        GitHub Releases 下载与校验索引
 ├── PROJECT_SPEC.md           项目任务说明
 ├── start.ps1                 启动本地服务
 └── stop.ps1                  停止本地服务
@@ -128,6 +131,8 @@ Pop-Location
 数据字段与检查结果分别见 [数据字典](docs/DATA_DICTIONARY.md) 和 [输入检查](INPUT_AUDIT.md)，复现说明见 [REPRODUCTION.md](docs/REPRODUCTION.md)。
 
 ## 文档导航
+
+完整分类见[文档索引](docs/README.md)，过往验收与旧版分析见[历史文档](docs/archive/README.md)。[历史源码包](releases/README.md)通过 GitHub Releases 提供 ZIP 与 SHA-256 校验文件。
 
 | 文档 | 内容 |
 | --- | --- |

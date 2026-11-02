@@ -6,7 +6,7 @@
 
 候选视图已呈现双方特征证据、特征移除、相同正文去重、逐日留出及自定义分界日。下文时段数值为默认等分结果，自定义分界需要读取当次导出。用户确认收到的答卷由真人填写，五项任务均有具体回答。2026-10-26 已完成全天背景与小时高亮说明、相似分标签、报告引用组成提示，并通过针对性回归；真人复测待反馈，详见 [USER_WALKTHROUGH.md](USER_WALKTHROUGH.md)。
 
-日期：2026-10-22。本文是项目的分析与使用依据，课程提交材料未制作。唯一事实输入为官方 MC3_release.zip，SHA-256 为 `ca62ea3d0605b05b57b2a9b6c824da67d6ab47e3e714069bfd69f0963380c9d6`。原始 584 条通信保持不变。可重算快照见 [CURRENT_ANALYSIS.json](CURRENT_ANALYSIS.json)，执行 `python scripts/export_analysis.py`；更完整的逐条论证见 [第二阶段底稿](MC3_ANALYSIS_DRAFT.md)，其中旧主题计数仅属 v2。
+日期：2026-10-22。本文是项目的分析与使用依据，课程提交材料未制作。唯一事实输入为官方 MC3_release.zip，SHA-256 为 `ca62ea3d0605b05b57b2a9b6c824da67d6ab47e3e714069bfd69f0963380c9d6`。原始 584 条通信保持不变。可重算快照见 [CURRENT_ANALYSIS.json](CURRENT_ANALYSIS.json)，执行 `python scripts/export_analysis.py`；更完整的逐条论证见 [第二阶段底稿](archive/MC3_ANALYSIS_DRAFT.md)，其中旧主题计数仅属 v2。
 
 ## 通信模式与影响调查
 

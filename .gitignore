@@ -5,3 +5,5 @@ __pycache__/
 .pytest_cache/
 work/
 *.pyc
+/releases/*.zip
+/releases/*.sha256

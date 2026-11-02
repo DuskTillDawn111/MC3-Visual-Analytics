@@ -1,12 +1,12 @@
 # MC3 四题分析底稿
 
-> 本文与配套 JSON 是第二阶段 nmf-v2 分析快照。后续工程已补齐船舶同类候选、人员—船舶角色、前后时段画像、来源检查及全范围事件概览；文中涉及“尚未支持”的实现描述仅指该快照。当前 nmf-v3 主题计数与四题说明见 [CURRENT_ANALYSIS.md](CURRENT_ANALYSIS.md)，当前实现与质量判断见 [最终项目验收](FINAL_PROJECT_AUDIT.md)。原分析结论、引用及当时源码哈希保持不变。
+> 本文与配套 JSON 是第二阶段 nmf-v2 分析快照。后续工程已补齐船舶同类候选、人员—船舶角色、前后时段画像、来源检查及全范围事件概览；文中涉及“尚未支持”的实现描述仅指该快照。当前 nmf-v3 主题计数与四题说明见 [CURRENT_ANALYSIS.md](../CURRENT_ANALYSIS.md)，当前实现与质量判断见 [最终项目验收](../FINAL_PROJECT_AUDIT.md)。原分析结论、引用及当时源码哈希保持不变。
 
 日期：2026-10-22，Asia/Shanghai。阶段：第二阶段。本文形成可审阅的分析答案和证据入口，尚不是最终课程答卷；没有据此确认身份或判定具体罪名，也没有把图形质量和课程交付标记为完成。
 
 ## 来源、口径与判断层级
 
-唯一事实输入是 [官方 MC3 压缩包](../data/raw/MC3_release.zip)，SHA-256 为 `ca62ea3d0605b05b57b2a9b6c824da67d6ab47e3e714069bfd69f0963380c9d6`。包内答题表给出四组问题；数据说明明确事件和关系由故事人物从通信中推断，可能有错误或矛盾，且只能使用本题数据。
+唯一事实输入是 [官方 MC3 压缩包](../../data/raw/MC3_release.zip)，SHA-256 为 `ca62ea3d0605b05b57b2a9b6c824da67d6ab47e3e714069bfd69f0963380c9d6`。包内答题表给出四组问题；数据说明明确事件和关系由故事人物从通信中推断，可能有错误或矛盾，且只能使用本题数据。
 
 [配套证据包](MC3_ANALYSIS_EVIDENCE.json) 保存统计口径、消息集合、当前模型参数、候选特征、敏感性结果、584 条原文快照及选定原始证据边。原始 ZIP 和应用代码均未改动。
 
@@ -34,7 +34,7 @@
 
 建议的图分析方法：以实体为节点、通信为带时间和方向的边，先按日/小时看密度，再展开单日主体泳道，沿发送—回应关系回查原文。概览负责比较，通信方向与内容负责解释。
 
-![全期时间概览](screenshots/analysis/Q1-patterns.png)
+![全期时间概览](../screenshots/analysis/Q1-patterns.png)
 
 ### Q1b：局部峰值在变化，整体中位时间没有明显后移
 
@@ -63,7 +63,7 @@
 
 另一个可核对例子是 Event_Communication_846（V. Miesel Shipping→Nadia，10-12 11:17）催确认许可文件，Event_Communication_847（Nadia→V. Miesel Shipping，11:19）回复已完成，并建议调整时间表。它支持文件和进度协调，不能直接推导雇佣、控制或同一身份。
 
-![The Intern 的任务指令原文与时间关系](screenshots/analysis/Q1-influence.png)
+![The Intern 的任务指令原文与时间关系](../screenshots/analysis/Q1-influence.png)
 
 ## Q2：哪些群体联系紧密，各自讨论什么
 
@@ -101,7 +101,7 @@
 
 这是一种数据处理扰动，不是稳定性证明。结果说明当前社区的边界对自环处理敏感；不能给这些主体贴上固定阵营。原始统计仍保留自环，本实验没有改写数据或替换页面模型。
 
-![当前关系与主题视图，矩阵为关联通信口径](screenshots/analysis/Q2-groups.png)
+![当前关系与主题视图，矩阵为关联通信口径](../screenshots/analysis/Q2-groups.png)
 
 ## Q3：化名候选、共享使用与活动理解
 
@@ -149,7 +149,7 @@ Relationship_Operates_58 连接 Davis 与 Mako，Relationship_Operates_75 连接
 
 即使不合并任何身份，原文已经显示运输、许可、资金、保护区信息和会面安排之间有联系。应先展示这些可回溯的信息流，再让用户检查身份假设会增加哪些边、产生哪些冲突。当前报告与系统都没有把上述情景写回原始图。
 
-![默认候选排名及其特征，非身份答案](screenshots/analysis/Q3-candidates.png)
+![默认候选排名及其特征，非身份答案](../screenshots/analysis/Q3-candidates.png)
 
 ## Q4：Nadia 的行动和调查者的怀疑
 
@@ -183,7 +183,7 @@ Relationship_Operates_58 连接 Davis 与 Mako，Relationship_Operates_75 连接
 - Event_Collaborate_868 的 10-14 09:00 来自消息 869 中对未来会面的安排，不能直接画成已举行会议。Event_Assessment_600 来自消息转述，不能当作第二次独立施工观察。
 - Event_Monitoring_534、Event_Monitoring_752 等官方摘要可辅助检索，但它们和原文有信息压缩或方位措辞差异；关键判断须回到消息 535、753，而非只引用事件标题。
 
-![检索消息 847 后的原文与源 ID](screenshots/analysis/Q4-source847.png)
+![检索消息 847 后的原文与源 ID](../screenshots/analysis/Q4-source847.png)
 
 图中只有一条检索匹配，其他分析区为空是当前单条消息范围的结果，不表示 Nadia 没有相关事件。
 

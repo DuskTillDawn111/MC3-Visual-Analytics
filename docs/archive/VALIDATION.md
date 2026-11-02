@@ -1,6 +1,6 @@
 # 阶段验收记录
 
-> 历史记录（2026-10-21），不是当前版本验收。本文测试数量、界面说明和完成判断仅适用于当时快照；当前状态见 [FINAL_PROJECT_AUDIT.md](FINAL_PROJECT_AUDIT.md)。
+> 历史记录（2026-10-21），不是当前版本验收。本文测试数量、界面说明和完成判断仅适用于当时快照；当前状态见 [FINAL_PROJECT_AUDIT.md](../FINAL_PROJECT_AUDIT.md)。
 
 验收日期：2026-10-21（Asia/Shanghai）。工作区：D:/MC3-Visual-Analytics。
 

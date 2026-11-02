@@ -1,6 +1,6 @@
 # PROJECT_SPEC 逐项完成审计
 
-> 历史记录（2026-10-21）。其中“通过”与“无遗留”不代表当前质量结论；随后批判性评审发现并修复了范围与布局问题。当前验收见 [FINAL_PROJECT_AUDIT.md](FINAL_PROJECT_AUDIT.md)。
+> 历史记录（2026-10-21）。其中“通过”与“无遗留”不代表当前质量结论；随后批判性评审发现并修复了范围与布局问题。当前验收见 [FINAL_PROJECT_AUDIT.md](../FINAL_PROJECT_AUDIT.md)。
 
 审计日期：2026-10-21（Asia/Shanghai）。检查实际 D 盘源码、官方原始 ZIP、运行中的 HTTP 服务、构建输出及浏览器操作；文档中的状态声明不单独作为完成证据。
 

@@ -1,6 +1,6 @@
 # 可复核的分析发现
 
-本文是早期统计发现记录。更完整的四题调查、竞争解释与敏感性检查见 [MC3_ANALYSIS_DRAFT.md](MC3_ANALYSIS_DRAFT.md)，当前系统范围与局限见 [FINAL_PROJECT_AUDIT.md](FINAL_PROJECT_AUDIT.md)。
+本文是早期统计发现记录。更完整的四题调查、竞争解释与敏感性检查见 [MC3_ANALYSIS_DRAFT.md](archive/MC3_ANALYSIS_DRAFT.md)，当前系统范围与局限见 [FINAL_PROJECT_AUDIT.md](FINAL_PROJECT_AUDIT.md)。
 
 所有数字来自 `scripts/export_analysis.py` 重算的 `FINDINGS_DATA.json`，不依赖故事预设答案。默认全观察期和默认权重；改变筛选、社区或权重后，结果可能变化。
 
